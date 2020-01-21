@@ -11,15 +11,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-calculator/"
 "issues\n"
 "POT-Creation-Date: 2020-01-19 21:11+0000\n"
-"PO-Revision-Date: 2019-11-27 22:21+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-21 19:25+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.11.80\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: data/org.gnome.Calculator.appdata.xml.in:7
 msgid "GNOME Calculator"
@@ -1009,24 +1009,21 @@ msgid "acre,acres"
 msgstr "acre,acres,英畝"
 
 #: lib/unit.vala:61
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Square root (√)"
 msgid "Square Foot"
-msgstr "平方根 (√)"
+msgstr "平方英尺"
 
 #: lib/unit.vala:61
-#, fuzzy, c-format
+#, c-format
 #| msgctxt "unit-format"
 #| msgid "%s ft"
 msgctxt "unit-format"
 msgid "%s ft²"
-msgstr "%s ft"
+msgstr "%s ft²"
 
 #: lib/unit.vala:61
 msgctxt "unit-symbols"
 msgid "ft²"
-msgstr ""
+msgstr "ft²"
 
 #: lib/unit.vala:62
 msgid "Square Meters"
@@ -2589,7 +2586,7 @@ msgstr "插入(_I)"
 
 #: src/gnome-calculator.vala:24
 msgid "Start in given mode (basic, advanced, financial, programming, keyboard)"
-msgstr ""
+msgstr "以指定模式啟動（基本、進階、金融、程式設計、鍵盤）"
 
 #: src/gnome-calculator.vala:25
 msgid "Solve given equation"
@@ -2792,11 +2789,9 @@ msgid "Open help"
 msgstr "開啟求助"
 
 #: src/math-shortcuts.ui:48
-#, fuzzy
-#| msgid "_Keyboard Shortcuts"
 msgctxt "shortcut window"
 msgid "Keyboard shortcuts"
-msgstr "鍵盤快捷鍵(_K)"
+msgstr "鍵盤快捷鍵"
 
 #: src/math-shortcuts.ui:55
 msgctxt "shortcut window"
@@ -2896,11 +2891,9 @@ msgstr "切換到 16 進位"
 #: src/math-shortcuts.ui:186
 msgctxt "shortcut window"
 msgid "Others"
-msgstr ""
+msgstr "其他"
 
 #: src/math-shortcuts.ui:191
-#, fuzzy
-#| msgid "Copy"
 msgctxt "shortcut window"
 msgid "Copy"
 msgstr "複製"
@@ -2908,11 +2901,9 @@ msgstr "複製"
 #: src/math-shortcuts.ui:198
 msgctxt "shortcut window"
 msgid "Paste"
-msgstr ""
+msgstr "貼上"
 
 #: src/math-shortcuts.ui:205
-#, fuzzy
-#| msgid "Undo"
 msgctxt "shortcut window"
 msgid "Undo"
 msgstr "復原"
@@ -2920,22 +2911,17 @@ msgstr "復原"
 #: src/math-shortcuts.ui:212
 msgctxt "shortcut window"
 msgid "Redo"
-msgstr ""
+msgstr "重做"
 
 #: src/math-shortcuts.ui:219
-#, fuzzy
-#| msgid "_Keyboard Shortcuts"
 msgctxt "shortcut window"
 msgid "Keyboard shortcuts (alt.)"
-msgstr "鍵盤快捷鍵(_K)"
+msgstr "鍵盤快捷鍵（備用）"
 
 #: src/math-shortcuts.ui:226
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Switch to Keyboard mode"
 msgctxt "shortcut window"
 msgid "Switch to Keyboard mode (alt.)"
-msgstr "切換到鍵盤模式"
+msgstr "切換到鍵盤模式（備用）"
 
 #: src/math-variable-popover.ui:38
 msgid "Variable name"

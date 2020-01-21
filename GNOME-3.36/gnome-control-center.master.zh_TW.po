@@ -16,15 +16,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
 "issues\n"
 "POT-Creation-Date: 2020-01-08 15:54+0000\n"
-"PO-Revision-Date: 2019-11-27 23:59+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-22 01:15+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.11.80\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: panels/applications/cc-applications-panel.c:708
 msgid "System Bus"
@@ -180,7 +180,7 @@ msgstr "權限及存取"
 msgid ""
 "Data and services that this app has asked for access to and permissions that "
 "it requires."
-msgstr ""
+msgstr "此應用程式要求存取的資料及服務，及應用程式請求的權限。"
 
 #: panels/applications/cc-applications-panel.ui:126
 #: panels/applications/cc-applications-panel.ui:132
@@ -255,10 +255,8 @@ msgid "Notifications"
 msgstr "通知"
 
 #: panels/applications/cc-applications-panel.ui:248
-#, fuzzy
-#| msgid "Current background"
 msgid "Run in background"
-msgstr "目前的背景"
+msgstr "背景執行"
 
 #: panels/applications/cc-applications-panel.ui:254
 #: panels/applications/cc-applications-panel.ui:260
@@ -329,258 +327,224 @@ msgid "Clear Cache…"
 msgstr "清除快取…"
 
 #: panels/applications/cc-snap-row.c:55
-#, fuzzy
-#| msgid "Add or remove users and change your password"
 msgid "Add user accounts and change passwords"
-msgstr "加入或移除使用者並改變您的密碼"
+msgstr "加入使用者帳戶並變更密碼"
 
 #: panels/applications/cc-snap-row.c:57 panels/applications/cc-snap-row.c:133
 msgid "Play and record sound"
-msgstr ""
+msgstr "播放及錄音"
 
 #: panels/applications/cc-snap-row.c:59
 msgid "Detect network devices using mDNS/DNS-SD (Bonjour/zeroconf)"
-msgstr ""
+msgstr "使用 mDNS/DNS-SD (Bonjour/zeroconf) 偵測網路裝置"
 
 #: panels/applications/cc-snap-row.c:61
 msgid "Access bluetooth hardware directly"
-msgstr ""
+msgstr "直接存取藍牙硬體"
 
 #: panels/applications/cc-snap-row.c:63
-#, fuzzy
-#| msgid "Bluetooth Settings"
 msgid "Use bluetooth devices"
-msgstr "藍牙設定值"
+msgstr "使用藍牙裝置"
 
 #: panels/applications/cc-snap-row.c:65
 msgid "Use your camera"
-msgstr ""
+msgstr "使用相機"
 
 #: panels/applications/cc-snap-row.c:67
-#, fuzzy
-#| msgid "Printers"
 msgid "Print documents"
-msgstr "印表機"
+msgstr "列印文件"
 
 #: panels/applications/cc-snap-row.c:69
 msgid "Use any connected joystick"
-msgstr ""
+msgstr "使用連結的搖桿"
 
 #: panels/applications/cc-snap-row.c:71
-#, fuzzy
-#| msgid "_Allow connections to control the screen"
 msgid "Allow connecting to the Docker service"
-msgstr "允許連線控制螢幕(_A)"
+msgstr "允許連線至 Docker 服務"
 
 #: panels/applications/cc-snap-row.c:75
-#, fuzzy
-#| msgid "Configure input source"
 msgid "Configure network firewall"
-msgstr "設定輸入來源"
+msgstr "設定網路防火牆"
 
 #: panels/applications/cc-snap-row.c:77
 msgid "Setup and use privileged FUSE filesystems"
-msgstr ""
+msgstr "設定並使用授權的 FUSE 檔案系統"
 
 #: panels/applications/cc-snap-row.c:79
-#, fuzzy
-#| msgid "Calibrate the device"
 msgid "Update firmware on this device"
-msgstr "校準裝置"
+msgstr "更新此裝置的韌體"
 
 #: panels/applications/cc-snap-row.c:81
-#, fuzzy
-#| msgid "Account Information"
 msgid "Access hardware information"
-msgstr "帳號資訊"
+msgstr "存取硬體資訊"
 
 #: panels/applications/cc-snap-row.c:83
 msgid "Provide entropy to hardware random number generator"
-msgstr ""
+msgstr "提供熵給硬體隨機數字產生器"
 
 #: panels/applications/cc-snap-row.c:85
 msgid "Use hardware-generated random numbers"
-msgstr ""
+msgstr "使用硬體產生的隨機數"
 
 #: panels/applications/cc-snap-row.c:87
 msgid "Access files in your home folder"
-msgstr ""
+msgstr "存取您家目錄的檔案"
 
 #: panels/applications/cc-snap-row.c:89
 msgid "Access libvirt service"
-msgstr ""
+msgstr "存取 libvirt 服務"
 
 #: panels/applications/cc-snap-row.c:91
-#, fuzzy
-#| msgid "Change system time and date settings"
 msgid "Change system language and region settings"
-msgstr "改變系統時刻與日期設定值"
+msgstr "變更系統語言及地區設定"
 
 #: panels/applications/cc-snap-row.c:93
 msgid "Change location settings and providers"
-msgstr ""
+msgstr "變更位置設定及提供者"
 
 #: panels/applications/cc-snap-row.c:95
-#, fuzzy
-#| msgid "Access Options"
 msgid "Access your location"
-msgstr "存取選項"
+msgstr "存取你的位置"
 
 #: panels/applications/cc-snap-row.c:97
 msgid "Read system and application logs"
-msgstr ""
+msgstr "讀取系統及應用程式日誌"
 
 #: panels/applications/cc-snap-row.c:99
 msgid "Access LXD service"
-msgstr ""
+msgstr "存取 LXD 服務"
 
 #: panels/applications/cc-snap-row.c:101
 msgid "access the media-hub service"
-msgstr ""
+msgstr "存取媒體中心服務"
 
 #: panels/applications/cc-snap-row.c:103
 msgid "Use and configure modems"
-msgstr ""
+msgstr "使用並設定數據機"
 
 #: panels/applications/cc-snap-row.c:105
 msgid "Read system mount information and disk quotas"
-msgstr ""
+msgstr "讀取系統掛載資訊及磁碟配額"
 
 #: panels/applications/cc-snap-row.c:107
 msgid "Control music and video players"
-msgstr ""
+msgstr "控制音樂及影片播放器"
 
 #: panels/applications/cc-snap-row.c:111
-#, fuzzy
-#| msgid "Change keyboard settings"
 msgid "Change low-level network settings"
-msgstr "改變鍵盤設定值"
+msgstr "變更低階網路設定"
 
 #: panels/applications/cc-snap-row.c:113
 msgid "Access the NetworkManager service to read and change network settings"
-msgstr ""
+msgstr "存取 NetworkManager 服務以讀取及變更網路設定"
 
 #: panels/applications/cc-snap-row.c:115
-#, fuzzy
-#| msgid "Network settings"
 msgid "Read access to network settings"
-msgstr "網路設定值"
+msgstr "有權讀取網路設定"
 
 #: panels/applications/cc-snap-row.c:117
-#, fuzzy
-#| msgid "Change keyboard settings"
 msgid "Change network settings"
-msgstr "改變鍵盤設定值"
+msgstr "變更網路設定"
 
 #: panels/applications/cc-snap-row.c:119
-#, fuzzy
-#| msgid "Network settings"
 msgid "Read network settings"
-msgstr "網路設定值"
+msgstr "讀取網路設定"
 
 #: panels/applications/cc-snap-row.c:121
 msgid ""
 "Access the ofono service to read and change network settings for mobile "
 "telephony"
-msgstr ""
+msgstr "存取 ofono 服務以讀取及變更行動電話語音的網路設定"
 
 #: panels/applications/cc-snap-row.c:123
 msgid "Control Open vSwitch hardware"
-msgstr ""
+msgstr "控制開放 vSwitch 硬體"
 
 #: panels/applications/cc-snap-row.c:125
 msgid "Read from CD/DVD"
-msgstr ""
+msgstr "從 CD/DVD 讀取"
 
 #: panels/applications/cc-snap-row.c:127
 msgid "Read, add, change, or remove saved passwords"
-msgstr ""
+msgstr "讀取、加入、變更或移除儲存的密碼"
 
 #: panels/applications/cc-snap-row.c:129
 msgid ""
 "Access pppd and ppp devices for configuring Point-to-Point Protocol "
 "connections"
-msgstr ""
+msgstr "存取 pppd 及 ppp 裝置以設定端對端通訊協定的連線"
 
 #: panels/applications/cc-snap-row.c:131
 msgid "Pause or end any process on the system"
-msgstr ""
+msgstr "暫停或結束系統處理程序"
 
 #: panels/applications/cc-snap-row.c:135
 msgid "Access USB hardware directly"
-msgstr ""
+msgstr "直接存取 USB 硬體"
 
 #: panels/applications/cc-snap-row.c:137
 msgid "Read/write files on removable storage devices"
-msgstr ""
+msgstr "讀取╱寫入卸除式儲存裝置"
 
 #: panels/applications/cc-snap-row.c:139
 msgid "Prevent screen sleep/lock"
-msgstr ""
+msgstr "防止螢幕睡眠／鎖定"
 
 #: panels/applications/cc-snap-row.c:141
 msgid "Access serial port hardware"
-msgstr ""
+msgstr "存取序列埠硬體"
 
 #: panels/applications/cc-snap-row.c:143
 msgid "Restart or power off the device"
-msgstr ""
+msgstr "重新啟動或關機裝置"
 
 #: panels/applications/cc-snap-row.c:145
 msgid "Install, remove and configure software"
-msgstr ""
+msgstr "安裝、移除及設定軟體"
 
 #: panels/applications/cc-snap-row.c:147
 msgid "Access Storage Framework service"
-msgstr ""
+msgstr "存取儲存空間框架 (Storage Framework) 服務"
 
 #: panels/applications/cc-snap-row.c:149
-#, fuzzy
-#| msgid "System Information"
 msgid "Read process and system information"
-msgstr "系統資訊"
+msgstr "讀取處理程序及系統資訊"
 
 #: panels/applications/cc-snap-row.c:151
 msgid "Monitor and control any running program"
-msgstr ""
+msgstr "監控及控制執行程式"
 
 #: panels/applications/cc-snap-row.c:153
-#, fuzzy
-#| msgid "Change the date and time, including time zone"
 msgid "Change the date and time"
-msgstr "改變時刻與日期，包含時區"
+msgstr "變更日期及時間"
 
 #: panels/applications/cc-snap-row.c:155
-#, fuzzy
-#| msgid "Change keyboard settings"
 msgid "Change time server settings"
-msgstr "改變鍵盤設定值"
+msgstr "變更時間伺服器設定"
 
 #: panels/applications/cc-snap-row.c:157
-#, fuzzy
-#| msgid "Change the background"
 msgid "Change the time zone"
-msgstr "更改背景"
+msgstr "變更時區"
 
 #: panels/applications/cc-snap-row.c:159
 msgid "Access the UDisks2 service for configuring disks and removable media"
-msgstr ""
+msgstr "存取 UDisks2 服務以設定磁碟及卸除式媒體"
 
 #: panels/applications/cc-snap-row.c:161
 msgid "Read/change shared calendar events in Ubuntu Unity 8"
-msgstr ""
+msgstr "讀取或變更 Ubuntu Unity 8 的共享行事曆事件"
 
 #: panels/applications/cc-snap-row.c:163
 msgid "Read/change shared contacts in Ubuntu Unity 8"
-msgstr ""
+msgstr "讀取或變更 Ubuntu Unity 8 的共享聯絡人"
 
 #: panels/applications/cc-snap-row.c:165
 msgid "Access energy usage data"
-msgstr ""
+msgstr "存取能量使用情況資料"
 
 #: panels/applications/cc-snap-row.c:167
 msgid "Read/write access to U2F devices exposed"
-msgstr ""
+msgstr "有權讀取／寫入至公開的 U2F 裝置"
 
 #: panels/applications/gnome-applications-panel.desktop.in.in:4
 msgid "Control various application permissions and settings"
@@ -740,13 +704,11 @@ msgstr "share;sharing;bluetooth;obex;分享;藍牙;"
 
 #: panels/camera/cc-camera-panel.ui:34
 msgid "Camera is turned off"
-msgstr ""
+msgstr "相機已關閉"
 
 #: panels/camera/cc-camera-panel.ui:43
-#, fuzzy
-#| msgid "No application is currently playing or recording audio."
 msgid "No applications can capture photos or video."
-msgstr "沒有應用程式目前正在播放或錄製音效。"
+msgstr "沒有應用程式能擷取圖片或影片。"
 
 #: panels/camera/cc-camera-panel.ui:77
 msgid ""
@@ -757,17 +719,15 @@ msgstr ""
 
 #: panels/camera/cc-camera-panel.ui:87
 msgid "Allow the applications below to use your camera."
-msgstr ""
+msgstr "允許下列應用程式使用相機。"
 
 #: panels/camera/cc-camera-panel.ui:107
 msgid "No Applications Have Asked for Camera Access"
-msgstr ""
+msgstr "沒有應用程式請求相機存取"
 
 #: panels/camera/gnome-camera-panel.desktop.in.in:4
-#, fuzzy
-#| msgid "Browse for more pictures"
 msgid "Protect your pictures"
-msgstr "瀏覽更多照片"
+msgstr "保護你的照片"
 
 #. FIXME
 #. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
@@ -1427,20 +1387,16 @@ msgid "_Select"
 msgstr "選取(_S)"
 
 #: panels/common/cc-permission-infobar.ui:20
-#, fuzzy
-#| msgid "_Unlock"
 msgid "Unlock…"
-msgstr "解除鎖定(_U)"
+msgstr "解除鎖定…"
 
 #: panels/common/cc-permission-infobar.ui:45
-#, fuzzy
-#| msgid "Can change settings"
 msgid "Unlock to Change Settings"
-msgstr "可以變更設定"
+msgstr "解鎖變更設定"
 
 #: panels/common/cc-permission-infobar.ui:55
 msgid "Some settings must be unlocked before they can be changed."
-msgstr ""
+msgstr "部份設定需要先解鎖才能變更。"
 
 #: panels/common/cc-util.c:127
 #: panels/network/connection-editor/ce-page-details.c:143
@@ -1750,29 +1706,17 @@ msgstr ""
 
 #: panels/diagnostics/cc-diagnostics-panel.c:151
 #: panels/diagnostics/cc-diagnostics-panel.ui:53
-#, fuzzy
-#| msgid ""
-#| "Sending reports of technical problems helps us improve %s. Reports are "
-#| "sent anonymously and are scrubbed of personal data."
 msgid "Reports are sent anonymously and are scrubbed of personal data."
-msgstr ""
-"傳送技術問題的報告有助於我們改進 %s。報告是以匿名方式傳送，並且會消除個人資"
-"料。"
+msgstr "報告是以匿名方式傳送，並且會消除個人資料。"
 
 #: panels/diagnostics/cc-diagnostics-panel.ui:30
 msgid "Problem Reporting"
 msgstr "問題回報"
 
 #: panels/diagnostics/cc-diagnostics-panel.ui:43
-#, fuzzy
-#| msgid ""
-#| "Sending reports of technical problems helps us improve %s. Reports are "
-#| "sent anonymously and are scrubbed of personal data."
 msgid ""
 "Sending reports of technical problems help us improve this operating system."
-msgstr ""
-"傳送技術問題的報告有助於我們改進 %s。報告是以匿名方式傳送，並且會消除個人資"
-"料。"
+msgstr "傳送技術問題的報告有助於我們改進這個作業系統。"
 
 #: panels/diagnostics/cc-diagnostics-panel.ui:78
 msgid "_Automatic Problem Reporting"
@@ -1780,11 +1724,11 @@ msgstr "自動回報問題(_A)"
 
 #: panels/diagnostics/gnome-diagnostics-panel.desktop.in.in:3
 msgid "Diagnostics"
-msgstr ""
+msgstr "診斷"
 
 #: panels/diagnostics/gnome-diagnostics-panel.desktop.in.in:4
 msgid "Report your problems"
-msgstr ""
+msgstr "回報您遇到的問題"
 
 #. FIXME
 #: panels/display/cc-display-panel.c:961
@@ -1823,7 +1767,7 @@ msgstr "顯示器模式"
 
 #: panels/display/cc-display-panel.ui:222
 msgid "Contains top bar and Activities"
-msgstr ""
+msgstr "包含頂端列及概覽"
 
 #: panels/display/cc-display-panel.ui:223
 msgid "Primary Display"
@@ -1840,10 +1784,8 @@ msgid "Display Arrangement"
 msgstr "排列顯示器組合方式"
 
 #: panels/display/cc-display-panel.ui:387
-#, fuzzy
-#| msgid "Single Display"
 msgid "Active Display"
-msgstr "單一顯示器"
+msgstr "使用中顯示器"
 
 #: panels/display/cc-display-panel.ui:434
 msgid "Display Configuration"
@@ -2023,22 +1965,18 @@ msgstr "32位元"
 
 #: panels/info-overview/cc-info-overview-panel.c:665
 msgid "X11"
-msgstr ""
+msgstr "X11"
 
 #: panels/info-overview/cc-info-overview-panel.c:669
 msgid "Wayland"
 msgstr "Wayland"
 
 #: panels/info-overview/cc-info-overview-panel.c:671
-#, fuzzy
-#| msgid "Unknown"
 msgctxt "Windowing system (Wayland, X11, or Unknown)"
 msgid "Unknown"
 msgstr "不明"
 
 #: panels/info-overview/cc-info-overview-panel.ui:54
-#, fuzzy
-#| msgid "Device name"
 msgid "Device Name"
 msgstr "裝置名稱"
 
@@ -2056,7 +1994,7 @@ msgstr "繪圖"
 
 #: panels/info-overview/cc-info-overview-panel.ui:103
 msgid "Disk Capacity"
-msgstr ""
+msgstr "磁碟空間"
 
 #: panels/info-overview/cc-info-overview-panel.ui:104
 msgid "Calculating…"
@@ -2064,56 +2002,42 @@ msgstr "正在計算…"
 
 #. translators: this field contains the distro name and version
 #: panels/info-overview/cc-info-overview-panel.ui:126
-#, fuzzy
-#| msgid "Name"
 msgid "OS Name"
-msgstr "名稱"
+msgstr "作業系統名稱"
 
 #: panels/info-overview/cc-info-overview-panel.ui:135
-#, fuzzy
-#| msgid "Type"
 msgid "OS Type"
-msgstr "類型"
+msgstr "作業系統類型"
 
 #: panels/info-overview/cc-info-overview-panel.ui:144
-#, fuzzy
-#| msgid "GNOME Settings"
 msgid "GNOME Version"
-msgstr "GNOME 設定"
+msgstr "GNOME 版本"
 
 #: panels/info-overview/cc-info-overview-panel.ui:154
-#, fuzzy
-#| msgid "Windows software"
 msgid "Windowing System"
-msgstr "Windows 軟體"
+msgstr "視窗系統"
 
 #: panels/info-overview/cc-info-overview-panel.ui:162
 msgid "Virtualization"
 msgstr "虛擬化"
 
 #: panels/info-overview/cc-info-overview-panel.ui:171
-#, fuzzy
-#| msgid "Software Usage"
 msgid "Software Updates"
-msgstr "軟體使用率"
+msgstr "軟體更新"
 
 #: panels/info-overview/cc-info-overview-panel.ui:192
-#, fuzzy
-#| msgid "Pending Devices"
 msgid "Rename Device"
-msgstr "待處理裝置"
+msgstr "重新命名裝置"
 
 #: panels/info-overview/cc-info-overview-panel.ui:209
 msgid ""
 "The device name is used to identify this device when it is viewed over the "
 "network, or when pairing Bluetooth devices."
-msgstr ""
+msgstr "裝置名稱用來在當在網路上檢視裝置，或是配對藍牙裝置時識別裝置。"
 
 #: panels/info-overview/cc-info-overview-panel.ui:226
-#, fuzzy
-#| msgid "_Username"
 msgid "_Rename"
-msgstr "使用者名稱(_U)"
+msgstr "重新命名(_R)"
 
 #: panels/info-overview/gnome-info-overview-panel.desktop.in.in:3
 msgid "About"
@@ -2129,17 +2053,14 @@ msgstr "檢視您系統的資訊"
 #. "Preferred Applications" is the old name for the preference, so make
 #. sure that you use the same "translation" for those keywords
 #: panels/info-overview/gnome-info-overview-panel.desktop.in.in:23
-#, fuzzy
-#| msgid ""
-#| "device;system;information;memory;processor;version;default;application;"
-#| "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
 msgid ""
 "device;system;information;hostname;memory;processor;version;default;"
 "application;preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
 msgstr ""
-"device;system;information;memory;processor;version;default;application;"
-"preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;裝置;系統;資訊;"
-"記憶體;處理器;版本;預設;應用程式;首選;音訊;視訊;碟片;可移除;媒體;自動執行;"
+"device;system;information;hostname;memory;processor;version;default;"
+"application;preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;裝"
+"置;系統;資訊;記憶體;處理器;版本;預設;應用程式;首選;音訊;視訊;碟片;可移除;媒"
+"體;自動執行;"
 
 #: panels/keyboard/00-multimedia.xml.in:2
 msgid "Sound and Media"
@@ -2314,10 +2235,8 @@ msgstr "高對比開或關"
 
 #: panels/keyboard/cc-alt-chars-key-dialog.ui:8
 #: panels/keyboard/cc-keyboard-panel.ui:72
-#, fuzzy
-#| msgid "Alternative Characters Key"
 msgid "Alternate Characters Key"
-msgstr "替代的字元鍵"
+msgstr "替代字元鍵"
 
 #: panels/keyboard/cc-alt-chars-key-dialog.ui:28
 msgid ""
@@ -2334,22 +2253,16 @@ msgid "Right Alt"
 msgstr "右 Alt"
 
 #: panels/keyboard/cc-alt-chars-key-dialog.ui:77
-#, fuzzy
-#| msgid "Left Ctrl"
 msgid "Left Super"
-msgstr "左 Ctrl"
+msgstr "左 Super"
 
 #: panels/keyboard/cc-alt-chars-key-dialog.ui:93
-#, fuzzy
-#| msgid "Right Ctrl"
 msgid "Right Super"
-msgstr "右 Ctrl"
+msgstr "右 Super"
 
 #: panels/keyboard/cc-alt-chars-key-dialog.ui:109
-#, fuzzy
-#| msgid "Security key"
 msgid "Menu key"
-msgstr "安全金鑰"
+msgstr "選單鍵"
 
 #: panels/keyboard/cc-alt-chars-key-dialog.ui:125
 msgid "Right Ctrl"
@@ -2382,43 +2295,31 @@ msgid "Modifiers-only switch to next source"
 msgstr "只以修飾鍵切換至下個來源"
 
 #: panels/keyboard/cc-keyboard-panel.c:94
-#, fuzzy
-#| msgid "Right Ctrl"
 msgctxt "keyboard key"
 msgid "Right Ctrl"
 msgstr "右 Ctrl"
 
 #: panels/keyboard/cc-keyboard-panel.c:95
-#, fuzzy
-#| msgid "_Mouse Keys"
 msgctxt "keyboard key"
 msgid "Menu Key"
-msgstr "滑鼠按鍵(_M)"
+msgstr "選單鍵"
 
 #: panels/keyboard/cc-keyboard-panel.c:96
-#, fuzzy
-#| msgid "Left Ctrl"
 msgctxt "keyboard key"
 msgid "Left Super"
-msgstr "左 Ctrl"
+msgstr "左 Super"
 
 #: panels/keyboard/cc-keyboard-panel.c:97
-#, fuzzy
-#| msgid "Right Ctrl"
 msgctxt "keyboard key"
 msgid "Right Super"
-msgstr "右 Ctrl"
+msgstr "右 Super"
 
 #: panels/keyboard/cc-keyboard-panel.c:98
-#, fuzzy
-#| msgid "Left Alt"
 msgctxt "keyboard key"
 msgid "Left Alt"
 msgstr "左 Alt"
 
 #: panels/keyboard/cc-keyboard-panel.c:99
-#, fuzzy
-#| msgid "Right Alt"
 msgctxt "keyboard key"
 msgid "Right Alt"
 msgstr "右 Alt"
@@ -2449,10 +2350,8 @@ msgid "Reset the shortcut to its default value"
 msgstr "將快捷鍵重設回預設值"
 
 #: panels/keyboard/cc-keyboard-panel.ui:73
-#, fuzzy
-#| msgid "The new password does not contain enough different characters"
 msgid "Hold down and type to enter different characters"
-msgstr "新的密碼並未包含足夠的不同字元"
+msgstr "按下並輸入以輸入不同字元"
 
 #: panels/keyboard/cc-keyboard-panel.ui:147
 msgid "Reset All…"
@@ -2467,12 +2366,9 @@ msgid "No keyboard shortcut found"
 msgstr "找不到鍵盤快捷鍵"
 
 #: panels/keyboard/cc-keyboard-shortcut-editor.c:413
-#, fuzzy, c-format
-#| msgid ""
-#| "%s is already being used for <b>%s</b>. If you replace it, %s will be "
-#| "disabled"
+#, c-format
 msgid "%s is already being used for %s. If you replace it, %s will be disabled"
-msgstr "%s 已經被 <b>%s</b> 使用。若您希望替換，則 %s 會被停用"
+msgstr "%s 已經被 %s 使用。如您替換，則 %s 會被停用"
 
 #: panels/keyboard/cc-keyboard-shortcut-editor.c:581
 msgid "Set Custom Shortcut"
@@ -2484,10 +2380,9 @@ msgstr "設定快捷鍵"
 
 #. TRANSLATORS: %s is replaced with a description of the keyboard shortcut
 #: panels/keyboard/cc-keyboard-shortcut-editor.c:592
-#, fuzzy, c-format
-#| msgid "Enter new shortcut to change <b>%s</b>."
+#, c-format
 msgid "Enter new shortcut to change %s."
-msgstr "請輸入新的快捷鍵來更改 <b>%s</b>。"
+msgstr "請輸入新的快捷鍵來更改 %s。"
 
 #: panels/keyboard/cc-keyboard-shortcut-editor.c:1016
 msgid "Add Custom Shortcut"
@@ -2558,16 +2453,12 @@ msgstr ""
 "上鎖;音量;"
 
 #: panels/location/cc-location-panel.ui:31
-#, fuzzy
-#| msgid "Location Services"
 msgid "Location services turned off"
-msgstr "位置服務"
+msgstr "位置服務已關閉"
 
 #: panels/location/cc-location-panel.ui:40
-#, fuzzy
-#| msgid "No application is currently playing or recording audio."
 msgid "No applications can obtain location information."
-msgstr "沒有應用程式目前正在播放或錄製音效。"
+msgstr "沒有應用程式能取得位置資訊。"
 
 #: panels/location/cc-location-panel.ui:74
 msgid ""
@@ -2587,52 +2478,46 @@ msgstr ""
 
 #: panels/location/cc-location-panel.ui:95
 msgid "Allow the applications below to determine your location."
-msgstr ""
+msgstr "允許下列應用程式判斷位置。"
 
 #: panels/location/cc-location-panel.ui:115
 msgid "No Applications Have Asked for Location Access"
-msgstr ""
+msgstr "沒有應用程式請求位置存取權限"
 
 #: panels/location/gnome-location-panel.desktop.in.in:4
 msgid "Protect your location information"
-msgstr ""
+msgstr "保護您的位置資訊"
 
 #. FIXME
 #: panels/lock/cc-lock-panel.ui:29
 msgid ""
 "Automatically locking the screen prevents others from access the computer "
 "while you're away."
-msgstr ""
+msgstr "自動鎖定螢幕能防止其他人在你離開時使用你的電腦"
 
 #: panels/lock/cc-lock-panel.ui:46
-#, fuzzy
-#| msgid "_Blank Screen"
 msgid "Blank Screen Delay"
-msgstr "螢幕轉黑(_B)"
+msgstr "螢幕轉黑延遲"
 
 #: panels/lock/cc-lock-panel.ui:47
 msgid "Period of inactivity after which the screen will go blank."
-msgstr ""
+msgstr "不活躍多久後螢幕轉黑。"
 
 #: panels/lock/cc-lock-panel.ui:67
 msgid "Automatic Screen _Lock"
 msgstr "自動鎖定螢幕(_L)"
 
 #: panels/lock/cc-lock-panel.ui:84
-#, fuzzy
-#| msgid "Automatic Screen _Lock"
 msgid "Automatic _Screen Lock Delay"
-msgstr "自動鎖定螢幕(_L)"
+msgstr "自動螢幕鎖定延遲(_S)"
 
 #: panels/lock/cc-lock-panel.ui:85
 msgid "Period after the screen blanks when the screen is automatically locked."
-msgstr ""
+msgstr "螢幕轉黑後，要多久才會自動鎖定螢幕。"
 
 #: panels/lock/cc-lock-panel.ui:105
-#, fuzzy
-#| msgid "Show _Notifications"
 msgid "Show _Notifications on Lock Screen"
-msgstr "顯示通知(_N)"
+msgstr "在鎖定螢幕顯示通知(_N)"
 
 #. Translators: Option for "Lock screen after blank for" in "Screen Lock" dialog.
 #: panels/lock/cc-lock-panel.ui:149
@@ -2747,47 +2632,38 @@ msgid "Screen Lock"
 msgstr "螢幕鎖定"
 
 #: panels/lock/gnome-lock-panel.desktop.in.in:4
-#, fuzzy
-#| msgid "Lock screen"
 msgid "Lock your screen"
-msgstr "鎖定畫面"
+msgstr "鎖定螢幕"
 
 #. FIXME
 #: panels/microphone/cc-microphone-panel.ui:34
-#, fuzzy
-#| msgid "Microphone mute/unmute"
 msgid "Microphone is turned off"
-msgstr "麥克風 靜音/取消靜音"
+msgstr "麥克風已關閉"
 
 #: panels/microphone/cc-microphone-panel.ui:43
-#, fuzzy
-#| msgid "No applications found"
 msgid "No applications can record sound."
-msgstr "找不到應用程式"
+msgstr "沒有能錄音的應用程式。"
 
 #: panels/microphone/cc-microphone-panel.ui:77
-#, fuzzy
-#| msgid ""
-#| "Use of the microphone allows applications to capture sounds. Disabling "
-#| "the microphone may cause some applications to not function properly."
 msgid ""
 "Use of the microphone allows applications to record and listen to audio. "
 "Disabling the microphone may cause some applications to not function "
 "properly."
 msgstr ""
-"使用麥克風以讓應用程式能錄音。停用麥克風可能導致部份應用程式不能正常運作。"
+"使用麥克風以允許應用程式錄音或聆聽聲音。停用麥克風可能導致部份應用程式無法正"
+"常運作。"
 
 #: panels/microphone/cc-microphone-panel.ui:87
 msgid "Allow the applications below to use your microphone."
-msgstr ""
+msgstr "允許下列應用程式使用麥克風。"
 
 #: panels/microphone/cc-microphone-panel.ui:107
 msgid "No Applications Have Asked for Microphone Access"
-msgstr ""
+msgstr "沒有應用程式請求麥克風存取權限。"
 
 #: panels/microphone/gnome-microphone-panel.desktop.in.in:4
 msgid "Protect your conversations"
-msgstr ""
+msgstr "保護您的通訊"
 
 #. FIXME
 #: panels/mouse/cc-mouse-panel.ui:37
@@ -2934,19 +2810,19 @@ msgstr "%s (SSID: %s)"
 
 #: panels/network/cc-wifi-connection-row.c:249
 msgid "Insecure network (WEP)"
-msgstr ""
+msgstr "不安全網路 (WEP)"
 
 #: panels/network/cc-wifi-connection-row.c:254
 msgid "Secure network (WPA)"
-msgstr ""
+msgstr "安全網路 (WPA)"
 
 #: panels/network/cc-wifi-connection-row.c:259
 msgid "Secure network (WPA2)"
-msgstr ""
+msgstr "安全網路 (WPA2)"
 
 #: panels/network/cc-wifi-connection-row.c:264
 msgid "Secure network"
-msgstr ""
+msgstr "安全網路"
 
 #: panels/network/cc-wifi-connection-row.ui:102
 #: panels/network/net-device-ethernet.c:318
@@ -2962,11 +2838,11 @@ msgstr "選項…"
 msgid ""
 "Turning on the hotspot will disconnect from %s, and it will not be possible "
 "to access the internet through Wi-Fi."
-msgstr ""
+msgstr "開啟熱點會斷線 %s，且會不能透過 Wi-Fi 連線網路。"
 
 #: panels/network/cc-wifi-hotspot-dialog.c:248
 msgid "Must have a minimum of 8 characters"
-msgstr ""
+msgstr "必須至少有 8 個字元"
 
 #: panels/network/cc-wifi-hotspot-dialog.c:458
 msgid "Turn On Wi-Fi Hotspot?"
@@ -2978,6 +2854,8 @@ msgid ""
 "Wi-Fi network that they can connect to. To do this, you must have an "
 "internet connection through a source other than Wi-Fi."
 msgstr ""
+"Wi-Fi 熱點透過建立其他人能連線的 Wi-Fi 網路，讓其他人能分享你的網路連線。要這"
+"麼做，你必須要有 Wi-Fi 之外的網路連線來源。"
 
 #: panels/network/cc-wifi-hotspot-dialog.ui:44
 #: panels/network/network-wifi.ui:105
@@ -2993,16 +2871,12 @@ msgid "Password"
 msgstr "密碼"
 
 #: panels/network/cc-wifi-hotspot-dialog.ui:83
-#, fuzzy
-#| msgid "Generate a password"
 msgid "Generate Random Password"
-msgstr "產生密碼"
+msgstr "產生隨機密碼"
 
 #: panels/network/cc-wifi-hotspot-dialog.ui:84
-#, fuzzy
-#| msgid "Generate a password"
 msgid "Autogenerate Password"
-msgstr "產生密碼"
+msgstr "自動產生密碼"
 
 #: panels/network/cc-wifi-hotspot-dialog.ui:130
 msgid "_Turn On"
@@ -3078,6 +2952,8 @@ msgid ""
 "network device this connection is activated on. This feature is known as MAC "
 "cloning or spoofing. Example: 00:11:22:33:44:55"
 msgstr ""
+"這裡輸入的 MAC 位址會當作這個連線開在的網路裝置的硬體位址。這個功能又稱為 "
+"MAC 複製或欺騙。範例：00:11:22:33:44:55"
 
 #: panels/network/connection-editor/ce-page.c:399
 #, c-format
@@ -3126,7 +3002,7 @@ msgstr[0] "%i 天以前"
 #: panels/network/connection-editor/ce-page-details.c:272
 #, c-format
 msgid "%d Mb/s (%1.1f GHz)"
-msgstr ""
+msgstr "%d Mb/s (%1.1f GHz)"
 
 #. Translators: network device speed
 #: panels/network/connection-editor/ce-page-details.c:274
@@ -3137,15 +3013,15 @@ msgstr "%d Mb/s"
 
 #: panels/network/connection-editor/ce-page-details.c:291
 msgid "2.4 GHz / 5 GHz"
-msgstr ""
+msgstr "2.4 GHz / 5 GHz"
 
 #: panels/network/connection-editor/ce-page-details.c:293
 msgid "2.4 GHz"
-msgstr ""
+msgstr "2.4 GHz"
 
 #: panels/network/connection-editor/ce-page-details.c:295
 msgid "5 GHz"
-msgstr ""
+msgstr "5 GHz"
 
 #: panels/network/connection-editor/ce-page-details.c:315
 msgctxt "Signal strength"
@@ -3284,10 +3160,8 @@ msgid "Hardware Address"
 msgstr "硬體位址"
 
 #: panels/network/connection-editor/details-page.ui:162
-#, fuzzy
-#| msgid "Supported ICC profiles"
 msgid "Supported Frequencies"
-msgstr "支援的 ICC 色彩描述檔"
+msgstr "支援的頻率"
 
 #: panels/network/connection-editor/details-page.ui:180
 #: panels/network/net-device-ethernet.c:155
@@ -3317,12 +3191,12 @@ msgstr "允許其他使用者使用(_O)"
 
 #: panels/network/connection-editor/details-page.ui:428
 msgid "_Metered connection: has data limits or can incur charges"
-msgstr ""
+msgstr "計量連線(_M)：有資料限制或要收費"
 
 #: panels/network/connection-editor/details-page.ui:439
 msgid ""
 "Software updates and other large downloads will not be started automatically."
-msgstr ""
+msgstr "軟體更新及其他大型下載不會自動啟動。"
 
 #: panels/network/connection-editor/ethernet-page.ui:25
 #: panels/network/connection-editor/vpn-page.ui:23
@@ -3373,10 +3247,8 @@ msgstr "停用"
 
 #: panels/network/connection-editor/ip4-page.ui:97
 #: panels/network/connection-editor/ip6-page.ui:111
-#, fuzzy
-#| msgid "Shared with other computers"
 msgid "Shared to other computers"
-msgstr "分享給其他電腦"
+msgstr "分享至其他電腦"
 
 #: panels/network/connection-editor/ip4-page.ui:125
 #: panels/network/connection-editor/ip6-page.ui:139
@@ -4485,10 +4357,9 @@ msgstr "移除帳號時發生錯誤"
 #. * or rishi).
 #.
 #: panels/online-accounts/cc-online-accounts-panel.c:991
-#, fuzzy, c-format
-#| msgid "<b>%s</b> removed"
+#, c-format
 msgid "%s removed"
-msgstr "<b>%s</b> 已移除"
+msgstr "已移除 %s"
 
 #: panels/online-accounts/gnome-online-accounts-panel.desktop.in.in:3
 msgid "Online Accounts"
@@ -5574,35 +5445,27 @@ msgstr "上一頁"
 msgid ""
 "Choose the format for numbers, dates and currencies. Changes take effect on "
 "next login."
-msgstr ""
+msgstr "選擇數字、日期及貨幣的格式。變更會在下次登入時生效。"
 
 #: panels/region/cc-format-chooser.ui:119
-#, fuzzy
-#| msgid "Search Locations"
 msgid "Search locales..."
-msgstr "搜尋位置"
+msgstr "搜尋地區…"
 
 #: panels/region/cc-format-chooser.ui:160
-#, fuzzy
-#| msgid "Formats"
 msgid "Common Formats"
-msgstr "格式"
+msgstr "通常格式"
 
 #: panels/region/cc-format-chooser.ui:191
-#, fuzzy
-#| msgid "Formats"
 msgid "All Formats"
-msgstr "格式"
+msgstr "所有格式"
 
 #: panels/region/cc-format-chooser.ui:244
-#, fuzzy
-#| msgid "No results found"
 msgid "No Search Results"
-msgstr "找不到結果"
+msgstr "沒有搜尋結果"
 
 #: panels/region/cc-format-chooser.ui:257
 msgid "Searches can be for countries or languages."
-msgstr ""
+msgstr "可以搜尋國家或語言。"
 
 #: panels/region/cc-format-chooser.ui:309
 msgid "Preview"
@@ -5977,44 +5840,30 @@ msgstr "選擇一個資料夾"
 
 #. TRANSLATORS: %s is replaced with a link to a dav://<hostname> URL
 #: panels/sharing/cc-sharing-panel.c:729
-#, fuzzy, c-format
-#| msgid ""
-#| "File Sharing allows you to share your Public folder with others on your "
-#| "current network using: <a href=\"dav://%s\">dav://%s</a>"
+#, c-format
 msgid ""
 "File Sharing allows you to share your Public folder with others on your "
 "current network using: %s"
-msgstr ""
-"檔案分享允許您使用 <a href=\"dav://%s\">dav://%s</a> 與目前網路上的其他人分享"
-"您的公開資料夾"
+msgstr "檔案分享允許您使用下述方式與目前網路上的其他人分享您的公開資料夾：%s"
 
 #. TRANSLATORS: %s is replaced with a link to a "ssh <hostname>" command to run
 #: panels/sharing/cc-sharing-panel.c:735
-#, fuzzy, c-format
-#| msgid ""
-#| "When remote login is enabled, remote users can connect using the Secure "
-#| "Shell command:\n"
-#| "<a href=\"ssh %s\">ssh %s</a>"
+#, c-format
 msgid ""
 "When remote login is enabled, remote users can connect using the Secure "
 "Shell command:\n"
 "%s"
 msgstr ""
-"當啟用遠端登入時，遠端使用者可以使用 SSH 指令連線：\n"
-"<a href=\"ssh %s\">ssh %s</a>"
+"啟用遠端登入後，遠端使用者可使用此 SSH 指令連線：\n"
+"%s"
 
 #. TRANSLATORS: %s is replaced with a link to a vnc://<hostname> URL
 #: panels/sharing/cc-sharing-panel.c:741
-#, fuzzy, c-format
-#| msgid ""
-#| "Screen sharing allows remote users to view or control your screen by "
-#| "connecting to <a href=\"vnc://%s\">vnc://%s</a>"
+#, c-format
 msgid ""
 "Screen sharing allows remote users to view or control your screen by "
 "connecting to %s"
-msgstr ""
-"螢幕分享允許遠端使用者連線到 <a href=\"vnc://%s\">vnc://%s</a> 檢視或控制您的"
-"螢幕"
+msgstr "螢幕分享允許遠端使用者連線到 %s 以檢視或控制您的螢幕"
 
 #: panels/sharing/cc-sharing-panel.c:846
 msgid "Copy"
@@ -6509,10 +6358,8 @@ msgid "_Mouse Keys"
 msgstr "滑鼠按鍵(_M)"
 
 #: panels/universal-access/cc-ua-panel.ui:900
-#, fuzzy
-#| msgid "Remove Printer"
 msgid "_Locate Pointer"
-msgstr "移除印表機"
+msgstr "定位印表機(_L)"
 
 #: panels/universal-access/cc-ua-panel.ui:932
 msgid "_Click Assist"
@@ -6568,10 +6415,8 @@ msgid "Use a visual indication when an alert sound occurs."
 msgstr "當警示音效發出時使用視覺化的指示。"
 
 #: panels/universal-access/cc-ua-panel.ui:1392
-#, fuzzy
-#| msgid "Flash the entire _screen"
 msgid "Flash the entire _window"
-msgstr "閃動整個螢幕(_S)"
+msgstr "閃動整個視窗(_W)"
 
 #: panels/universal-access/cc-ua-panel.ui:1410
 msgid "Flash the entire _screen"
@@ -6981,10 +6826,8 @@ msgid "_Purge Temporary Files"
 msgstr "清理暫存檔案(_P)"
 
 #: panels/usage/cc-usage-panel.ui:31
-#, fuzzy
-#| msgid "History"
 msgid "File History"
-msgstr "歷史紀錄"
+msgstr "檔案歷史記錄"
 
 #: panels/usage/cc-usage-panel.ui:43
 msgid ""
@@ -6992,62 +6835,50 @@ msgid ""
 "shared between applications, and makes it easier to find files that you "
 "might want to use."
 msgstr ""
+"檔案歷史記錄會保留你用過檔案的記錄。這個資訊會與應用程式共用，且會讓尋找可能"
+"想用的檔案變簡單。"
 
 #: panels/usage/cc-usage-panel.ui:58
-#, fuzzy
-#| msgid "History"
 msgid "File H_istory"
-msgstr "歷史紀錄"
+msgstr "檔案歷史記錄(_I)"
 
 #: panels/usage/cc-usage-panel.ui:80
 msgid "File _History Duration"
-msgstr ""
+msgstr "檔案歷史記錄期間(_H)"
 
 #: panels/usage/cc-usage-panel.ui:121
-#, fuzzy
-#| msgid "Cl_ear Recent History"
 msgid "_Clear History…"
-msgstr "清除最近歷史紀錄(_E)"
+msgstr "清除歷史記錄(_C)…"
 
 #: panels/usage/cc-usage-panel.ui:137
-#, fuzzy
-#| msgid "Purge Trash & Temporary Files"
 msgid "Trash & Temporary Files"
-msgstr "清除垃圾桶與暫存檔案"
+msgstr "垃圾及暫存檔"
 
 #: panels/usage/cc-usage-panel.ui:147
 msgid ""
 "Trash and temporary files can sometimes include personal or sensitive "
 "information. Automatically deleting them can help to protect privacy."
-msgstr ""
+msgstr "垃圾及暫存檔有時候可能會有個人或敏感資料。自動刪除會協助保護安全性。"
 
 #: panels/usage/cc-usage-panel.ui:161
-#, fuzzy
-#| msgid "Automatically empty _Trash"
 msgid "Automatically Delete _Trash Content"
-msgstr "自動清空垃圾桶(_T)"
+msgstr "自動刪除垃圾桶的內容(_T)"
 
 #: panels/usage/cc-usage-panel.ui:176
-#, fuzzy
-#| msgid "Automatically purge Temporary _Files"
 msgid "Automatically Delete Temporary _Files"
-msgstr "自動清除暫存檔案(_F)"
+msgstr "自動刪除暫存檔案(_F)"
 
 #: panels/usage/cc-usage-panel.ui:198
-#, fuzzy
-#| msgid "Automatically empty _Trash"
 msgid "Automatically Delete _Period"
-msgstr "自動清空垃圾桶(_T)"
+msgstr "自動刪除週期(_P)"
 
 #: panels/usage/cc-usage-panel.ui:240
 msgid "_Empty Trash…"
 msgstr "清理垃圾桶(_E)…"
 
 #: panels/usage/cc-usage-panel.ui:252
-#, fuzzy
-#| msgid "_Purge Temporary Files…"
 msgid "_Delete Temporary Files…"
-msgstr "清理暫存檔案(_P)…"
+msgstr "刪除暫存檔案(_D)…"
 
 #. Translators: Option for "Purge After" in "Purge Trash & Temporary Files" dialog.
 #: panels/usage/cc-usage-panel.ui:280
@@ -7135,11 +6966,11 @@ msgstr "永遠"
 
 #: panels/usage/gnome-usage-panel.desktop.in.in:3
 msgid "File History & Trash"
-msgstr ""
+msgstr "檔案歷程記錄 & 垃圾"
 
 #: panels/usage/gnome-usage-panel.desktop.in.in:4
 msgid "Don't leave traces"
-msgstr ""
+msgstr "不留下追蹤"
 
 #. FIXME
 #: panels/user-accounts/cc-add-user-dialog.c:34
@@ -8067,10 +7898,8 @@ msgid "Adjust display resolution"
 msgstr "調整顯示解析度"
 
 #: panels/wacom/gnome-wacom-properties.ui:376
-#, fuzzy
-#| msgid "_Detect Displays"
 msgid "Decouple Display"
-msgstr "偵測顯示器(_D)"
+msgstr "去耦顯示器"
 
 #: panels/wacom/gsd-wacom-key-shortcut-button.c:217
 msgid "New shortcut…"

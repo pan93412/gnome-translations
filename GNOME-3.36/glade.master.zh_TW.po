@@ -17,15 +17,15 @@ msgstr ""
 "Project-Id-Version: glade3 3.10.0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/glade/issues\n"
 "POT-Creation-Date: 2020-01-14 04:15+0000\n"
-"PO-Revision-Date: 2019-11-27 23:21+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-21 22:41+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.11.80\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: data/org.gnome.Glade.desktop.in.in:3 data/org.gnome.Glade.appdata.xml.in:6
 #: src/main.c:43 src/glade.glade:202
@@ -448,9 +448,9 @@ msgid ""
 "Copyright © 2001-2006 Joaquin Cuenca Abela, Paolo Borelli, et al.\n"
 "Copyright © 2004-2018 Tristan Van Berkom, Juan Pablo Ugarte, et al."
 msgstr ""
-"版權所有 © 2001-2006 Ximian, Inc.\n"
-"版權所有 © 2001-2006 Joaquin Cuenca Abela、Paolo Borelli 等人\n"
-"版權所有 © 2004-2018 Tristan Van Berkom、Juan Pablo Ugarte 等人"
+"著作權所有 © 2001-2006 Ximian, Inc.\n"
+"著作權所有 © 2001-2006 Joaquin Cuenca Abela、Paolo Borelli 等人\n"
+"著作權所有 © 2004-2018 Tristan Van Berkom、Juan Pablo Ugarte 等人"
 
 #: src/glade.glade:731
 msgid "A user interface designer for GTK+ and GNOME."
@@ -2315,14 +2315,12 @@ msgid ", %s"
 msgstr "、%s"
 
 #: gladeui/glade-project.c:2003
-#, fuzzy, c-format
-#| msgid ""
-#| "Specially because there is an object that can not be build with type "
+#, c-format
 msgid ""
 "Especially because there is %d object that can not be built with type: %s"
 msgid_plural ""
 "Especially because there are %d objects that can not be built with types: %s"
-msgstr[0] "特別是因為有物件不能編譯為這個類型"
+msgstr[0] "尤其是因為有 %d 個物件無法編譯成此種類型：%s"
 
 #: gladeui/glade-project.c:2021
 #, c-format
@@ -2560,10 +2558,8 @@ msgid "Priority information for the property editor to act on"
 msgstr "屬性編輯器行動的優先權資訊"
 
 #: gladeui/glade-property.c:720
-#, fuzzy
-#| msgid "version"
 msgid "Precision"
-msgstr "版本"
+msgstr "精度"
 
 #: gladeui/glade-property.c:721
 msgid "Where applicable, precision to use on editors"
@@ -2988,10 +2984,8 @@ msgid "(unnamed)"
 msgstr "(未命名)"
 
 #: gladeui/glade-widget.c:4882
-#, fuzzy
-#| msgid "Template classes are not supported in gtk+ %d.%d"
 msgid "Template classes are only usable in GTK+ 3.10 and later."
-msgstr "範本類別在 gtk+ %d.%d 中是不支援的"
+msgstr "範本類別只能在 GTK+ 3.10 或之後版本使用。"
 
 #: gladeui/glade-widget.c:4890
 #, c-format
@@ -4537,8 +4531,6 @@ msgid "Proximity In"
 msgstr "鄰近輸入"
 
 #: plugins/gtk+/gtk+.xml:161
-#, fuzzy
-#| msgid "Proximity  Out"
 msgid "Proximity Out"
 msgstr "鄰近輸出"
 
@@ -5048,10 +5040,8 @@ msgid "Superscript text"
 msgstr "上標文字"
 
 #: plugins/gtk+/gtk+.xml:468
-#, fuzzy
-#| msgid "Context"
 msgid "Footnote text"
-msgstr "關聯"
+msgstr "註腳文字"
 
 #: plugins/gtk+/gtk+.xml:470
 msgid "Last Defined"
@@ -6298,16 +6288,12 @@ msgid "Flip Vertically"
 msgstr "垂直翻轉"
 
 #: plugins/gtk+/gtk+.xml:2909
-#, fuzzy
-#| msgid "Horizontal"
 msgid "Slide Horizontally"
-msgstr "水平"
+msgstr "水平滑動"
 
 #: plugins/gtk+/gtk+.xml:2911
-#, fuzzy
-#| msgid "Vertical"
 msgid "Slide Vertically"
-msgstr "垂直"
+msgstr "垂直滑動"
 
 #: plugins/gtk+/gtk+.xml:2913
 msgid "Resize Horizontally"
@@ -6319,11 +6305,11 @@ msgstr "垂直縮放"
 
 #: plugins/gtk+/gtk+.xml:2917
 msgid "Flip Both Sides"
-msgstr ""
+msgstr "翻轉兩側"
 
 #: plugins/gtk+/gtk+.xml:2919
 msgid "Slide Both Sides"
-msgstr ""
+msgstr "滑動兩側"
 
 #: plugins/gtk+/gtk+.xml:2921
 msgid "Resize Both Sides"
@@ -8036,11 +8022,8 @@ msgid "WebKit Web View"
 msgstr "WebKit 網頁檢視"
 
 #: plugins/webkit2gtk/webkit2gtk.xml:21
-#, fuzzy
-#| msgid ""
-#| "Set the currently active page to edit, this property will not be saved"
 msgid "The URL to load in Glade (this property will not be saved)"
-msgstr "設定目前用來編輯的頁面，這個屬性不會被儲存"
+msgstr "要在 Glade 載入的網址（此屬性將不儲存）"
 
 #: plugins/webkit2gtk/webkit2gtk.xml:32
 msgid "WebKit Settings"

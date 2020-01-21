@@ -13,14 +13,14 @@ msgstr ""
 "Project-Id-Version: devhelp 2.91.6\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/devhelp/issues\n"
 "POT-Creation-Date: 2019-12-18 18:00+0000\n"
-"PO-Revision-Date: 2018-06-13 21:32+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-21 17:26+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. Translators: please don't translate "Devhelp" (it's marked as
 #. * translatable for transliteration only).
@@ -51,20 +51,14 @@ msgid ""
 msgstr "此文件必須於本機安裝，所以使用 Devhelp 不需要網路連線。"
 
 #: data/org.gnome.Devhelp.appdata.xml.in:18
-#, fuzzy
-#| msgid ""
-#| "Devhelp works natively with GTK-Doc, so the GTK+ and GNOME libraries are "
-#| "well supported. But other development platforms can be supported as well, "
-#| "as long as the API documentation is available in HTML and a *.devhelp2 "
-#| "index file is generated."
 msgid ""
 "Devhelp works natively with GTK-Doc, so the GTK and GNOME libraries are well "
 "supported. But other development platforms can be supported as well, as long "
 "as the API documentation is available in HTML and a *.devhelp2 index file is "
 "generated."
 msgstr ""
-"Devhelp 原生與 GTK-Doc 運作，所以 GTK+ 與 GNOME 函式庫得到了良好的支援。而其"
-"他的開發平台同樣也能取得很好的支援，只需要讓 API 文件支援 HTML 並建立 *."
+"Devhelp 原生與 GTK-Doc 運作，所以 GTK 與 GNOME 函式庫得到了良好的支援。而其他"
+"的開發平台同樣也能取得很好的支援，只需要讓 API 文件支援 HTML 並建立 *."
 "devhelp2 索引檔案。"
 
 #: data/org.gnome.Devhelp.appdata.xml.in:24

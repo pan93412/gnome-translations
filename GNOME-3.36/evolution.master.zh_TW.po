@@ -12,14 +12,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/evolution/issues\n"
 "POT-Creation-Date: 2020-01-20 11:56+0000\n"
-"PO-Revision-Date: 2019-11-27 22:37+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-21 18:56+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.11.80\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Pootle-Path: /zh_TW/gnome/evolution/zh_TW.po\n"
 "X-Pootle-Revision: 239\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -24318,22 +24318,20 @@ msgstr "是否要將 Evolution 設為您的預設電子郵件客戶端？"
 #. Translators: First %s is an email address, second %s
 #. * is the subject of the email, third %s is the date.
 #: ../src/modules/mdn/evolution-mdn.c:308
-#, fuzzy, c-format
-#| msgid "Your message to %s about “%s” on %s has been read."
+#, c-format
 msgid ""
 "Your message to %s about “%s” on %s has been displayed. This is no guarantee "
 "that the message has been read or understood."
-msgstr "您寄給 %s 主旨「%s」 (%s) 的郵件已被閱讀。"
+msgstr ""
+"您寄給 %s 主旨「%s」 (%s) 的郵件已被閱讀。沒有對於訊息已讀或知悉的擔保。"
 
 #. Translators: %s is the subject of the email message This text is used as
 #. a subject of a delivery notification email (basically a notification, that
 #. the user did read (or better displayed) the message).
 #: ../src/modules/mdn/evolution-mdn.c:376
-#, fuzzy, c-format
-#| msgctxt "reply-attribution"
-#| msgid "Re: %s"
+#, c-format
 msgid "Read: %s"
-msgstr "Re: %s"
+msgstr "已讀：%s"
 
 #: ../src/modules/mdn/evolution-mdn.c:542
 #, c-format

@@ -559,7 +559,7 @@ msgid ""
 "to remotely access other computers, using SPICE, VNC, RDP or Secure Shell "
 "connections."
 msgstr ""
-"Boxes 讓安裝並執行虛擬機器變得簡單。您亦可用來使用 SPICE、VNC、RDP 或 SSH 連"
+"Boxes 讓安裝並執行虛擬機器變得簡單。您亦可使用 SPICE、VNC、RDP 或 SSH 連"
 "線遠端存取其他電腦"
 
 #: data/ui/welcome-tutorial.ui:41

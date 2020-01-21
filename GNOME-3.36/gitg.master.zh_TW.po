@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gitg master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gitg/issues\n"
 "POT-Creation-Date: 2019-11-27 14:27+0000\n"
-"PO-Revision-Date: 2020-01-21 19:04+0800\n"
+"PO-Revision-Date: 2020-01-21 22:39+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -123,7 +123,7 @@ msgid ""
 "named in the “Editor Font” option will be used instead of the system font."
 msgstr ""
 "是否在元件文字使用系統預設等寬字型，而非指定字型。如果選項關閉，則會使用「編"
-"輯字型」選項中的字型名稱，而非系統字型。"
+"輯器字型」選項中的字型名稱，而非系統字型。"
 
 #. Translators: This is a GSettings default value. Do NOT change or localize the quotation marks!
 #: data/org.gnome.gitg.gschema.xml.in:56
@@ -1349,7 +1349,7 @@ msgstr "提交"
 #: gitg/preferences/gitg-preferences-interface.vala:142
 #, c-format
 msgid "_Use the system fixed width font (%s)"
-msgstr "使用系統的固定寬度字型 (%s)(_U)"
+msgstr "使用系統的等寬字型 (%s)(_U)"
 
 #: gitg/preferences/gitg-preferences-interface.vala:179
 msgid "Interface"
@@ -1722,7 +1722,7 @@ msgstr "變更成提交檢視"
 #: gitg/resources/ui/gitg-shortcuts.ui:96
 msgctxt "shortcut window"
 msgid "Change to activity"
-msgstr "變更至活動"
+msgstr "變更成活動"
 
 #: gitg/resources/ui/gitg-shortcuts.ui:104
 msgctxt "shortcut window"
@@ -1777,12 +1777,12 @@ msgstr "取消提交"
 #: gitg/resources/ui/gitg-shortcuts.ui:171
 msgctxt "shortcut window"
 msgid "Previous commit message"
-msgstr "上個提交訊息"
+msgstr "上一個提交訊息"
 
 #: gitg/resources/ui/gitg-shortcuts.ui:178
 msgctxt "shortcut window"
 msgid "Next commit message"
-msgstr "下個提交訊息"
+msgstr "下一個提交訊息"
 
 #: gitg/resources/ui/gitg-window.ui:24
 msgid "Show the list of recently used repositories"

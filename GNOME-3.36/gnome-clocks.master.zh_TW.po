@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: gnome-clocks master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-clocks/issues\n"
 "POT-Creation-Date: 2020-01-02 23:31+0000\n"
-"PO-Revision-Date: 2019-02-17 23:19+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-21 23:25+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: data/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
@@ -284,17 +284,15 @@ msgstr "關於時鐘(_A)"
 
 #: data/ui/headerbar.ui:158
 msgid "Back"
-msgstr ""
+msgstr "返回"
 
 #: data/ui/headerbar.ui:195
 msgid "Menu"
-msgstr ""
+msgstr "選單"
 
 #: data/ui/headerbar.ui:248
-#, fuzzy
-#| msgid "Select All"
 msgid "Select"
-msgstr "全選"
+msgstr "選取"
 
 #: data/ui/stopwatch.ui:54 data/ui/timer.ui:197 src/stopwatch.vala:224
 msgid "Start"
@@ -313,8 +311,6 @@ msgid "World"
 msgstr "世界"
 
 #: data/ui/window.ui:49
-#, fuzzy
-#| msgid "Alarm"
 msgid "Alarms"
 msgstr "鬧鐘"
 
@@ -369,10 +365,8 @@ msgstr "繼續"
 
 #. Translators: Tooltip for the + button
 #: src/timer.vala:82
-#, fuzzy
-#| msgid "Timer"
 msgid "New Timer"
-msgstr "計時器"
+msgstr "新增計時器"
 
 #: src/timer.vala:138
 msgid "Time is up!"
@@ -447,7 +441,9 @@ msgstr "協助您時間方面的工具。"
 
 #: src/window.vala:301
 msgid "translator-credits"
-msgstr "Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2012"
+msgstr ""
+"Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2012\n"
+"Yi-Jyun Pan <pan93412@gmail.com>, 2020"
 
 #. If it is Jan 1st there, and not Jan 2nd here, then it must be
 #. Dec 31st here, so return "tomorrow"
@@ -464,7 +460,7 @@ msgstr "昨天"
 #. Translators: Tooltip for the + button
 #: src/world.vala:349
 msgid "Add Location"
-msgstr ""
+msgstr "加入位置"
 
 #~ msgid "@icon@"
 #~ msgstr "@icon@"

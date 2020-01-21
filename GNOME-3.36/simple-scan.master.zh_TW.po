@@ -1,0 +1,1243 @@
+# Chinese (Traditional) translation for simple-scan
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the simple-scan package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+# pan93412 <pan93412@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: simple-scan\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/simple-scan/issues\n"
+"POT-Creation-Date: 2020-01-20 22:13+0000\n"
+"PO-Revision-Date: 2019-10-08 19:46+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-04-25 06:10+0000\n"
+"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/org.gnome.SimpleScan.gschema.xml:11
+msgid "Device to scan from"
+msgstr "裝置掃描來源"
+
+#: data/org.gnome.SimpleScan.gschema.xml:12
+msgid "SANE device to acquire images from."
+msgstr "取得影像用的 SANE 裝置。"
+
+#: data/org.gnome.SimpleScan.gschema.xml:20
+msgid "Type of document being scanned"
+msgstr "掃描中文件的類型"
+
+#: data/org.gnome.SimpleScan.gschema.xml:21
+msgid ""
+"Type of document being scanned. This setting decides on the scan resolution, "
+"colors and post-processing."
+msgstr "掃描中文件的類型。這個設定值決定掃描的解析度、色彩、後製處理。"
+
+#: data/org.gnome.SimpleScan.gschema.xml:25
+msgid "Width of paper in tenths of a mm"
+msgstr "以 0.1 mm 為單位的紙張寬度"
+
+#: data/org.gnome.SimpleScan.gschema.xml:26
+msgid ""
+"The width of the paper in tenths of a mm (or 0 for automatic paper "
+"detection)."
+msgstr "以 0.1 mm 為單位的紙張寬度 (或 0 以作為自動紙張偵測)。"
+
+#: data/org.gnome.SimpleScan.gschema.xml:30
+msgid "Height of paper in tenths of a mm"
+msgstr "以 0.1 mm 為單位的紙張高度"
+
+#: data/org.gnome.SimpleScan.gschema.xml:31
+msgid ""
+"The height of the paper in tenths of a mm (or 0 for automatic paper "
+"detection)."
+msgstr "以 0.1 mm 為單位的紙張高度 (或 0 以作為自動紙張偵測)。"
+
+#: data/org.gnome.SimpleScan.gschema.xml:35
+msgid "Brightness of scan"
+msgstr "掃描亮度"
+
+#: data/org.gnome.SimpleScan.gschema.xml:36
+msgid "The brightness adjustment from -100 to 100 (0 being none)."
+msgstr "調整亮度，由 -100 至 100 (0 代表無)。"
+
+#: data/org.gnome.SimpleScan.gschema.xml:40
+msgid "Contrast of scan"
+msgstr "掃描反差"
+
+#: data/org.gnome.SimpleScan.gschema.xml:41
+msgid "The contrast adjustment from -100 to 100 (0 being none)."
+msgstr "調整反差，由 -100 至 100 (0 代表無)。"
+
+#: data/org.gnome.SimpleScan.gschema.xml:45
+msgid "Resolution for text scans"
+msgstr "文字掃描的解析度"
+
+#: data/org.gnome.SimpleScan.gschema.xml:46
+msgid "The resolution in dots-per-inch to use when scanning text."
+msgstr "當掃描文字時使用的解析度，單位為 dpi。"
+
+#: data/org.gnome.SimpleScan.gschema.xml:50
+#, fuzzy
+#| msgid "Resolution for text scans"
+msgid "Resolution for image scans"
+msgstr "文字掃描的解析度"
+
+#: data/org.gnome.SimpleScan.gschema.xml:51
+#, fuzzy
+#| msgid "The resolution in dots-per-inch to use when scanning text."
+msgid "The resolution in dots-per-inch to use when scanning images."
+msgstr "當掃描文字時使用的解析度，單位為 dpi。"
+
+#: data/org.gnome.SimpleScan.gschema.xml:55
+msgid "Page side to scan"
+msgstr "要掃描的頁面"
+
+#: data/org.gnome.SimpleScan.gschema.xml:56
+msgid "The page side to scan."
+msgstr "要掃描的頁面。"
+
+#: data/org.gnome.SimpleScan.gschema.xml:60
+msgid "Directory to save files to"
+msgstr "儲存檔案的目錄"
+
+#: data/org.gnome.SimpleScan.gschema.xml:61
+msgid ""
+"The directory to save files to. Defaults to the documents directory if unset."
+msgstr "儲存檔案到何目錄。如果沒有預設值的話，設值會是「文件」目錄。"
+
+#: data/org.gnome.SimpleScan.gschema.xml:66
+msgid "Quality value to use for JPEG compression"
+msgstr "JPEG 壓縮品質"
+
+#: data/org.gnome.SimpleScan.gschema.xml:67
+msgid "Quality value to use for JPEG compression."
+msgstr "JPEG 壓縮品質。"
+
+#: data/org.gnome.SimpleScan.gschema.xml:72
+msgid "Delay in millisecond between pages"
+msgstr "每頁之間的延遲毫秒"
+
+#: data/org.gnome.SimpleScan.gschema.xml:73
+msgid "Delay in millisecond between pages."
+msgstr "每頁之間的延遲毫秒數。"
+
+#. Title of scan window
+#. Set HeaderBar title here because Glade doesn't keep it translated
+#. https://bugzilla.gnome.org/show_bug.cgi?id=782753
+#. Title of scan window
+#: data/simple-scan.appdata.xml.in:6 data/simple-scan.desktop.in:3
+#: src/app-window.ui:498 src/app-window.vala:1475 src/app-window.vala:1729
+msgid "Document Scanner"
+msgstr "文件掃描"
+
+#: data/simple-scan.appdata.xml.in:7 data/simple-scan.desktop.in:4
+msgid "Scan Documents"
+msgstr "掃描文件"
+
+#: data/simple-scan.appdata.xml.in:9
+#, fuzzy
+#| msgid ""
+#| "A really easy way to scan both documents and photos. You can crop out the "
+#| "bad parts of a photo and rotate it if it is the wrong way round. You can "
+#| "print your scans, export them to pdf, or save them in a range of image "
+#| "formats."
+msgid ""
+"A really easy way to scan both text and images. You can crop out the bad "
+"parts of an image and rotate it if it is the wrong way round. You can print "
+"your scans, export them to pdf, or save them in a range of image formats."
+msgstr ""
+"您能輕易地掃描文件和相片。您可以裁剪相片的不良部分並將之旋轉至正確角度。您可"
+"以列印您的掃描檔，將掃描檔匯出成 pdf，或儲存為多種圖像檔案格式。"
+
+#: data/simple-scan.appdata.xml.in:14
+msgid "This app uses the SANE framework to support most existing scanners."
+msgstr "這個應用程式使用 SANE 框架以支援大部分現存掃描器。"
+
+#: data/simple-scan.appdata.xml.in:24
+msgid "The GNOME Project"
+msgstr "GNOME 專案"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/simple-scan.desktop.in:6
+msgid "scan;scanner;flatbed;adf;"
+msgstr "scan;scanner;flatbed;adf;"
+
+#. Menu item to rotate page to left (anti-clockwise)
+#: src/app-window.ui:12
+msgid "Rotate _Left"
+msgstr "向左旋轉(_L)"
+
+#. Menu item to rotate page to right (clockwise)
+#: src/app-window.ui:22
+msgid "Rotate _Right"
+msgstr "向右旋轉(_R)"
+
+#. Label for page crop submenu
+#: src/app-window.ui:32
+msgid "_Crop"
+msgstr "裁切(_C)"
+
+#. Radio button for no crop
+#: src/app-window.ui:42
+msgid "_None"
+msgstr "無(_N)"
+
+#. Radio button for cropping page to A4 size
+#: src/app-window.ui:53
+msgid "A_4"
+msgstr "A_4"
+
+#. Radio button for cropping page to A5 size
+#: src/app-window.ui:64
+msgid "A_5"
+msgstr "A_5"
+
+#. Radio button for cropping page to A6 size
+#: src/app-window.ui:75
+msgid "A_6"
+msgstr "A_6"
+
+#. Radio button for cropping page to US letter size
+#: src/app-window.ui:86
+msgid "_Letter"
+msgstr "美規信紙(_Letter)"
+
+#. Radio button for cropping to page to US legal size
+#: src/app-window.ui:97
+msgid "Le_gal"
+msgstr "美規長信紙(Le_gal)"
+
+#. Radio button for cropping page to 4x6 inch
+#: src/app-window.ui:108
+msgid "4×6"
+msgstr "4×6"
+
+#. Radio button for cropping page to A3
+#: src/app-window.ui:119
+msgid "A_3"
+msgstr "A_3"
+
+#. Radio button for cropping to custom page size
+#: src/app-window.ui:130
+msgid "_Custom"
+msgstr "自訂(_C)"
+
+#. Menu item to rotate the crop area
+#: src/app-window.ui:148
+msgid "_Rotate Crop"
+msgstr "旋轉裁切區域(_R)"
+
+#. Menu item to move the selected page to the left
+#: src/app-window.ui:161
+msgid "Move Left"
+msgstr "左移"
+
+#. Menu item to move the selected page to the right
+#: src/app-window.ui:170
+msgid "Move Right"
+msgstr "右移"
+
+#: src/app-window.ui:252
+msgid "_Single Page"
+msgstr "單頁(_S)"
+
+#: src/app-window.ui:303
+msgid "All Pages From _Feeder"
+msgstr "從饋紙器掃描所有頁面(_F)"
+
+#: src/app-window.ui:354
+msgid "_Multiple Pages From Flatbed"
+msgstr "從平臺多頁掃描(_M)"
+
+#: src/app-window.ui:405
+msgid "_Text"
+msgstr "文字(_T)"
+
+#: src/app-window.ui:456
+msgid "_Image"
+msgstr "圖片(_I)"
+
+#: src/app-window.ui:476
+#, fuzzy
+#| msgid "Preferences"
+msgid "_Preferences"
+msgstr "偏好設定"
+
+#. Tooltip for stop button
+#: src/app-window.ui:516
+msgid "Stop the current scan"
+msgstr "停止目前的掃描"
+
+#: src/app-window.ui:540
+msgid "S_top"
+msgstr ""
+
+#. Tooltip for scan toolbar button
+#: src/app-window.ui:569
+msgid "Scan a single page from the scanner"
+msgstr "從掃描器掃描單一頁面"
+
+#: src/app-window.ui:594
+#, fuzzy
+#| msgid "Scan"
+msgid "_Scan"
+msgstr "掃描"
+
+#. Tooltip for save toolbar button
+#: src/app-window.ui:696
+msgid "Save document to a file"
+msgstr "將文件儲存至檔案"
+
+#: src/app-window.vala:220 src/app-window.vala:1562
+msgid "_Close"
+msgstr "關閉(_C)"
+
+#. Label in authorization dialog.  “%s” is replaced with the name of the resource requesting authorization
+#: src/app-window.vala:229
+#, c-format
+msgid "Username and password required to access “%s”"
+msgstr "若要存取「%s」則必須提供使用者名稱與密碼"
+
+#. Label shown when searching for scanners
+#: src/app-window.vala:245
+msgid "Searching for Scanners…"
+msgstr "正在搜尋掃描器…"
+
+#. Label shown when detected a scanner
+#: src/app-window.vala:252
+msgid "Ready to Scan"
+msgstr "準備掃描"
+
+#. Warning displayed when no drivers are installed but a compatible scanner is detected
+#: src/app-window.vala:260
+msgid "Additional software needed"
+msgstr "需要額外軟體"
+
+#. Instructions to install driver software
+#: src/app-window.vala:262
+msgid ""
+"You need to <a href=\"install-firmware\">install driver software</a> for "
+"your scanner."
+msgstr "您需要為您的掃描器<a href=\"install-firmware\">安裝驅動程式</a>。"
+
+#. Warning displayed when no scanners are detected
+#: src/app-window.vala:269
+msgid "No scanners detected"
+msgstr "沒有偵測到掃描器"
+
+#. Hint to user on why there are no scanners detected
+#: src/app-window.vala:271
+msgid "Please check your scanner is connected and powered on"
+msgstr "請檢查您的掃描器是否連接，並且是否開啟電源"
+
+#. Contents of dialog that shows if autosaved book should be loaded.
+#: src/app-window.vala:373
+#, fuzzy
+#| msgid "A file named “%s” already exists.  Do you want to replace it?"
+msgid "An autosaved book exists. Do you want to open it?"
+msgstr "「%s」檔名已經存在。您是否希望取代該檔案？"
+
+#. Save dialog: Dialog title
+#: src/app-window.vala:447
+msgid "Save As…"
+msgstr "另存為…"
+
+#: src/app-window.vala:450 src/app-window.vala:704
+msgid "_Save"
+msgstr "儲存(_S)"
+
+#: src/app-window.vala:451 src/app-window.vala:619 src/app-window.vala:703
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#. Default filename to use when saving document
+#: src/app-window.vala:458
+msgid "Scanned Document.pdf"
+msgstr "掃描的文件.pdf"
+
+#. Save dialog: Filter name to show only supported image files
+#: src/app-window.vala:464
+msgid "Image Files"
+msgstr "影像檔"
+
+#. Save dialog: Filter name to show all files
+#: src/app-window.vala:474
+msgid "All Files"
+msgstr "所有檔案"
+
+#. Save dialog: Label for saving in PDF format
+#: src/app-window.vala:483
+msgid "PDF (multi-page document)"
+msgstr "PDF（多頁文件）"
+
+#. Save dialog: Label for saving in JPEG format
+#: src/app-window.vala:489
+msgid "JPEG (compressed)"
+msgstr "JPEG（壓縮）"
+
+#. Save dialog: Label for saving in PNG format
+#: src/app-window.vala:495
+msgid "PNG (lossless)"
+msgstr "PNG（無損）"
+
+#. Save dialog: Label for sabing in WEBP format
+#: src/app-window.vala:502
+msgid "WebP (compressed)"
+msgstr "WebP（壓縮）"
+
+#. Label in save dialog beside combo box to choose file format (PDF, JPEG, PNG, WEBP)
+#: src/app-window.vala:512
+msgid "File format:"
+msgstr "檔案格式："
+
+#. Label in save dialog beside compression slider
+#: src/app-window.vala:524
+msgid "Compression:"
+msgstr "壓縮："
+
+#. Contents of dialog that shows if saving would overwrite and existing file. %s is replaced with the name of the file.
+#: src/app-window.vala:618
+#, c-format
+msgid "A file named “%s” already exists.  Do you want to replace it?"
+msgstr "「%s」檔名已經存在。您是否希望取代該檔案？"
+
+#. Button in dialog that shows if saving would overwrite and existing file. Clicking the button allows simple-scan to overwrite the file.
+#: src/app-window.vala:621
+msgid "_Replace"
+msgstr "取代(_R)"
+
+#: src/app-window.vala:660
+msgid "Saving"
+msgstr "儲存"
+
+#. Title of error dialog when save failed
+#: src/app-window.vala:677
+msgid "Failed to save file"
+msgstr "儲存檔案失敗"
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:701
+msgid "If you don’t save, changes will be permanently lost."
+msgstr "如果您不儲存，所做變更將會永遠失去。"
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:737
+msgid "Save current document?"
+msgstr "是否儲存目前文件？"
+
+#. Button in dialog to create new document and discard unsaved document
+#: src/app-window.vala:739
+msgid "Discard Changes"
+msgstr "放棄變更"
+
+#. Label shown when scan started
+#: src/app-window.vala:771
+msgid "Contacting scanner…"
+msgstr "正在聯絡掃描器…"
+
+#. Error message display when unable to save image for preview
+#: src/app-window.vala:1009
+msgid "Unable to save image for preview"
+msgstr "無法儲存影像以供預覽"
+
+#. Error message display when unable to preview image
+#: src/app-window.vala:1021
+msgid "Unable to open image preview application"
+msgstr "無法開啟影像預覽應用程式"
+
+#. Title of dialog to reorder pages
+#: src/app-window.vala:1183
+msgctxt "dialog title"
+msgid "Reorder Pages"
+msgstr "重新排列頁面"
+
+#. Label on button for combining sides in reordering dialog
+#: src/app-window.vala:1206
+msgid "Combine sides"
+msgstr "合併邊緣"
+
+#. Label on button for combining sides in reverse order in reordering dialog
+#: src/app-window.vala:1216
+msgid "Combine sides (reverse)"
+msgstr "合併邊緣 (相反次序)"
+
+#. Label on button for reversing in reordering dialog
+#: src/app-window.vala:1226
+msgid "Reverse"
+msgstr "反轉"
+
+#. Label on button for cancelling page reordering dialog
+#: src/app-window.vala:1236
+msgid "Keep unchanged"
+msgstr "維持不變"
+
+#. Error message displayed when unable to launch help browser
+#: src/app-window.vala:1450
+msgid "Unable to open help file"
+msgstr "無法開啟幫助文件檔案"
+
+#. The license this software is under (GPL3+)
+#: src/app-window.vala:1465
+msgid ""
+"This program is free software: you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation, either version 3 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"本程式為自由軟體；您可依據自由軟體基金會所發表的 GNU 通用公眾授權條款，對本程"
+"式再次發佈和/或修改；無論您依據的是本授權的第三版，或（依您的選擇而定）任何較"
+"新的版本。\n"
+"\n"
+"本程式發佈的目的是希望它有用，然而沒有任何保證；亦無對適售性或特定目的適用性"
+"所為的暗示性保證。詳情請參照 GNU 通用公眾授權。\n"
+"\n"
+"您應已收到附隨於本程式的 GNU 通用公眾授權的副本；如果沒有，請參照 <http://"
+"www.gnu.org/licenses/>。"
+
+#. Title of about dialog
+#: src/app-window.vala:1468 src/app-window.vala:1756
+msgid "About Document Scanner"
+msgstr "關於文件掃描"
+
+#. Description of program
+#: src/app-window.vala:1471
+msgid "Simple document scanning tool"
+msgstr "簡易文件掃描工具"
+
+#: src/app-window.vala:1480
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Cheng-Chia Tseng https://launchpad.net/~zerng07\n"
+"  Chien-Hao Wu https://launchpad.net/~pinychwu\n"
+"  Robert Ancell https://launchpad.net/~robert-ancell\n"
+"  Roy Chan https://launchpad.net/~roy-chan-linux\n"
+"  Walter Cheuk https://launchpad.net/~wwycheuk\n"
+"  Yu - Sian , Liu https://launchpad.net/~thomasysliu\n"
+"  nckuhuahua https://launchpad.net/~nckuhuahua\n"
+"  tomoe_musashi https://launchpad.net/~musashi"
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:1496
+msgid "Save document before quitting?"
+msgstr "在結束前要儲存文件嗎？"
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:1498
+msgid "Quit without Saving"
+msgstr "直接退出而不儲存"
+
+#. Message to indicate a Brother scanner has been detected
+#: src/app-window.vala:1539
+msgid "You appear to have a Brother scanner."
+msgstr "您似乎有一台 Brother 掃描器。"
+
+#. Instructions on how to install Brother scanner drivers
+#: src/app-window.vala:1541
+msgid ""
+"Drivers for this are available on the <a href=\"http://support.brother.com"
+"\">Brother website</a>."
+msgstr ""
+"您可以在這裡找到這台掃描器的驅動程式：<a href=\"http://support.brother.com"
+"\">Brother 網站</a>。"
+
+#. Message to indicate a Samsung scanner has been detected
+#: src/app-window.vala:1545
+msgid "You appear to have a Samsung scanner."
+msgstr "您似乎有一台 Samsung 掃描器。"
+
+#. Instructions on how to install Samsung scanner drivers
+#: src/app-window.vala:1547
+msgid ""
+"Drivers for this are available on the <a href=\"http://samsung.com/support"
+"\">Samsung website</a>."
+msgstr ""
+"您可以在這裡找到這台掃描器的驅動程式：<a href=\"http://samsung.com/support"
+"\">Samsung 網站</a>。"
+
+#. Message to indicate a HP scanner has been detected
+#: src/app-window.vala:1551
+msgid "You appear to have an HP scanner."
+msgstr "您似乎有一台 HP 掃描器。"
+
+#. Message to indicate an Epson scanner has been detected
+#: src/app-window.vala:1556
+msgid "You appear to have an Epson scanner."
+msgstr "您似乎有一台 Epson 掃描器。"
+
+#. Instructions on how to install Epson scanner drivers
+#: src/app-window.vala:1558
+msgid ""
+"Drivers for this are available on the <a href=\"http://support.epson.com"
+"\">Epson website</a>."
+msgstr ""
+"此裝置的驅動程式可以在 <a href=\"http://support.epson.com\">Epson 網站</a> 上"
+"找到。"
+
+#. Title of dialog giving instructions on how to install drivers
+#: src/app-window.vala:1562
+msgid "Install drivers"
+msgstr "安裝驅動程式"
+
+#. Message in driver install dialog
+#: src/app-window.vala:1595
+msgid "Once installed you will need to restart this app."
+msgstr "一旦安裝，您將需要重新啟動此應用程式。"
+
+#. Label shown while installing drivers
+#: src/app-window.vala:1608
+msgid "Installing drivers…"
+msgstr "正在安裝驅動程式..."
+
+#. Label shown once drivers successfully installed
+#: src/app-window.vala:1616
+msgid "Drivers installed successfully!"
+msgstr "成功安裝驅動程式！"
+
+#. Label shown if failed to install drivers
+#: src/app-window.vala:1626
+#, c-format
+msgid "Failed to install drivers (error code %d)."
+msgstr "驅動程式安裝失敗 (錯誤碼 %d)。"
+
+#. Label shown if failed to install drivers
+#: src/app-window.vala:1632
+msgid "Failed to install drivers."
+msgstr "驅動程式安裝失敗。"
+
+#. Label shown to prompt user to install packages (when PackageKit not available)
+#: src/app-window.vala:1639
+#, c-format
+msgid "You need to install the %s package."
+msgid_plural "You need to install the %s packages."
+msgstr[0] "您得先安裝 %s 軟體包。"
+
+#: src/app-window.vala:1748
+msgid "Email"
+msgstr "電子郵件"
+
+#: src/app-window.vala:1749
+#, fuzzy
+#| msgid "Print..."
+msgid "Print"
+msgstr "列印..."
+
+#: src/app-window.vala:1750
+msgctxt "menu"
+msgid "Reorder Pages"
+msgstr "重新排列頁面"
+
+#. Title of preferences dialog
+#: src/app-window.vala:1751 src/preferences-dialog.ui:44
+msgid "Preferences"
+msgstr "偏好設定"
+
+#: src/app-window.vala:1754
+msgid "Keyboard Shortcuts"
+msgstr "鍵盤捷徑鍵"
+
+#: src/app-window.vala:1755
+msgid "Help"
+msgstr "求助"
+
+#. Populate ActionBar (not supported in Glade)
+#. https://bugzilla.gnome.org/show_bug.cgi?id=769966
+#. Label on new document button
+#: src/app-window.vala:1764
+msgid "Start Again…"
+msgstr "再次開始…"
+
+#. Tooltip for rotate left (counter-clockwise) button
+#: src/app-window.vala:1783
+msgid "Rotate the page to the left (counter-clockwise)"
+msgstr "將頁面向左旋轉 (逆時針方向)"
+
+#. Tooltip for rotate right (clockwise) button
+#: src/app-window.vala:1792
+msgid "Rotate the page to the right (clockwise)"
+msgstr "將頁面向右旋轉 (順時針方向)"
+
+#. Tooltip for crop button
+#: src/app-window.vala:1804
+msgid "Crop the selected page"
+msgstr "裁切所選的頁面"
+
+#. Tooltip for delete button
+#: src/app-window.vala:1822
+msgid "Delete the selected page"
+msgstr "刪除所選頁面"
+
+#. Text of button for cancelling save
+#: src/app-window.vala:1996
+msgid "Cancel"
+msgstr "取消"
+
+#. Button to submit authorization dialog
+#: src/authorize-dialog.ui:22
+msgid "_Authorize"
+msgstr "授權(_A)"
+
+#. Label beside username entry
+#: src/authorize-dialog.ui:80
+msgid "_Username for resource:"
+msgstr "資源的使用者名稱(_U)："
+
+#. Label beside password entry
+#: src/authorize-dialog.ui:92
+msgid "_Password:"
+msgstr "密碼(_P)："
+
+#: src/book.vala:331 src/book.vala:337
+#, c-format
+msgid "Unable to encode page %i"
+msgstr "無法編碼頁面 %i"
+
+#: src/help-overlay.ui:12
+msgctxt "shortcut window"
+msgid "Scanning"
+msgstr "掃描"
+
+#: src/help-overlay.ui:17
+msgctxt "shortcut window"
+msgid "Scan a single page"
+msgstr "掃描單一頁面"
+
+#: src/help-overlay.ui:24
+msgctxt "shortcut window"
+msgid "Scan all pages from document feeder"
+msgstr "從饋紙器掃描所有頁面"
+
+#: src/help-overlay.ui:31
+msgctxt "shortcut window"
+msgid "Scan continuously from a flatbed scanner"
+msgstr "從平臺式掃描器連續掃描"
+
+#: src/help-overlay.ui:38
+msgctxt "shortcut window"
+msgid "Stop scan in progress"
+msgstr "停止進行中的掃描"
+
+#: src/help-overlay.ui:46
+msgctxt "shortcut window"
+msgid "Document Modification"
+msgstr "文件修改"
+
+#: src/help-overlay.ui:51
+msgctxt "shortcut window"
+msgid "Move page left"
+msgstr "頁面左移"
+
+#: src/help-overlay.ui:58
+msgctxt "shortcut window"
+msgid "Move page right"
+msgstr "頁面右移"
+
+#: src/help-overlay.ui:65
+msgctxt "shortcut window"
+msgid "Rotate page to the left (anti-clockwise)"
+msgstr "將頁面向左旋轉（逆時針方向）"
+
+#: src/help-overlay.ui:72
+msgctxt "shortcut window"
+msgid "Rotate page to the right (clockwise)"
+msgstr "將頁面向右旋轉（順時針方向）"
+
+#: src/help-overlay.ui:79
+msgctxt "shortcut window"
+msgid "Delete page"
+msgstr "刪除頁面裁切所選的頁面"
+
+#: src/help-overlay.ui:87
+msgctxt "shortcut window"
+msgid "Document Management"
+msgstr "文件管理"
+
+#: src/help-overlay.ui:92
+msgctxt "shortcut window"
+msgid "Start new document"
+msgstr "起始新文件"
+
+#: src/help-overlay.ui:99
+msgctxt "shortcut window"
+msgid "Save scanned document"
+msgstr "儲存掃描的文件"
+
+#: src/help-overlay.ui:106
+msgctxt "shortcut window"
+msgid "Email scanned document"
+msgstr "寄送掃描的文件"
+
+#: src/help-overlay.ui:113
+msgctxt "shortcut window"
+msgid "Print scanned document"
+msgstr "列印掃描的文件"
+
+#: src/help-overlay.ui:120
+msgctxt "shortcut window"
+msgid "Copy current page to clipboard"
+msgstr "複製目前頁面到剪貼簿中"
+
+#: src/help-overlay.ui:128
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: src/help-overlay.ui:133
+msgctxt "shortcut window"
+msgid "Show help"
+msgstr ""
+
+#: src/help-overlay.ui:140
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgctxt "shortcut window"
+msgid "Keyboard shortcuts"
+msgstr "鍵盤捷徑鍵"
+
+#: src/help-overlay.ui:147
+#, fuzzy
+#| msgid "Quit"
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "結束"
+
+#. Label beside scan side combo box
+#: src/preferences-dialog.ui:72
+#, fuzzy
+#| msgid "Scan Sides"
+msgid "Scan _Sides"
+msgstr "掃描面"
+
+#. Label beside page size combo box
+#: src/preferences-dialog.ui:88
+#, fuzzy
+#| msgid "Page Size"
+msgid "_Page Size"
+msgstr "頁面大小"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:118
+msgid "Front"
+msgstr "正面"
+
+#. Preferences Dialog: Toggle button to select scanning on the back side of a page
+#: src/preferences-dialog.ui:128
+msgid "Back"
+msgstr "背面"
+
+#. Preferences Dialog: Toggle button to select scanning on both sides of a page
+#: src/preferences-dialog.ui:138
+msgid "Both"
+msgstr "雙面"
+
+#. Label beside page delay scale
+#: src/preferences-dialog.ui:165
+#, fuzzy
+#| msgid "Delay"
+msgid "_Delay"
+msgstr "延遲"
+
+#. Preferences dialog: Label above settings for scanning multiple pages from a flatbed
+#: src/preferences-dialog.ui:181
+msgid "Multiple pages from flatbed"
+msgstr "從平臺多頁掃描"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:199
+msgid "3"
+msgstr "3"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:209
+msgid "5"
+msgstr "5"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:220
+msgid "7"
+msgstr "7"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:231
+msgid "10"
+msgstr "10"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:242
+msgid "15"
+msgstr "15"
+
+#. Label after page delay radio buttons
+#: src/preferences-dialog.ui:263
+msgid "Seconds"
+msgstr "秒"
+
+#. Preferences Dialog: Tab label for scanning settings
+#: src/preferences-dialog.ui:285
+#, fuzzy
+#| msgid "Scanning"
+msgid "_Scanning"
+msgstr "掃描"
+
+#. Label beside scan resolution combo box
+#: src/preferences-dialog.ui:306
+msgid "_Text Resolution"
+msgstr "文字解析度(_T)"
+
+#. Label beside scan resolution combo box
+#: src/preferences-dialog.ui:322
+#, fuzzy
+#| msgid "_Text Resolution"
+msgid "_Image Resolution"
+msgstr "文字解析度(_T)"
+
+#. Label beside brightness scale
+#: src/preferences-dialog.ui:367
+#, fuzzy
+#| msgid "Brightness"
+msgid "_Brightness"
+msgstr "亮度"
+
+#. Label beside contrast scale
+#: src/preferences-dialog.ui:383
+#, fuzzy
+#| msgid "Contrast"
+msgid "_Contrast"
+msgstr "對比"
+
+#. Preferences Dialog: Tab for quality settings
+#: src/preferences-dialog.ui:432
+#, fuzzy
+#| msgid "Quality"
+msgid "_Quality"
+msgstr "品質"
+
+#. Combo box value for automatic paper size
+#: src/preferences-dialog.vala:65
+msgid "Automatic"
+msgstr "自動"
+
+#: src/preferences-dialog.vala:102
+msgid "Darker"
+msgstr "較深"
+
+#: src/preferences-dialog.vala:104
+msgid "Lighter"
+msgstr "較淺"
+
+#: src/preferences-dialog.vala:112
+msgid "Less"
+msgstr "少"
+
+#: src/preferences-dialog.vala:114
+msgid "More"
+msgstr "多"
+
+#. Preferences dialog: Label for default resolution in resolution list
+#: src/preferences-dialog.vala:285
+#, c-format
+msgid "%d dpi (default)"
+msgstr "%d dpi (預設)"
+
+#. Preferences dialog: Label for minimum resolution in resolution list
+#: src/preferences-dialog.vala:288
+#, c-format
+msgid "%d dpi (draft)"
+msgstr "%d dpi (草稿)"
+
+#. Preferences dialog: Label for maximum resolution in resolution list
+#: src/preferences-dialog.vala:291
+#, c-format
+msgid "%d dpi (high resolution)"
+msgstr "%d dpi (高解析度)"
+
+#. Preferences dialog: Label for resolution value in resolution list (dpi = dots per inch)
+#: src/preferences-dialog.vala:294
+#, c-format
+msgid "%d dpi"
+msgstr "%d dpi"
+
+#. Error displayed when no scanners to scan with
+#: src/scanner.vala:866
+msgid "No scanners available.  Please connect a scanner."
+msgstr "沒有可用的掃描器。請連接一部掃描器。"
+
+#. Error displayed when cannot connect to scanner
+#: src/scanner.vala:896
+msgid "Unable to connect to scanner"
+msgstr "無法連接到掃描器"
+
+#. Error displayed when no documents at the start of scanning
+#: src/scanner.vala:1300
+msgid "Document feeder empty"
+msgstr ""
+
+#. Error display when unable to start scan
+#: src/scanner.vala:1307
+msgid "Unable to start scan"
+msgstr "無法起始掃描"
+
+#. Error displayed when communication with scanner broken
+#: src/scanner.vala:1320 src/scanner.vala:1427
+msgid "Error communicating with scanner"
+msgstr "與掃描器溝通時發生錯誤"
+
+#. Help string for command line --version flag
+#: src/simple-scan.vala:21
+msgid "Show release version"
+msgstr "顯示發行版本"
+
+#. Help string for command line --debug flag
+#: src/simple-scan.vala:24
+msgid "Print debugging messages"
+msgstr "列印除錯訊息"
+
+#: src/simple-scan.vala:26
+msgid "Fix PDF files generated with older versions of this app"
+msgstr "修正由舊版本應用程式產生的 PDF 檔案"
+
+#. Title of error dialog when scan failed
+#: src/simple-scan.vala:393
+msgid "Failed to scan"
+msgstr "掃描失敗"
+
+#. Attempt to inhibit the screensaver when scanning
+#: src/simple-scan.vala:408
+msgid "Scan in progress"
+msgstr "掃描進行中"
+
+#. Arguments and description for --help text
+#: src/simple-scan.vala:585
+msgid "[DEVICE…] — Scanning utility"
+msgstr "[裝置...] — 掃描公用程式"
+
+#. Text printed out when an unknown command-line argument provided
+#: src/simple-scan.vala:596
+#, c-format
+msgid "Run “%s --help” to see a full list of available command line options."
+msgstr "執行「%s --help」來查看所有命令列可用選項的完整清單。"
+
+#~ msgid "Resolution for photo scans"
+#~ msgstr "相片掃描的解析度"
+
+#~ msgid "The resolution in dots-per-inch to use when scanning photos."
+#~ msgstr "當掃描相片時使用的解析度，單位為 dpi。"
+
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid "_Scanner"
+#~ msgstr "掃描器(_S)"
+
+#~ msgid "_Photo Resolution"
+#~ msgstr "相片解析度(_P)"
+
+#~ msgid "Simple Scan"
+#~ msgstr "簡易掃描"
+
+#~ msgid "scanner"
+#~ msgstr "scanner"
+
+#~ msgid "About Simple Scan"
+#~ msgstr "關於《簡易掃描》"
+
+#~ msgid "Photo"
+#~ msgstr "相片"
+
+#~ msgid "_Document"
+#~ msgstr "文件(_D)"
+
+#~ msgid "Sc_an"
+#~ msgstr "掃描(_A)"
+
+#~ msgid "_Stop Scan"
+#~ msgstr "停止掃描(_S)"
+
+#~ msgid "_Email"
+#~ msgstr "電子郵件(_E)"
+
+#~ msgid "_Page"
+#~ msgstr "頁面(_P)"
+
+#~ msgid "_Help"
+#~ msgstr "幫助(_H)"
+
+#~ msgid "_Contents"
+#~ msgstr "內容(_C)"
+
+#~ msgid "Save"
+#~ msgstr "儲存"
+
+#~ msgid "About"
+#~ msgstr "關於"
+
+#~ msgid "Front and Back"
+#~ msgstr "正面與背面"
+
+#~ msgid "New"
+#~ msgstr "新增"
+
+#~ msgid "Rotate Left"
+#~ msgstr "向左旋轉"
+
+#~ msgid "Rotate Right"
+#~ msgstr "向右旋轉"
+
+#~ msgid "Crop"
+#~ msgstr "裁切"
+
+#~ msgid "Scan S_ource:"
+#~ msgstr "掃描來源(_O)："
+
+#~ msgid "New Document"
+#~ msgstr "新文件"
+
+#~ msgid "Document"
+#~ msgstr "文件"
+
+#~ msgid "Email..."
+#~ msgstr "電子郵件..."
+
+#~ msgid "_Install Drivers"
+#~ msgstr "安裝驅動程式(_I)"
+
+#~ msgid "Minimum"
+#~ msgstr "最小"
+
+#~ msgid "Maximum"
+#~ msgstr "最大"
+
+#~ msgid "Saving document..."
+#~ msgstr "正在儲存文件..."
+
+#~ msgid "Saving page %d out of %d"
+#~ msgstr "正在儲存 %2$d 頁中的第 %1$d 頁"
+
+#~ msgid "4&#xD7;6"
+#~ msgstr "4&#xD7;6"
+
+#~ msgid "Direction of scan"
+#~ msgstr "掃描的方向"
+
+#~ msgid "Resolution of last scanned image"
+#~ msgstr "上次掃描影像的解析度"
+
+#~ msgid "Window height in pixels"
+#~ msgstr "視窗高度，單位為像素"
+
+#~ msgid "Window width in pixels"
+#~ msgstr "視窗寬度，單位為像素"
+
+#~ msgid "Select File _Type"
+#~ msgstr "選取檔案類型(_T)"
+
+#~ msgid "Please check your installation"
+#~ msgstr "請檢查您的安裝是否完整"
+
+#~ msgid "The resolution in dots-per-inch of the previously scanned image."
+#~ msgstr "之前掃描的影像其解析度，單位為 dpi。"
+
+#~ msgid ""
+#~ "Type of document being scanned. 'text' for text documents, 'photo' for "
+#~ "photos. This setting decides on the scan resolution, colors and post-"
+#~ "processing."
+#~ msgstr ""
+#~ "掃描中文件的類型。「文字」表示文字型文件，「相片」表示相片型文件。此設定值"
+#~ "會決定掃描解析度、色彩，以及後製處理。"
+
+#~ msgid "TRUE if the application window is maximized"
+#~ msgstr "如果應用程式視窗最大化時為 TRUE"
+
+#~ msgid ""
+#~ "Help Options:\n"
+#~ "  -d, --debug                     Print debugging messages\n"
+#~ "  -v, --version                   Show release version\n"
+#~ "  -h, --help                      Show help options\n"
+#~ "  --help-all                      Show all help options\n"
+#~ "  --help-gtk                      Show GTK+ options"
+#~ msgstr ""
+#~ "求助選項：\n"
+#~ "  -d, --debug 顯示除蟲訊息\n"
+#~ "  -v, --version 顯示發佈版本\n"
+#~ "  -h, --help 顯示求助選項\n"
+#~ "  --help-all 顯示所有求助選項\n"
+#~ "  --help-gtk 顯示 GTK+ 選項"
+
+#~ msgid ""
+#~ "Usage:\n"
+#~ "  %s [DEVICE...] - Scanning utility"
+#~ msgstr ""
+#~ "用法：\n"
+#~ "  %s [裝置...] - 掃瞄工具"
+
+#~ msgid ""
+#~ "GTK+ Options:\n"
+#~ "  --class=CLASS                   Program class as used by the window "
+#~ "manager\n"
+#~ "  --name=NAME                     Program name as used by the window "
+#~ "manager\n"
+#~ "  --screen=SCREEN                 X screen to use\n"
+#~ "  --sync                          Make X calls synchronous\n"
+#~ "  --gtk-module=MODULES            Load additional GTK+ modules\n"
+#~ "  --g-fatal-warnings              Make all warnings fatal"
+#~ msgstr ""
+#~ "GTK+ 選項：\n"
+#~ "  --class=CLASS                   如同視窗管理程式使用的程式類別\n"
+#~ "  --name=NAME                     如同視窗管理程式使用的程式名稱\n"
+#~ "  --screen=SCREEN                 要使用的 X 螢幕\n"
+#~ "  --sync                          讓 X 呼叫同步化\n"
+#~ "  --gtk-module=MODULES            載入額外的 GTK+ 模組\n"
+#~ "  --g-fatal-warnings              將所有警告設為嚴重的"
+
+#~ msgid "Height of scanned image in pixels"
+#~ msgstr "掃描影像的高度，單位為像素"
+
+#~ msgid ""
+#~ "The height of scanned image in pixels. This value is updated to what the "
+#~ "last scanned page was."
+#~ msgstr ""
+#~ "掃描影像的高度，單位為像素。此數值會根據最近一次掃描頁面的情況更新。"
+
+#~ msgid ""
+#~ "The width of scanned image in pixels. This value is updated to what the "
+#~ "last scanned page was."
+#~ msgstr "掃描影像的寬度，單位為像素。此值會根據最近一次掃描頁面的情況更新。"
+
+#~ msgid "Width of scanned image in pixels"
+#~ msgstr "掃描影像的寬度，單位為像素"
+
+#~ msgid ""
+#~ "The page side to scan. It can be one of the following: 'both' 'front' "
+#~ "'back'"
+#~ msgstr ""
+#~ "要掃描的頁面。它可以是下列之一：「both」(兩者)、「front」(正面)、「back」"
+#~ "(背面)"
+
+#~ msgid ""
+#~ "The direction of the scanner across the scanned page. It can be one of "
+#~ "the following: 'top-to-bottom' 'bottom-to-top' 'left-to-right' 'right-to-"
+#~ "left'"
+#~ msgstr ""
+#~ "掃描器橫越掃描頁面的方向。它可以是下列之一：「top-to-bottom」(頂端到底"
+#~ "部)、「bottom-to-top」(底部到頂端)、「left-to-right」(左到右)、「right-to-"
+#~ "left」(右到左)"
+
+#~ msgid "The direction of the scanner across the scanned page."
+#~ msgstr "掃描器跨越掃描頁面的方向。"
+
+#~ msgid "Files missing"
+#~ msgstr "缺少檔案"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: gnome-software master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-software/issues\n"
 "POT-Creation-Date: 2020-01-13 18:51+0000\n"
-"PO-Revision-Date: 2019-06-09 21:01+0800\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"PO-Revision-Date: 2020-01-22 02:21+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: data/appdata/org.gnome.Software.appdata.xml.in:7
@@ -182,7 +182,7 @@ msgstr "最近更新時間戳記"
 
 #: data/org.gnome.software.gschema.xml:68
 msgid "The last timestamp when the system was online and got any updates"
-msgstr ""
+msgstr "上次系統連線及取得更新的時間戳"
 
 #: data/org.gnome.software.gschema.xml:72
 msgid "The age in seconds to verify the upstream screenshot is still valid"
@@ -309,7 +309,7 @@ msgstr "返回"
 #. Translators: A label for a button to show all available software.
 #: src/gnome-software.ui:100
 msgid "_Explore"
-msgstr ""
+msgstr "探索(_E)"
 
 #. Translators: A label for a button to show only software which is already installed.
 #: src/gnome-software.ui:123
@@ -475,7 +475,9 @@ msgstr "顯示版本號碼"
 
 #: src/gs-application.c:328
 msgid "translator-credits"
-msgstr "Cheng-Chia Tseng <pswo10680@gmail.com>, 2013, 2015, 2018, 2019."
+msgstr ""
+"Cheng-Chia Tseng <pswo10680@gmail.com>, 2013, 2015, 2018, 2019.\n"
+"Yi-Jyun Pan <pan93412@gmail.com>, 2020."
 
 #. TRANSLATORS: this is the title of the about window, e.g.
 #. * 'About Software' or 'About Application Installer' where the %s is
@@ -495,10 +497,8 @@ msgstr "管理系統軟體的絕佳方式。"
 
 #. TRANSLATORS: we tried to show an app that did not exist
 #: src/gs-application.c:567
-#, fuzzy
-#| msgid "Please restart the application."
 msgid "Sorry! There are no details for that application."
-msgstr "請重新啟動應用程式。"
+msgstr "抱歉！沒有該應用程式的詳細資訊。"
 
 #. TRANSLATORS: this is a button next to the search results that
 #. * allows the application to be easily installed
@@ -622,7 +622,7 @@ msgstr "子類別排序選單"
 #: lib/gs-cmd.c:190
 #, c-format
 msgid "Please enter a number from 1 to %u: "
-msgstr "請從 1 到 %u 輸入個數字："
+msgstr "請輸入 1 到 %u 的數字："
 
 #. TRANSLATORS: asking the user to choose an app from a list
 #: lib/gs-cmd.c:253
@@ -1485,14 +1485,12 @@ msgid "Uses an old, insecure display system"
 msgstr "使用舊式、不安全的顯示系統"
 
 #: src/gs-details-page.c:1003 src/gs-update-dialog.c:104
-#, fuzzy
-#| msgid "Sandboxed"
 msgid "Sandbox escape"
-msgstr "沙盒運行"
+msgstr "沙盒跳脫"
 
 #: src/gs-details-page.c:1003 src/gs-update-dialog.c:104
 msgid "Can escape the sandbox and circumvent any other restrictions"
-msgstr ""
+msgstr "可以跳脫沙盒並繞過任何限制"
 
 #: src/gs-details-page.c:1018
 msgid "This application is fully sandboxed."
@@ -1687,7 +1685,7 @@ msgstr "沙盒運行"
 #. TRANSLATORS: the title for Snap channels
 #: src/gs-details-page.ui:605 src/gs-origin-popover-row.c:102
 msgid "Channel"
-msgstr ""
+msgstr "頻道"
 
 #. Translators: The available version of an app
 #: src/gs-details-page.ui:641 src/gs-origin-popover-row.ui:151
@@ -2078,7 +2076,7 @@ msgstr "使用者層級"
 #. Translators: The branch, e.g. 'stable' or '3.32'
 #: src/gs-origin-popover-row.c:107 src/gs-origin-popover-row.ui:122
 msgid "Branch"
-msgstr ""
+msgstr "分支"
 
 #: src/gs-origin-popover-row.ui:35 src/gs-repo-row.ui:75
 msgid "URL"
@@ -2157,11 +2155,11 @@ msgstr "啟用第三方軟體庫？"
 
 #: src/gs-overview-page.ui:101
 msgid "Previous"
-msgstr ""
+msgstr "上一個"
 
 #: src/gs-overview-page.ui:126
 msgid "Next"
-msgstr ""
+msgstr "下一個"
 
 #. Translators: This is a heading for software which has been featured ('picked') by the distribution.
 #: src/gs-overview-page.ui:149
@@ -3556,7 +3554,7 @@ msgstr "立刻重新啟動"
 
 #: src/gs-upgrade-banner.c:66
 msgid "Updates will be applied when the computer is restarted."
-msgstr ""
+msgstr "更新會在電腦重新啟動時套用。"
 
 #: src/gs-upgrade-banner.c:72
 msgid ""
@@ -4029,7 +4027,7 @@ msgstr "下載特選影像中…"
 #. TRANSLATORS: ‘Endless OS’ is a brand name; https://endlessos.com/
 #: plugins/eos-updater/gs-plugin-eos-updater.c:561
 msgid "Endless OS"
-msgstr ""
+msgstr "Endless OS"
 
 #. TRANSLATORS: ‘Endless OS’ is a brand name; https://endlessos.com/
 #: plugins/eos-updater/gs-plugin-eos-updater.c:564
@@ -4040,7 +4038,7 @@ msgstr "重大升級，包含新功能和加入改進。"
 
 #: plugins/eos-updater/gs-plugin-eos-updater.c:825
 msgid "EOS update service could not fetch and apply the update."
-msgstr ""
+msgstr "EOS 更新服務無法取得並套用更新。"
 
 #. TRANSLATORS: tool that is used when copying profiles system-wide
 #: plugins/external-appstream/gs-install-appstream.c:139
@@ -4122,14 +4120,14 @@ msgstr "系統層級"
 #: plugins/fwupd/gs-fwupd-app.c:145
 #, c-format
 msgid "%s Embedded Controller"
-msgstr ""
+msgstr "%s 內嵌控制器"
 
 #. TRANSLATORS: ME stands for Management Engine, the Intel AMT thing,
 #. * the first %s is the device name, e.g. 'ThinkPad P50`
 #: plugins/fwupd/gs-fwupd-app.c:150
 #, c-format
 msgid "%s ME"
-msgstr ""
+msgstr "%s ME"
 
 #. TRANSLATORS: ME stands for Management Engine (with Intel AMT),
 #. * where the first %s is the device name, e.g. 'ThinkPad P50`
@@ -4161,7 +4159,7 @@ msgstr "修訂版控制"
 #: plugins/fwupd/gs-fwupd-app.c:172
 #, c-format
 msgid "%s Thunderbolt Controller"
-msgstr ""
+msgstr "%s Thunderbolt 控制器"
 
 #. TRANSLATORS: status text when downloading
 #: plugins/fwupd/gs-plugin-fwupd.c:669
@@ -4198,7 +4196,7 @@ msgstr "ODRS 是個提供應用程式使用者發表評論的服務"
 #: plugins/shell-extensions/gs-plugin-shell-extensions.c:150
 #: plugins/shell-extensions/gs-plugin-shell-extensions.c:910
 msgid "GNOME"
-msgstr ""
+msgstr "GNOME"
 
 #: plugins/shell-extensions/gs-plugin-shell-extensions.c:406
 msgid "GNOME Shell Extensions Repository"

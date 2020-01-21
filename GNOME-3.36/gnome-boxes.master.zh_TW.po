@@ -189,7 +189,7 @@ msgstr "作業系統映像檔案"
 
 #: data/ui/assistant/pages/index-page.ui:258
 msgid "Select an .iso file to install a virtual machine."
-msgstr "選擇要安裝虛擬機器的 .iso 檔案。"
+msgstr "選擇要安裝進虛擬機器的 .iso 檔案。"
 
 #: data/ui/assistant/pages/preparation-page.ui:5
 msgid "Preparing…"

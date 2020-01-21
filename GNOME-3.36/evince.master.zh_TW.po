@@ -13,15 +13,15 @@ msgstr ""
 "Project-Id-Version: evince 3.3.5\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/evince/issues\n"
 "POT-Creation-Date: 2019-12-27 12:35+0000\n"
-"PO-Revision-Date: 2019-10-08 18:54+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-21 17:29+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.1\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: backend/comics/comics-document.c:163 backend/comics/comics-document.c:187
 msgid "File is corrupted"
@@ -1036,14 +1036,12 @@ msgid "_Odd Pages Left"
 msgstr "奇數頁在左(_O)"
 
 #: shell/evince-menus.ui:82
-#, fuzzy
-#| msgid "Recent Documents"
 msgid "Right to Left Document"
-msgstr "最近文件"
+msgstr "右至左文件"
 
 #: shell/evince-menus.ui:88
 msgid "Ro_tate ⤵"
-msgstr "向左旋轉 ⤵ (_T)"
+msgstr "旋轉 ⤵ (_T)"
 
 #: shell/evince-menus.ui:94
 msgid "Ni_ght Mode"
@@ -1083,7 +1081,7 @@ msgstr "移至(_G)"
 
 #: shell/evince-menus.ui:165
 msgid "Open in New _Window"
-msgstr "在新的視窗中開啟(_W)"
+msgstr "在新視窗開啟(_W)"
 
 #: shell/evince-menus.ui:172
 msgid "_Previous Page"
@@ -1137,7 +1135,7 @@ msgstr "移除註解"
 
 #: shell/evince-menus.ui:236
 msgid "Highlight Selected Text"
-msgstr "突顯選取的文字"
+msgstr "突顯選取文字"
 
 #: shell/evince-menus.ui:249
 msgid "Navigation"
@@ -1348,10 +1346,8 @@ msgid "Annotate the document"
 msgstr "文件加入註解"
 
 #: shell/ev-toolbar.c:227
-#, fuzzy
-#| msgid "Annotate the document"
 msgid "Annotate document"
-msgstr "文件加入註解"
+msgstr "加入文件註解"
 
 #: shell/ev-toolbar.c:235 shell/ev-toolbar.c:236
 msgid "File options"
@@ -1890,28 +1886,19 @@ msgid "Toggle dual page"
 msgstr "切換到雙頁面模式"
 
 #: shell/help-overlay.ui:314
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Enter presentation mode"
 msgctxt "shortcut window"
 msgid "Presentation mode"
-msgstr "進入簡報模式"
+msgstr "簡報模式"
 
 #: shell/help-overlay.ui:318
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Toggle fullscreen"
 msgctxt "shortcut window"
 msgid "Toggle black screen"
-msgstr "切換全螢幕"
+msgstr "切換黑色螢幕"
 
 #: shell/help-overlay.ui:325
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Toggle fullscreen"
 msgctxt "shortcut window"
 msgid "Toggle white screen"
-msgstr "切換全螢幕"
+msgstr "切換白色螢幕"
 
 #: shell/help-overlay.ui:335
 msgctxt "shortcut window"

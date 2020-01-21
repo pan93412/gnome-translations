@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: glade3 3.10.0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/glade/issues\n"
 "POT-Creation-Date: 2020-01-14 04:15+0000\n"
-"PO-Revision-Date: 2020-01-21 19:12+0800\n"
+"PO-Revision-Date: 2020-01-21 22:41+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -2320,7 +2320,7 @@ msgid ""
 "Especially because there is %d object that can not be built with type: %s"
 msgid_plural ""
 "Especially because there are %d objects that can not be built with types: %s"
-msgstr[0] "尤其是因為有 %d 個物件無法組建成此種類型：%s"
+msgstr[0] "尤其是因為有 %d 個物件無法編譯成此種類型：%s"
 
 #: gladeui/glade-project.c:2021
 #, c-format

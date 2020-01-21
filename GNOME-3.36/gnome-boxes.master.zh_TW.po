@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: gnome-boxes master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-boxes/issues\n"
 "POT-Creation-Date: 2020-01-16 13:05+0000\n"
-"PO-Revision-Date: 2019-11-28 00:08+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-21 19:22+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.11.80\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: data/org.gnome.Boxes.appdata.xml.in:7
 msgid "GNOME Boxes"
@@ -150,80 +150,62 @@ msgid "Search for an OS or enter a download link…"
 msgstr "搜尋作業系統、或輸入下載連結…"
 
 #: data/ui/assistant/pages/index-page.ui:5 data/ui/assistant/vm-assistant.ui:6
-#, fuzzy
-#| msgid "Create a Virtual Machine…"
 msgid "Create a Virtual Machine"
-msgstr "建立虛擬主機…"
+msgstr "建立虛擬主機"
 
 #: data/ui/assistant/pages/index-page.ui:35
 msgid ""
 "A new virtual machine will be created and an operating system installed into "
 "it. Select an operating system source to begin."
-msgstr ""
+msgstr "將會建立並安裝作業系統進新的虛擬機器。請選擇作業系統開始。"
 
 #: data/ui/assistant/pages/index-page.ui:49
 msgid "Detected Sources"
-msgstr ""
+msgstr "偵測到的來源"
 
 #: data/ui/assistant/pages/index-page.ui:109
-#, fuzzy
-#| msgid "Downloads"
 msgid "Featured Downloads"
-msgstr "下載"
+msgstr "推薦下載"
 
 #: data/ui/assistant/pages/index-page.ui:120
-#, fuzzy
-#| msgid "You will find your file in the Downloads directory."
 msgid "You will be notified when the download has completed."
-msgstr "您可以在「下載」資料夾中找到檔案。"
+msgstr "下載完成後會通知你。"
 
 #: data/ui/assistant/pages/index-page.ui:147
-#, fuzzy
-#| msgid "Select a file"
 msgid "Select an OS Source"
-msgstr "選擇一個檔案"
+msgstr "選擇作業系統來源"
 
 #: data/ui/assistant/pages/index-page.ui:180
-#, fuzzy
-#| msgid "No operating systems found"
 msgid "Operating System Download"
-msgstr "找不到作業系統"
+msgstr "作業系統下載"
 
 #: data/ui/assistant/pages/index-page.ui:196
 msgid "Browse and search for operating systems to install."
-msgstr ""
+msgstr "瀏覽並搜尋要安裝的作業系統。"
 
 #: data/ui/assistant/pages/index-page.ui:242
 msgid "Operating System Image File"
-msgstr ""
+msgstr "作業系統映像檔案"
 
 #: data/ui/assistant/pages/index-page.ui:258
-#, fuzzy
-#| msgid "Select a bootable image file to install in a virtual machine."
 msgid "Select an .iso file to install a virtual machine."
-msgstr "選擇要安裝於虛擬主機的可開機映像檔案。"
+msgstr "選擇要安裝虛擬機器的 .iso 檔案。"
 
 #: data/ui/assistant/pages/preparation-page.ui:5
-#, fuzzy
-#| msgid "Importing…"
 msgid "Preparing…"
-msgstr "正在匯入…"
+msgstr "正在準備…"
 
 #: data/ui/assistant/pages/preparation-page.ui:20
-#, fuzzy
-#| msgid "Preparing to create new box"
 msgid "Preparing to create a new box"
 msgstr "正在準備建立新機臺"
 
 #: data/ui/assistant/pages/review-page.ui:5
 msgid "Review and Create"
-msgstr ""
+msgstr "檢閱並建立"
 
 #: data/ui/assistant/pages/review-page.ui:18
-#, fuzzy
-#| msgid "Boxes will create a new box with the following properties:"
 msgid "Boxes is ready to set up a new box with the following properties:"
-msgstr "機櫃會以下列屬性建立新機臺："
+msgstr "機櫃已準備好設定有下列屬性的新機臺："
 
 #: data/ui/assistant/pages/review-page.ui:45 data/ui/wizard.ui:220
 msgid ""
@@ -234,20 +216,14 @@ msgstr ""
 "請檢查您的 BIOS 設定值以啟用它們。"
 
 #: data/ui/assistant/pages/review-page.ui:68
-#, fuzzy
-#| msgid "Source Selection"
 msgid "Resource Allocation"
-msgstr "來源選取"
+msgstr "資源配置"
 
 #: data/ui/assistant/pages/review-page.ui:77
-#, fuzzy
-#| msgid "C_ustomize…"
 msgid "Customize"
-msgstr "自訂(_U)…"
+msgstr "自訂"
 
 #: data/ui/assistant/pages/setup-page.ui:5 data/ui/welcome-tutorial.ui:40
-#, fuzzy
-#| msgid "Express Install"
 msgid "Express Installation"
 msgstr "快速安裝"
 
@@ -274,7 +250,7 @@ msgstr "連線"
 
 #: data/ui/assistant/vm-assistant.ui:54 src/assistant/vm-assistant.vala:72
 msgid "Next"
-msgstr ""
+msgstr "下一步"
 
 #: data/ui/auth-notification.ui:39
 msgid "_Username"
@@ -368,7 +344,7 @@ msgstr "全螢幕"
 
 #: data/ui/downloads-hub-row.ui:54
 msgid "Ready to install"
-msgstr ""
+msgstr "準備安裝"
 
 #: data/ui/empty-boxes.ui:68
 msgid "State of the art virtualization"
@@ -571,11 +547,11 @@ msgstr "產品金鑰"
 
 #: data/ui/welcome-tutorial.ui:7
 msgid "Welcome Tutorial"
-msgstr ""
+msgstr "歡迎教學"
 
 #: data/ui/welcome-tutorial.ui:31
 msgid "Welcome to Boxes"
-msgstr ""
+msgstr "歡迎使用 Boxes"
 
 #: data/ui/welcome-tutorial.ui:32
 msgid ""
@@ -583,6 +559,8 @@ msgid ""
 "to remotely access other computers, using SPICE, VNC, RDP or Secure Shell "
 "connections."
 msgstr ""
+"Boxes 讓安裝並執行虛擬機器變得簡單。您亦可用來使用 SPICE、VNC、RDP 或 SSH 連"
+"線遠端存取其他電腦"
 
 #: data/ui/welcome-tutorial.ui:41
 msgid ""
@@ -590,12 +568,12 @@ msgid ""
 "virtual machine. Just start the installation and everything will be taken "
 "care of for you."
 msgstr ""
+"使用快速安裝，Boxes 會設定新虛擬機器的安裝選項。只需開始安裝，所有東西都會幫"
+"你妥善處理好。"
 
 #: data/ui/welcome-tutorial.ui:49
-#, fuzzy
-#| msgid "Downloads"
 msgid "Easy Downloads"
-msgstr "下載"
+msgstr "簡易下載"
 
 #: data/ui/welcome-tutorial.ui:50
 msgid ""
@@ -603,16 +581,18 @@ msgid ""
 "virtual machine. Instead, just pick the operating system you want to setup, "
 "and Boxes will automatically download it for you."
 msgstr ""
+"使用 Boxes，您無需下載要建立虛擬機器的作業系統。只需選擇要安裝的作業系統，"
+"Boxes 就會自動幫你下載。"
 
 #: data/ui/welcome-tutorial.ui:58
 msgid "Drag and Drop"
-msgstr ""
+msgstr "拖曳"
 
 #: data/ui/welcome-tutorial.ui:59
 msgid ""
 "Sharing files is as simple as dropping them onto your virtual machine. They "
 "will appear in your Downloads folder."
-msgstr ""
+msgstr "分享檔案就和你拖曳檔案至虛擬機器一樣簡單。檔案會出現在「下載」資料夾。"
 
 #: data/ui/wizard-downloadable-entry.ui:57 data/ui/wizard-media-entry.ui:53
 msgid "Unknown media"
@@ -825,7 +805,7 @@ msgstr "開啟"
 
 #: src/assistant/index-page.vala:157 src/assistant/vm-assistant.vala:73
 msgid "Previous"
-msgstr ""
+msgstr "上一個"
 
 #: src/assistant/review-page.vala:47 src/wizard.vala:571
 msgid "Memory"
@@ -846,10 +826,8 @@ msgid "Failed to analyze installer media. Corrupted or incomplete media?"
 msgstr "安裝程式媒體分析失敗。媒體是否損壞或檔案不完整？"
 
 #: src/assistant/vm-assistant.vala:72
-#, fuzzy
-#| msgid "C_reate"
 msgid "Create"
-msgstr "建立(_R)"
+msgstr "建立"
 
 #: src/display-page.vala:135
 msgid "Press (left) Ctrl+Alt to ungrab"
@@ -876,13 +854,11 @@ msgstr "正在下載媒體"
 #: src/downloads-hub.vala:76
 #, c-format
 msgid "“%s“ download complete"
-msgstr ""
+msgstr "「%s」下載完成"
 
 #: src/downloads-hub.vala:78
-#, fuzzy
-#| msgid "Installing…"
 msgid "Install"
-msgstr "正在安裝…"
+msgstr "安裝"
 
 #. We did this, so ignore!
 #: src/downloads-hub.vala:179
@@ -1156,7 +1132,7 @@ msgstr "正在連接到 %s"
 #: src/machine.vala:219
 #, c-format
 msgid "Authentication failed: %s"
-msgstr ""
+msgstr "身份驗證失敗：%s"
 
 #: src/machine.vala:232 src/machine.vala:658
 #, c-format
@@ -1468,12 +1444,12 @@ msgstr "從檔案「%s」匯入機臺失敗。"
 
 #: src/vnc-display.vala:154
 msgid "Read-only"
-msgstr ""
+msgstr "唯讀"
 
 #: src/welcome-tutorial.vala:44
 #, c-format
 msgid "%u/%u"
-msgstr ""
+msgstr "%u/%u"
 
 #: src/wizard-source.vala:128
 msgid "32-bit x86 system"

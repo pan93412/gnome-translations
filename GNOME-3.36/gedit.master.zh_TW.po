@@ -14,15 +14,15 @@ msgstr ""
 "Project-Id-Version: gedit 3.3.7\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit/issues\n"
 "POT-Creation-Date: 2019-12-03 15:59+0000\n"
-"PO-Revision-Date: 2019-11-22 22:02+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-21 18:56+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.11.80\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: data/org.gnome.gedit.appdata.xml.in:7
 msgid "gedit"
@@ -932,16 +932,12 @@ msgid "All Text Files"
 msgstr "所有文字檔"
 
 #: gedit/gedit-file-chooser-dialog-gtk.c:305
-#, fuzzy
-#| msgid "Character Encoding:"
 msgid "C_haracter Encoding:"
-msgstr "字元編碼："
+msgstr "字元編碼(_H)："
 
 #: gedit/gedit-file-chooser-dialog-gtk.c:364
-#, fuzzy
-#| msgid "Line Ending:"
 msgid "L_ine Ending:"
-msgstr "列結尾："
+msgstr "列結尾(_I)："
 
 #: gedit/gedit-file-chooser-dialog-osx.m:544
 msgid "Character Encoding:"
@@ -1512,10 +1508,8 @@ msgid "Open a file"
 msgstr "開啟檔案"
 
 #: gedit/gedit-window.c:2681
-#, fuzzy
-#| msgid "Open another file"
 msgid "Open a recently used file"
-msgstr "開啟另一個檔案"
+msgstr "開啟最近使用的檔案"
 
 #: gedit/resources/gtk/menus-common.ui:7
 msgid "Move _Left"

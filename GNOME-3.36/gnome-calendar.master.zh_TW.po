@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: gnome-calendar master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-calendar/issues\n"
 "POT-Creation-Date: 2019-12-06 19:37+0000\n"
-"PO-Revision-Date: 2019-11-23 12:23+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-21 19:33+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.11.80\n"
+"X-Generator: Poedit 2.2.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: data/appdata/org.gnome.Calendar.appdata.xml.in.in:7
@@ -264,101 +264,83 @@ msgstr "加入"
 #, c-format
 msgid "%1$u day, %2$u hour, and %3$u minute before"
 msgid_plural "%1$u day, %2$u hour, and %3$u minutes before"
-msgstr[0] ""
+msgstr[0] "%1$u天%2$u時%3$u分前"
 
 #: src/gui/gcal-alarm-row.c:89
 #, c-format
 msgid "%1$u day, %2$u hours, and %3$u minute before"
 msgid_plural "%1$u day, %2$u hours, and %3$u minutes before"
-msgstr[0] ""
+msgstr[0] "%1$u天%2$u時%3$u分前"
 
 #: src/gui/gcal-alarm-row.c:95
 #, c-format
 msgid "%1$u days, %2$u hour, and %3$u minute before"
 msgid_plural "%1$u days, %2$u hour, and %3$u minutes before"
-msgstr[0] ""
+msgstr[0] "%1$u天%2$u時%3$u分前"
 
 #: src/gui/gcal-alarm-row.c:99
 #, c-format
 msgid "%1$u days, %2$u hours, and %3$u minute before"
 msgid_plural "%1$u days, %2$u hours, and %3$u minutes before"
-msgstr[0] ""
+msgstr[0] "%1$u天%2$u時%3$u分前"
 
 #: src/gui/gcal-alarm-row.c:114
-#, fuzzy, c-format
-#| msgid "%d hour before"
-#| msgid_plural "%d hours before"
+#, c-format
 msgid "%1$u day and %2$u hour before"
 msgid_plural "%1$u day and %2$u hours before"
-msgstr[0] "%d 小時前"
+msgstr[0] "%1$u天%2$u時前"
 
 #: src/gui/gcal-alarm-row.c:118
-#, fuzzy, c-format
-#| msgid "%d hour before"
-#| msgid_plural "%d hours before"
+#, c-format
 msgid "%1$u days and %2$u hour before"
 msgid_plural "%1$u days and %2$u hours before"
-msgstr[0] "%d 小時前"
+msgstr[0] "%1$u天%2$u時前"
 
 #: src/gui/gcal-alarm-row.c:134
-#, fuzzy, c-format
-#| msgid "%d minute before"
-#| msgid_plural "%d minutes before"
+#, c-format
 msgid "%1$u day and %2$u minute before"
 msgid_plural "%1$u day and %2$u minutes before"
-msgstr[0] "%d 分鐘前"
+msgstr[0] "%1$u天%2$u分前"
 
 #: src/gui/gcal-alarm-row.c:138
-#, fuzzy, c-format
-#| msgid "%d minute before"
-#| msgid_plural "%d minutes before"
+#, c-format
 msgid "%1$u days and %2$u minute before"
 msgid_plural "%1$u days and %2$u minutes before"
-msgstr[0] "%d 分鐘前"
+msgstr[0] "%1$u天%2$u分前"
 
 #: src/gui/gcal-alarm-row.c:148
-#, fuzzy, c-format
-#| msgid "%d day before"
-#| msgid_plural "%d days before"
+#, c-format
 msgid "%1$u day before"
 msgid_plural "%1$u days before"
-msgstr[0] "%d 天前"
+msgstr[0] "%1$u天前"
 
 #: src/gui/gcal-alarm-row.c:166
-#, fuzzy, c-format
-#| msgid "%d minute before"
-#| msgid_plural "%d minutes before"
+#, c-format
 msgid "%1$u hour and %2$u minute before"
 msgid_plural "%1$u hour and %2$u minutes before"
-msgstr[0] "%d 分鐘前"
+msgstr[0] "%1$u時%2$u分前"
 
 #: src/gui/gcal-alarm-row.c:170
-#, fuzzy, c-format
-#| msgid "%d minute before"
-#| msgid_plural "%d minutes before"
+#, c-format
 msgid "%1$u hours and %2$u minute before"
 msgid_plural "%1$u hours and %2$u minutes before"
-msgstr[0] "%d 分鐘前"
+msgstr[0] "%1$u時%2$u分前"
 
 #: src/gui/gcal-alarm-row.c:180
-#, fuzzy, c-format
-#| msgid "%d hour before"
-#| msgid_plural "%d hours before"
+#, c-format
 msgid "%1$u hour before"
 msgid_plural "%1$u hours before"
-msgstr[0] "%d 小時前"
+msgstr[0] "%1$u小時前"
 
 #: src/gui/gcal-alarm-row.c:192
-#, fuzzy, c-format
-#| msgid "%d minute before"
-#| msgid_plural "%d minutes before"
+#, c-format
 msgid "%1$u minute before"
 msgid_plural "%1$u minutes before"
-msgstr[0] "%d 分鐘前"
+msgstr[0] "%1$u分前"
 
 #: src/gui/gcal-alarm-row.c:199
 msgid "Event start time"
-msgstr ""
+msgstr "活動開始時間"
 
 #: src/gui/gcal-alarm-row.ui:18
 msgid "Toggles the sound of the alarm"
@@ -395,7 +377,9 @@ msgstr "著作權所有 © 2012–%d Calendar 作者群"
 
 #: src/gui/gcal-application.c:288
 msgid "translator-credits"
-msgstr "Cheng-Chia Tseng <pswo10680@gmail.com>, 2013, 2015, 2017."
+msgstr ""
+"Cheng-Chia Tseng <pswo10680@gmail.com>, 2013, 2015, 2017.\n"
+"Yi-Jyun Pan <pan93412@gmail.com>, 2020."
 
 #: src/gui/gcal-calendar-popover.ui:43
 msgid "_Synchronize Calendars"
@@ -422,13 +406,11 @@ msgstr "完成"
 #: src/gui/gcal-edit-dialog.c:416
 #, c-format
 msgid "Last %A"
-msgstr ""
+msgstr "上個%A"
 
 #: src/gui/gcal-edit-dialog.c:420
-#, fuzzy
-#| msgid "to Yesterday"
 msgid "Yesterday"
-msgstr "到昨天"
+msgstr "昨天"
 
 #: src/gui/gcal-edit-dialog.c:424 src/gui/gcal-window.ui:180
 #: src/views/gcal-year-view.c:279 src/views/gcal-year-view.c:557
@@ -437,26 +419,24 @@ msgid "Today"
 msgstr "今天"
 
 #: src/gui/gcal-edit-dialog.c:428
-#, fuzzy
-#| msgid "to Tomorrow"
 msgid "Tomorrow"
-msgstr "到明天"
+msgstr "明天"
 
 #. Translators: %A is the weekday name (e.g. Sunday, Monday, etc)
 #: src/gui/gcal-edit-dialog.c:438
 #, c-format
 msgid "This %A"
-msgstr ""
+msgstr "這個%A"
 
 #.
 #. * Translators: %1$s is the formatted date (e.g. Today, Sunday, or even 2019-10-11) and %2$s is the
 #. * formatted time (e.g. 03:14 PM, or 21:29)
 #.
 #: src/gui/gcal-edit-dialog.c:468
-#, fuzzy, c-format
+#, c-format
 #| msgid "to %1$s %2$s"
 msgid "%1$s, %2$s"
-msgstr "到%1$s%2$s"
+msgstr "%1$s，%2$s"
 
 #: src/gui/gcal-edit-dialog.c:1512 src/gui/gcal-quick-add-popover.c:687
 msgid "Unnamed event"
@@ -472,7 +452,7 @@ msgstr "標題"
 
 #: src/gui/gcal-edit-dialog.ui:205
 msgid "Schedule"
-msgstr ""
+msgstr "排定行程"
 
 #: src/gui/gcal-edit-dialog.ui:226
 msgid "All Day"
@@ -480,15 +460,15 @@ msgstr "整天"
 
 #: src/gui/gcal-edit-dialog.ui:247
 msgid "Starts"
-msgstr ""
+msgstr "開始"
 
 #: src/gui/gcal-edit-dialog.ui:254 src/gui/gcal-edit-dialog.ui:302
 msgid "Check this out!"
-msgstr ""
+msgstr "看看這個！"
 
 #: src/gui/gcal-edit-dialog.ui:295
 msgid "Ends"
-msgstr ""
+msgstr "結束"
 
 #: src/gui/gcal-edit-dialog.ui:343
 msgid "Repeat"
@@ -519,10 +499,8 @@ msgid "Yearly"
 msgstr "每年"
 
 #: src/gui/gcal-edit-dialog.ui:372
-#, fuzzy
-#| msgid "Repeat"
 msgid "End Repeat"
-msgstr "重複"
+msgstr "結束重複"
 
 #: src/gui/gcal-edit-dialog.ui:382
 msgid "Forever"
@@ -537,22 +515,18 @@ msgid "Until Date"
 msgstr "直到哪天"
 
 #: src/gui/gcal-edit-dialog.ui:397
-#, fuzzy
-#| msgid "No. of occurrences"
 msgid "Number of Occurrences"
 msgstr "重複次數"
 
 #: src/gui/gcal-edit-dialog.ui:415
 msgid "End Repeat Date"
-msgstr ""
+msgstr "結束重複日期"
 
 #: src/gui/gcal-edit-dialog.ui:438
 msgid "Reminders"
 msgstr "提醒"
 
 #: src/gui/gcal-edit-dialog.ui:474
-#, fuzzy
-#| msgid "Add reminder…"
 msgid "Add a Reminder…"
 msgstr "加入提醒…"
 

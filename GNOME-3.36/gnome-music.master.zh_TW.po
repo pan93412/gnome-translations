@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gnome-music master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-music/issues\n"
 "POT-Creation-Date: 2020-01-15 20:09+0000\n"
-"PO-Revision-Date: 2020-01-22 02:15+0800\n"
+"PO-Revision-Date: 2020-01-22 14:38+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -125,7 +125,7 @@ msgstr "啟用或停用音樂播放時的防止系統暫停功能"
 
 #: data/org.gnome.Music.gschema.xml:48
 msgid "Report music history to Last.fm"
-msgstr "報告音樂歷史記錄至 Last.fm"
+msgstr "回報音樂歷史記錄至 Last.fm"
 
 #: data/org.gnome.Music.gschema.xml:49
 msgid ""
@@ -210,7 +210,7 @@ msgstr "Last.fm 帳戶"
 
 #: data/ui/AppMenu.ui:39
 msgid "Report Music Listening"
-msgstr "報告聆聽中的音樂"
+msgstr "回報聆聽中的音樂"
 
 #: data/ui/AppMenu.ui:70
 msgid "_Keyboard Shortcuts"

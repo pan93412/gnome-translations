@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
 "issues\n"
 "POT-Creation-Date: 2020-01-08 15:54+0000\n"
-"PO-Revision-Date: 2020-01-22 01:15+0800\n"
+"PO-Revision-Date: 2020-01-22 14:36+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -368,7 +368,7 @@ msgstr "設定網路防火牆"
 
 #: panels/applications/cc-snap-row.c:77
 msgid "Setup and use privileged FUSE filesystems"
-msgstr "設定並使用授權的 FUSE 檔案系統"
+msgstr "設定並使用特權 FUSE 檔案系統"
 
 #: panels/applications/cc-snap-row.c:79
 msgid "Update firmware on this device"
@@ -404,7 +404,7 @@ msgstr "變更位置設定及提供者"
 
 #: panels/applications/cc-snap-row.c:95
 msgid "Access your location"
-msgstr "存取你的位置"
+msgstr "存取您的位置"
 
 #: panels/applications/cc-snap-row.c:97
 msgid "Read system and application logs"
@@ -484,7 +484,7 @@ msgstr "直接存取 USB 硬體"
 
 #: panels/applications/cc-snap-row.c:137
 msgid "Read/write files on removable storage devices"
-msgstr "讀取╱寫入卸除式儲存裝置"
+msgstr "讀取╱寫入可移除式儲存裝置"
 
 #: panels/applications/cc-snap-row.c:139
 msgid "Prevent screen sleep/lock"
@@ -528,7 +528,7 @@ msgstr "變更時區"
 
 #: panels/applications/cc-snap-row.c:159
 msgid "Access the UDisks2 service for configuring disks and removable media"
-msgstr "存取 UDisks2 服務以設定磁碟及卸除式媒體"
+msgstr "存取 UDisks2 服務以設定磁碟及可移除式媒體"
 
 #: panels/applications/cc-snap-row.c:161
 msgid "Read/change shared calendar events in Ubuntu Unity 8"
@@ -723,11 +723,11 @@ msgstr "允許下列應用程式使用相機。"
 
 #: panels/camera/cc-camera-panel.ui:107
 msgid "No Applications Have Asked for Camera Access"
-msgstr "沒有應用程式請求相機存取"
+msgstr "沒有應用程式請求相機存取權"
 
 #: panels/camera/gnome-camera-panel.desktop.in.in:4
 msgid "Protect your pictures"
-msgstr "保護你的照片"
+msgstr "保護您的照片"
 
 #. FIXME
 #. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
@@ -1392,7 +1392,7 @@ msgstr "解除鎖定…"
 
 #: panels/common/cc-permission-infobar.ui:45
 msgid "Unlock to Change Settings"
-msgstr "解鎖變更設定"
+msgstr "解除鎖定以變更設定"
 
 #: panels/common/cc-permission-infobar.ui:55
 msgid "Some settings must be unlocked before they can be changed."
@@ -2033,7 +2033,7 @@ msgstr "重新命名裝置"
 msgid ""
 "The device name is used to identify this device when it is viewed over the "
 "network, or when pairing Bluetooth devices."
-msgstr "裝置名稱用來在當在網路上檢視裝置，或是配對藍牙裝置時識別裝置。"
+msgstr "裝置名稱用來在網路上檢視裝置，或是配對藍牙裝置時識別裝置。"
 
 #: panels/info-overview/cc-info-overview-panel.ui:226
 msgid "_Rename"
@@ -2060,7 +2060,7 @@ msgstr ""
 "device;system;information;hostname;memory;processor;version;default;"
 "application;preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;裝"
 "置;系統;資訊;記憶體;處理器;版本;預設;應用程式;首選;音訊;視訊;碟片;可移除;媒"
-"體;自動執行;"
+"體;自動執行;主機名;主機名稱"
 
 #: panels/keyboard/00-multimedia.xml.in:2
 msgid "Sound and Media"
@@ -2493,7 +2493,7 @@ msgstr "保護您的位置資訊"
 msgid ""
 "Automatically locking the screen prevents others from access the computer "
 "while you're away."
-msgstr "自動鎖定螢幕能防止其他人在你離開時使用你的電腦"
+msgstr "自動鎖定螢幕能防止其他人在你離開時使用您的電腦"
 
 #: panels/lock/cc-lock-panel.ui:46
 msgid "Blank Screen Delay"
@@ -2633,7 +2633,7 @@ msgstr "螢幕鎖定"
 
 #: panels/lock/gnome-lock-panel.desktop.in.in:4
 msgid "Lock your screen"
-msgstr "鎖定螢幕"
+msgstr "鎖定您的螢幕"
 
 #. FIXME
 #: panels/microphone/cc-microphone-panel.ui:34
@@ -2663,7 +2663,7 @@ msgstr "沒有應用程式請求麥克風存取權限。"
 
 #: panels/microphone/gnome-microphone-panel.desktop.in.in:4
 msgid "Protect your conversations"
-msgstr "保護您的通訊"
+msgstr "保護您的對話"
 
 #. FIXME
 #: panels/mouse/cc-mouse-panel.ui:37
@@ -2838,7 +2838,7 @@ msgstr "選項…"
 msgid ""
 "Turning on the hotspot will disconnect from %s, and it will not be possible "
 "to access the internet through Wi-Fi."
-msgstr "開啟熱點會斷線 %s，且會不能透過 Wi-Fi 連線網路。"
+msgstr "開啟熱點會斷開 %s 的連線，且會不能透過 Wi-Fi 連線網路。"
 
 #: panels/network/cc-wifi-hotspot-dialog.c:248
 msgid "Must have a minimum of 8 characters"
@@ -2854,7 +2854,7 @@ msgid ""
 "Wi-Fi network that they can connect to. To do this, you must have an "
 "internet connection through a source other than Wi-Fi."
 msgstr ""
-"Wi-Fi 熱點透過建立其他人能連線的 Wi-Fi 網路，讓其他人能分享你的網路連線。要這"
+"Wi-Fi 熱點透過建立其他人能連線的 Wi-Fi 網路，讓其他人能分享您的網路連線。要這"
 "麼做，你必須要有 Wi-Fi 之外的網路連線來源。"
 
 #: panels/network/cc-wifi-hotspot-dialog.ui:44
@@ -3191,12 +3191,12 @@ msgstr "允許其他使用者使用(_O)"
 
 #: panels/network/connection-editor/details-page.ui:428
 msgid "_Metered connection: has data limits or can incur charges"
-msgstr "計量連線(_M)：有資料限制或要收費"
+msgstr "計量連線(_M)：有資料限制或可能會收取費用"
 
 #: panels/network/connection-editor/details-page.ui:439
 msgid ""
 "Software updates and other large downloads will not be started automatically."
-msgstr "軟體更新及其他大型下載不會自動啟動。"
+msgstr "軟體更新及其他大型下載不會自動開始。"
 
 #: panels/network/connection-editor/ethernet-page.ui:25
 #: panels/network/connection-editor/vpn-page.ui:23
@@ -3248,7 +3248,7 @@ msgstr "停用"
 #: panels/network/connection-editor/ip4-page.ui:97
 #: panels/network/connection-editor/ip6-page.ui:111
 msgid "Shared to other computers"
-msgstr "分享至其他電腦"
+msgstr "分享給其他電腦"
 
 #: panels/network/connection-editor/ip4-page.ui:125
 #: panels/network/connection-editor/ip6-page.ui:139
@@ -5740,7 +5740,7 @@ msgid ""
 msgstr ""
 "device;system;default;application;preferred;cd;dvd;usb;audio;video;disc;"
 "removable;media;autorun;裝置;系統;預設;應用程式;偏好;首選;音訊;視訊;光碟;碟"
-"片;可移除;卸除式;媒體;自動執行;"
+"片;可移除;可移除式;媒體;自動執行;"
 
 #: panels/search/cc-search-locations-dialog.c:635
 msgid "Select Location"
@@ -6858,7 +6858,7 @@ msgstr "垃圾及暫存檔"
 msgid ""
 "Trash and temporary files can sometimes include personal or sensitive "
 "information. Automatically deleting them can help to protect privacy."
-msgstr "垃圾及暫存檔有時候可能會有個人或敏感資料。自動刪除會協助保護安全性。"
+msgstr "垃圾及暫存檔有時候可能會有個人或敏感資料。自動刪除會協助保障隱私權。"
 
 #: panels/usage/cc-usage-panel.ui:161
 msgid "Automatically Delete _Trash Content"

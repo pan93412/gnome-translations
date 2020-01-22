@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gnome-maps master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-maps/issues\n"
 "POT-Creation-Date: 2019-12-15 18:16+0000\n"
-"PO-Revision-Date: 2020-01-21 23:57+0800\n"
+"PO-Revision-Date: 2020-01-22 14:37+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -1710,11 +1710,11 @@ msgstr "%s 英呎"
 #: src/transitplugins/openTripPlanner.js:1174
 #, javascript-format
 msgid "Continue on %s"
-msgstr "在 %s 繼續"
+msgstr "在 %s 繼續走"
 
 #: src/transitplugins/openTripPlanner.js:1176
 msgid "Continue"
-msgstr "繼續"
+msgstr "繼續走"
 
 #: src/transitplugins/openTripPlanner.js:1179
 #, javascript-format

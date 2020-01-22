@@ -1,0 +1,4256 @@
+# Chinese/Traditional translation of damned-lies.
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the damned-lies package.
+# Hialan Liu <hialan.liu@gmail.com>, 2008.
+# Wei-Lun Chao <chaoweilun@gmail.com>, 2010.
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2009, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: damned-lies\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-13 15:00+0000\n"
+"PO-Revision-Date: 2018-10-07 20:23+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese (traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.1.1\n"
+
+#: common/views.py:33
+msgid "translator-credits"
+msgstr "GNOME 翻譯團隊, <zh-l10n@lists.linux.org.tw>"
+
+#: common/views.py:64
+#, python-format
+msgid ""
+"You have not joined any translation team yet. You can do it from <a href="
+"\"%(url)s\">your profile</a>."
+msgstr ""
+"您尚未加入任何翻譯團體。您可以在<a href=\"%(url)s\">設定組合</a>中完成它。"
+
+#: common/views.py:72
+msgid "Login unsuccessful. Please verify your username and password."
+msgstr "登入失敗。請檢查您的使用者名稱和密碼。"
+
+#: common/views.py:96
+msgid "Sorry, the key you provided is not valid."
+msgstr "抱歉，您提供的金鑰是無效的。"
+
+#: common/views.py:98
+msgid "Your account has been activated."
+msgstr "您的帳號已啟用。"
+
+#: damnedlies/settings.py:49 database-content.py:43 database-content.py:190
+msgid "Friulian"
+msgstr "弗留利語"
+
+#: damnedlies/settings.py:50 database-content.py:50 database-content.py:197
+msgid "Gujarati"
+msgstr "古吉拉特語"
+
+#: damnedlies/settings.py:51 database-content.py:74 database-content.py:224
+msgid "Kurdish"
+msgstr "庫德語"
+
+#: damnedlies/settings.py:79
+msgid ""
+"This module is not part of the GNOME Git repository. Please check the "
+"module’s web page to see where to send translations."
+msgstr ""
+"這個模組並非 GNOME Git 倉儲的一部分。請查閱該模組的網頁以了解要如何送出翻譯。"
+
+#: database-content.py:1 database-content.py:142
+msgid "Afrikaans"
+msgstr "南非荷蘭語"
+
+#: database-content.py:2 database-content.py:143
+msgid "Akan"
+msgstr "亞肯語"
+
+#: database-content.py:3 database-content.py:144
+msgid "Albanian"
+msgstr "阿爾巴尼亞語"
+
+#: database-content.py:4 database-content.py:145
+msgid "Amharic"
+msgstr "阿姆哈拉語"
+
+#: database-content.py:5 database-content.py:146
+msgid "Arabic"
+msgstr "阿拉伯語"
+
+#: database-content.py:6 database-content.py:147
+msgid "Aragonese"
+msgstr "亞拉岡語"
+
+#: database-content.py:7 database-content.py:148
+msgid "Armenian"
+msgstr "亞美尼亞語"
+
+#: database-content.py:8 database-content.py:149
+msgid "Assamese"
+msgstr "阿薩姆語"
+
+#: database-content.py:9 database-content.py:150
+msgid "Asturian"
+msgstr "阿斯圖里亞斯語"
+
+#: database-content.py:10 database-content.py:151
+msgid "Australian English"
+msgstr "澳大利亞英語"
+
+#: database-content.py:11 database-content.py:152
+msgid "Azerbaijani"
+msgstr "亞塞拜然語"
+
+#: database-content.py:12 database-content.py:153
+msgid "Balochi"
+msgstr "俾路支語"
+
+#: database-content.py:13 database-content.py:154
+msgid "Basque"
+msgstr "巴斯克語"
+
+#: database-content.py:14 database-content.py:155
+msgid "Belarusian"
+msgstr "白俄羅斯語"
+
+#: database-content.py:15 database-content.py:157
+msgid "Bemba"
+msgstr "別姆巴語"
+
+#: database-content.py:16 database-content.py:158
+msgid "Bengali"
+msgstr "孟加拉語"
+
+#: database-content.py:17 database-content.py:159
+msgid "Bengali (India)"
+msgstr "孟加拉語 (印度)"
+
+#: database-content.py:18 database-content.py:160
+msgid "Bodo"
+msgstr "博多語"
+
+#: database-content.py:19 database-content.py:161
+msgid "Bosnian"
+msgstr "波斯尼亞語"
+
+#: database-content.py:20 database-content.py:162
+msgid "Brazilian Portuguese"
+msgstr "巴西葡萄牙語"
+
+#: database-content.py:21 database-content.py:163
+msgid "Breton"
+msgstr "布列塔尼語"
+
+#: database-content.py:22 database-content.py:164
+msgid "British English"
+msgstr "英國英語"
+
+#: database-content.py:23 database-content.py:165
+msgid "Bulgarian"
+msgstr "保加利亞語"
+
+#: database-content.py:24 database-content.py:166
+msgid "Burmese"
+msgstr "緬甸語"
+
+#: database-content.py:25 database-content.py:167
+msgid "Canadian English"
+msgstr "加拿大英語"
+
+#: database-content.py:26 database-content.py:169
+msgid "Catalan"
+msgstr "加泰羅尼亞語"
+
+#: database-content.py:27 database-content.py:171
+msgid "Central Nahuatl"
+msgstr "中納瓦特爾語"
+
+#: database-content.py:28 database-content.py:173
+msgid "Chinese (China)"
+msgstr "漢語（中國）"
+
+#: database-content.py:29
+msgid "Chinese Traditional"
+msgstr "漢語傳承字"
+
+#: database-content.py:30 database-content.py:176
+msgid "Crimean Tatar"
+msgstr "克里米亞韃靼語"
+
+#: database-content.py:31 database-content.py:177
+msgid "Croatian"
+msgstr "克羅埃西亞語"
+
+#: database-content.py:32 database-content.py:178
+msgid "Czech"
+msgstr "捷克語"
+
+#: database-content.py:33 database-content.py:179
+msgid "Danish"
+msgstr "丹麥語"
+
+#: database-content.py:34 database-content.py:180
+msgid "Divehi"
+msgstr "迪維西語"
+
+#: database-content.py:35 database-content.py:181
+msgid "Dutch"
+msgstr "荷蘭語"
+
+#: database-content.py:36 database-content.py:182
+msgid "Dzongkha"
+msgstr "宗喀語"
+
+#: database-content.py:37 database-content.py:184
+msgid "Esperanto"
+msgstr "世界語"
+
+#: database-content.py:38 database-content.py:185
+msgid "Estonian"
+msgstr "愛沙尼亞語"
+
+#: database-content.py:39 database-content.py:186
+msgid "Faroese"
+msgstr "法羅語"
+
+#: database-content.py:40 database-content.py:187
+msgid "Finnish"
+msgstr "芬蘭語"
+
+#: database-content.py:41 database-content.py:188
+msgid "French"
+msgstr "法語"
+
+#: database-content.py:42 database-content.py:189
+msgid "Frisian"
+msgstr "弗利然群島語"
+
+#: database-content.py:44 database-content.py:191
+msgid "Fula"
+msgstr "富拉語"
+
+#: database-content.py:45 database-content.py:192
+msgid "Galician"
+msgstr "加利西亞語"
+
+#: database-content.py:46 database-content.py:193
+msgid "Georgian"
+msgstr "喬治亞語"
+
+#: database-content.py:47 database-content.py:194
+msgid "German"
+msgstr "德語"
+
+#: database-content.py:48 database-content.py:195
+msgid "Greek"
+msgstr "希臘語"
+
+#: database-content.py:49 database-content.py:196
+msgid "Guarani"
+msgstr "瓜拉尼語"
+
+#: database-content.py:51 database-content.py:198
+msgid "Haitian Creole"
+msgstr "海地克里奧爾語"
+
+#: database-content.py:52 database-content.py:199
+msgid "Hausa"
+msgstr "豪撒語"
+
+#: database-content.py:53 database-content.py:200
+msgid "Hebrew"
+msgstr "希伯來語"
+
+#: database-content.py:54 database-content.py:201
+msgid "Hindi"
+msgstr "印地語"
+
+#: database-content.py:55 database-content.py:202
+msgid "Hungarian"
+msgstr "匈牙利語"
+
+#: database-content.py:56 database-content.py:203
+msgid "Icelandic"
+msgstr "冰島語"
+
+#: database-content.py:57 database-content.py:204
+msgid "Ido"
+msgstr "伊多語"
+
+#: database-content.py:58 database-content.py:206
+msgid "Indonesian"
+msgstr "印尼語"
+
+#: database-content.py:59 database-content.py:207
+msgid "Interlingua"
+msgstr "拉丁國際語"
+
+#: database-content.py:60 database-content.py:208
+msgid "Iranian Azerbaijani"
+msgstr "伊朗亞塞拜然語"
+
+#: database-content.py:61 database-content.py:209
+msgid "Irish"
+msgstr "愛爾蘭語"
+
+#: database-content.py:62 database-content.py:210
+msgid "Italian"
+msgstr "義大利語"
+
+#: database-content.py:63 database-content.py:211
+msgid "Japanese"
+msgstr "日本語"
+
+#: database-content.py:64 database-content.py:212
+msgid "Kabyle"
+msgstr "卡布列語"
+
+#: database-content.py:65 database-content.py:213
+msgid "Kannada"
+msgstr "坎拿達語"
+
+#: database-content.py:66 database-content.py:214
+msgid "Karbi"
+msgstr ""
+
+#: database-content.py:67 database-content.py:215
+msgid "Kashmiri"
+msgstr "喀什米爾語"
+
+#: database-content.py:68 database-content.py:217
+msgid "Kazakh"
+msgstr "哈薩克語"
+
+#: database-content.py:69 database-content.py:219
+msgid "Khmer"
+msgstr "高棉語"
+
+#: database-content.py:70 database-content.py:220
+msgid "Kikongo"
+msgstr "剛果語"
+
+#: database-content.py:71 database-content.py:221
+msgid "Kinyarwanda"
+msgstr "盧安達語"
+
+#: database-content.py:72 database-content.py:222
+msgid "Kirghiz"
+msgstr "吉爾吉斯語"
+
+#: database-content.py:73 database-content.py:223
+msgid "Korean"
+msgstr "韓語"
+
+#: database-content.py:75 database-content.py:226
+msgid "Lao"
+msgstr "寮國語"
+
+#: database-content.py:76 database-content.py:227
+msgid "Latin"
+msgstr "拉丁語"
+
+#: database-content.py:77 database-content.py:228
+msgid "Latvian"
+msgstr "拉脫維亞語"
+
+#: database-content.py:78 database-content.py:229
+msgid "Limburgian"
+msgstr "林堡語"
+
+#: database-content.py:79 database-content.py:230
+msgid "Lingala"
+msgstr "林格拉語"
+
+#: database-content.py:80 database-content.py:231
+msgid "Lithuanian"
+msgstr "立陶宛語"
+
+#: database-content.py:81 database-content.py:232
+msgid "Low German"
+msgstr "低地德語"
+
+#: database-content.py:82 database-content.py:233
+msgid "Luganda"
+msgstr "盧干達語"
+
+#: database-content.py:83 database-content.py:235
+msgid "Macedonian"
+msgstr "馬其頓語"
+
+#: database-content.py:84 database-content.py:236
+msgid "Maithili"
+msgstr "邁蒂利語"
+
+#: database-content.py:85 database-content.py:237
+msgid "Malagasy"
+msgstr "馬拉加斯語"
+
+#: database-content.py:86 database-content.py:238
+msgid "Malay"
+msgstr "馬來語"
+
+#: database-content.py:87 database-content.py:239
+msgid "Malayalam"
+msgstr "馬拉雅拉姆語"
+
+#: database-content.py:88 database-content.py:241
+msgid "Manx"
+msgstr "曼島語"
+
+#: database-content.py:89 database-content.py:242
+msgid "Maori"
+msgstr "毛利語"
+
+#: database-content.py:90 database-content.py:243
+msgid "Marathi"
+msgstr "馬拉塔語"
+
+#: database-content.py:91 database-content.py:244
+msgid "Mexican Spanish"
+msgstr "墨西哥西班牙語"
+
+#: database-content.py:92 database-content.py:245
+msgid "Mongolian"
+msgstr "蒙古語"
+
+#: database-content.py:93
+msgid "Neapolitan"
+msgstr "那不勒斯語"
+
+#: database-content.py:94 database-content.py:246
+msgid "Nepali"
+msgstr "尼泊爾語"
+
+#: database-content.py:95 database-content.py:248
+msgid "Northern Sotho"
+msgstr "北索托語"
+
+#: database-content.py:96
+msgid "Norwegian (Bokmål and Nynorsk)"
+msgstr "挪威語（書面文和新挪威文）"
+
+#: database-content.py:97 database-content.py:251
+msgid "Occitan"
+msgstr "奧克西坦語"
+
+#: database-content.py:98 database-content.py:252
+msgid "Old English"
+msgstr "古英語"
+
+#: database-content.py:99 database-content.py:253
+msgid "Oriya"
+msgstr "奧利亞語"
+
+#: database-content.py:100 database-content.py:254
+msgid "Ossetian"
+msgstr "奧塞提亞語"
+
+#: database-content.py:101 database-content.py:255
+msgid "Pashto"
+msgstr "普什圖語"
+
+#: database-content.py:102 database-content.py:256
+msgid "Persian"
+msgstr "波斯語"
+
+#: database-content.py:103 database-content.py:257
+msgid "Polish"
+msgstr "波蘭語"
+
+#: database-content.py:104 database-content.py:258
+msgid "Portuguese"
+msgstr "葡萄牙語"
+
+#: database-content.py:105 database-content.py:259
+msgid "Punjabi"
+msgstr "旁遮普語"
+
+#: database-content.py:106
+msgid "Quechua"
+msgstr "克丘亞語"
+
+#: database-content.py:107 database-content.py:261
+msgid "Romanian"
+msgstr "羅馬尼亞語"
+
+#: database-content.py:108 database-content.py:262
+msgid "Russian"
+msgstr "俄語"
+
+#: database-content.py:109 database-content.py:263
+msgid "Scottish Gaelic"
+msgstr "蘇格蘭蓋爾語"
+
+#: database-content.py:110 database-content.py:264
+msgid "Serbian"
+msgstr "塞爾維亞語"
+
+#: database-content.py:111 database-content.py:268
+msgid "Shavian"
+msgstr "蕭伯納字"
+
+#: database-content.py:112 database-content.py:269
+msgid "Silesian"
+msgstr "西利西亞語"
+
+#: database-content.py:113 database-content.py:271
+msgid "Sinhala"
+msgstr "僧伽羅語"
+
+#: database-content.py:114 database-content.py:272
+msgid "Slovak"
+msgstr "斯洛伐克語"
+
+#: database-content.py:115 database-content.py:273
+msgid "Slovenian"
+msgstr "斯洛維尼亞語"
+
+#: database-content.py:116 database-content.py:274
+msgid "Somali"
+msgstr "索馬利語"
+
+#: database-content.py:117 database-content.py:277
+msgid "Spanish"
+msgstr "西班牙語"
+
+#: database-content.py:118 database-content.py:278
+msgid "Swahili"
+msgstr "斯瓦希里語"
+
+#: database-content.py:119 database-content.py:279
+msgid "Swedish"
+msgstr "瑞典語"
+
+#: database-content.py:120 database-content.py:281
+msgid "Tagalog"
+msgstr "塔加洛語"
+
+#: database-content.py:121 database-content.py:282
+msgid "Tajik"
+msgstr "塔吉克語"
+
+#: database-content.py:122 database-content.py:283
+msgid "Tamil"
+msgstr "塔米爾語"
+
+#: database-content.py:123 database-content.py:284
+msgid "Tatar"
+msgstr "韃靼語"
+
+#: database-content.py:124 database-content.py:285
+msgid "Telugu"
+msgstr "泰盧固語"
+
+#: database-content.py:125 database-content.py:286
+msgid "Thai"
+msgstr "泰語"
+
+#: database-content.py:126 database-content.py:287
+msgid "Tibetan"
+msgstr "藏語"
+
+#: database-content.py:127 database-content.py:288
+msgid "Tsonga"
+msgstr "聰加語"
+
+#: database-content.py:128 database-content.py:289
+msgid "Turkish"
+msgstr "土耳其語"
+
+#: database-content.py:129 database-content.py:290
+msgid "Turkmen"
+msgstr "土庫曼語"
+
+#: database-content.py:130 database-content.py:291
+msgid "Uighur"
+msgstr "維吾爾語"
+
+#: database-content.py:131 database-content.py:292
+msgid "Ukrainian"
+msgstr "烏克蘭語"
+
+#: database-content.py:132 database-content.py:293
+msgid "Urdu"
+msgstr "烏爾都語"
+
+#: database-content.py:133
+msgid "Uzbek"
+msgstr "烏茲別克語"
+
+#: database-content.py:134 database-content.py:296
+msgid "Vietnamese"
+msgstr "越南語"
+
+#: database-content.py:135 database-content.py:297
+msgid "Walloon"
+msgstr "華隆語"
+
+#: database-content.py:136 database-content.py:298
+msgid "Wayuu"
+msgstr "瓦尤語"
+
+#: database-content.py:137 database-content.py:299
+msgid "Welsh"
+msgstr "威爾斯語"
+
+#: database-content.py:138 database-content.py:300
+msgid "Xhosa"
+msgstr "科薩語"
+
+#: database-content.py:139 database-content.py:301
+msgid "Yiddish"
+msgstr "意第緒語"
+
+#: database-content.py:140 database-content.py:302
+msgid "Yoruba"
+msgstr "約魯巴語"
+
+#: database-content.py:141 database-content.py:303
+msgid "Zulu"
+msgstr "祖魯語"
+
+#: database-content.py:156
+#, fuzzy
+#| msgid "Belarusian Latin"
+msgid "Belarusian (Latin)"
+msgstr "白俄羅斯語拉丁字"
+
+#: database-content.py:168
+msgid "Canadian French"
+msgstr "加拿大法語"
+
+#: database-content.py:170
+msgid "Catalan (Valencian)"
+msgstr "加泰羅尼亞語（瓦倫西亞）"
+
+#: database-content.py:172
+msgid "Chechen"
+msgstr "車臣語"
+
+#: database-content.py:174
+msgid "Chinese (Hong Kong)"
+msgstr "漢語（香港）"
+
+#: database-content.py:175
+msgid "Chinese (Taiwan)"
+msgstr "漢語（臺灣）"
+
+#: database-content.py:183
+msgid "English"
+msgstr "英語"
+
+#: database-content.py:205
+msgid "Igbo"
+msgstr "伊博語"
+
+#: database-content.py:216
+msgid "Kashubian"
+msgstr "卡舒比語"
+
+#: database-content.py:218
+msgid "Kazakh (Latin)"
+msgstr "哈薩克語（拉丁字）"
+
+#: database-content.py:225
+msgid "Kurdish Sorani"
+msgstr "中庫爾德語"
+
+#: database-content.py:234
+msgid "Luxembourgish"
+msgstr "盧森堡語"
+
+#: database-content.py:240
+msgid "Maltese"
+msgstr "馬爾他語"
+
+#: database-content.py:247
+msgid "Northern Sami"
+msgstr "北薩米語"
+
+#: database-content.py:249
+msgid "Norwegian Bokmål"
+msgstr "挪威語書面文"
+
+#: database-content.py:250
+msgid "Norwegian Nynorsk"
+msgstr "挪威語新挪威文"
+
+#: database-content.py:260
+msgid "Quechua (Cuzco-Collao)"
+msgstr "奇楚瓦語（Cuzco-Collao）"
+
+#: database-content.py:265
+#, fuzzy
+#| msgid "Serbian Latin"
+msgid "Serbian (Latin)"
+msgstr "賽爾維亞語拉丁字"
+
+#: database-content.py:266
+msgid "Serbian Jekavian"
+msgstr "賽爾維亞語耶卡言"
+
+#: database-content.py:267
+msgid "Shan"
+msgstr "撣語"
+
+#: database-content.py:270
+msgid "Sindhi"
+msgstr "信德語"
+
+#: database-content.py:275
+msgid "South Ndebele"
+msgstr "南恩德貝勒語"
+
+#: database-content.py:276
+msgid "Southern Sotho"
+msgstr "南索托語"
+
+#: database-content.py:280
+msgid "Swiss German"
+msgstr "瑞士德語"
+
+#: database-content.py:294
+msgid "Uzbek (Cyrillic)"
+msgstr "烏茲別克語（西里爾字）"
+
+#: database-content.py:295
+msgid "Uzbek (Latin)"
+msgstr "烏茲別克語（拉丁字）"
+
+#: database-content.py:304
+msgid "AppStream"
+msgstr "AppStream"
+
+#: database-content.py:305
+msgid "Documentation Video"
+msgstr "文件影片"
+
+#: database-content.py:306
+msgid "Dynamic content"
+msgstr "動態內容"
+
+#: database-content.py:307
+msgid "Example App: Film manager"
+msgstr "範例程式：影片管理程式"
+
+#: database-content.py:308
+msgid "Example App: Lesson planner"
+msgstr "範例程式：課程規劃程式"
+
+#: database-content.py:309
+msgid "Example App: Music collection"
+msgstr "範例程式：音樂收藏"
+
+#: database-content.py:310
+msgid "Example App: Project manager"
+msgstr "範例程式：專案管理程式"
+
+#: database-content.py:311
+msgid "Example App: Small business"
+msgstr "範例程式：小型商務"
+
+#: database-content.py:312
+msgid "GNOME 3.30 Release Video"
+msgstr "GNOME 3.30 發行影片"
+
+#: database-content.py:313 database-content.py:316 database-content.py:342
+#: database-content.py:343
+msgid "UI translations"
+msgstr "使用者介面翻譯"
+
+#: database-content.py:314
+msgid "Weather Locations"
+msgstr "天氣位置"
+
+#: database-content.py:315
+msgid "Layout Descriptions"
+msgstr "配置描述"
+
+#: database-content.py:317
+msgid "User Directories"
+msgstr "使用者目錄"
+
+#: database-content.py:318
+msgid "Recipes translations"
+msgstr "食譜翻譯"
+
+#: database-content.py:319
+msgid "Engine"
+msgstr "引擎"
+
+#: database-content.py:320
+msgid "Engine-Campfire"
+msgstr "引擎-Campfire"
+
+#: database-content.py:321
+msgid "Engine-IRC"
+msgstr "引擎-IRC"
+
+#: database-content.py:322
+msgid "Engine-JabbR"
+msgstr "引擎-JabbR"
+
+#: database-content.py:323
+msgid "Engine-MessageBuffer"
+msgstr "引擎-MessageBuffer"
+
+#: database-content.py:324
+msgid "Engine-Twitter"
+msgstr "引擎-Twitter"
+
+#: database-content.py:325
+msgid "Engine-XMPP"
+msgstr "引擎-XMPP"
+
+#: database-content.py:326
+msgid "Frontend"
+msgstr "前台"
+
+#: database-content.py:327
+msgid "Frontend-GNOME"
+msgstr "前台-GNOME"
+
+#: database-content.py:328
+msgid "Frontend-GNOME-IRC"
+msgstr "前台-GNOME-IRC"
+
+#: database-content.py:329
+msgid "Frontend-GNOME-Twitter"
+msgstr "前台-GNOME-Twitter"
+
+#: database-content.py:330
+msgid "Frontend-GNOME-XMPP"
+msgstr "前台-GNOME-XMPP"
+
+#: database-content.py:331
+msgid "Functions"
+msgstr "函式"
+
+#: database-content.py:332
+msgid "libgimp"
+msgstr "libgimp"
+
+#: database-content.py:333
+msgid "plug-ins"
+msgstr "外掛程式"
+
+#: database-content.py:334
+msgid "Property Nicks"
+msgstr "內容別名"
+
+#: database-content.py:335
+msgid "python"
+msgstr "python"
+
+#: database-content.py:336
+msgid "script-fu"
+msgstr "script-fu"
+
+#: database-content.py:337
+msgid "Server"
+msgstr "伺服器"
+
+#: database-content.py:338
+msgid "tags"
+msgstr "tags"
+
+#: database-content.py:339
+msgid "tips"
+msgstr "提示"
+
+#: database-content.py:340
+msgid "Windows installer"
+msgstr "Windows installer"
+
+#: database-content.py:341
+msgid "Static content"
+msgstr "靜態內容"
+
+#: database-content.py:344
+msgid "Accessibility Developers Guide"
+msgstr "無障礙功能開發者指南"
+
+#: database-content.py:345
+msgid "Keyboard Accessibility Monitor Manual"
+msgstr "鍵盤無障礙功能監控程式手冊"
+
+#: database-content.py:346
+msgid "appendix"
+msgstr "附錄"
+
+#: database-content.py:347
+msgid "Battery Charge Monitor Manual"
+msgstr "電池充電監控程式手冊"
+
+#: database-content.py:348
+msgid "Browser Help"
+msgstr "瀏覽器求助"
+
+#: database-content.py:349
+msgid "Build Tutorial"
+msgstr "組建教學"
+
+#: database-content.py:350
+msgid "Character Palette Manual"
+msgstr "字元對應表手冊"
+
+#: database-content.py:351
+msgid "Clock Applet Manual"
+msgstr "時鐘面板程式 手冊"
+
+#: database-content.py:352
+msgid "concepts"
+msgstr "概念"
+
+#: database-content.py:353
+msgid "CPU Frequency Scaling Monitor Manual"
+msgstr "CPU 頻率調整監控程式手冊"
+
+#: database-content.py:354
+msgid "FDL License"
+msgstr "FDL 許可證"
+
+#: database-content.py:355
+msgid "GPL License"
+msgstr "GPL 許可證"
+
+#: database-content.py:356
+msgid "LGPL License"
+msgstr "LGPL 許可證"
+
+#: database-content.py:357
+msgid "dialogs"
+msgstr "對話盒"
+
+#: database-content.py:358 database-content.py:383 database-content.py:389
+#: database-content.py:427
+msgid "User Guide"
+msgstr "使用者指南"
+
+#: database-content.py:359
+msgid "Disk Mounter Manual"
+msgstr "磁碟掛載 手冊"
+
+#: database-content.py:360
+msgid "FAQ"
+msgstr "常見問題"
+
+#: database-content.py:361
+msgid "filters"
+msgstr "濾鏡"
+
+#: database-content.py:362
+msgid "alpha-to-logo filter"
+msgstr "alpha-to-logo 濾鏡"
+
+#: database-content.py:363
+msgid "animation filter"
+msgstr "動畫濾鏡"
+
+#: database-content.py:364
+msgid "artistic filter"
+msgstr "藝術類濾鏡"
+
+#: database-content.py:365
+msgid "blur filter"
+msgstr "模糊濾鏡"
+
+#: database-content.py:366
+msgid "combine filter"
+msgstr "結合濾鏡"
+
+#: database-content.py:367
+msgid "decor filter"
+msgstr "裝飾濾鏡"
+
+#: database-content.py:368
+msgid "distort filter"
+msgstr "扭曲濾鏡"
+
+#: database-content.py:369
+msgid "edge-detect filter"
+msgstr "邊緣偵測濾鏡"
+
+#: database-content.py:370
+msgid "enhance filter"
+msgstr "增強濾鏡"
+
+#: database-content.py:371
+msgid "generic filter"
+msgstr "一般濾鏡"
+
+#: database-content.py:372
+msgid "light-and-shadow filter"
+msgstr "光影濾鏡"
+
+#: database-content.py:373
+msgid "map filter"
+msgstr "映射濾鏡"
+
+#: database-content.py:374
+msgid "noise filter"
+msgstr "噪訊濾鏡"
+
+#: database-content.py:375
+msgid "render filter"
+msgstr "描繪濾鏡"
+
+#: database-content.py:376
+msgid "web filter"
+msgstr "網頁濾鏡"
+
+#: database-content.py:377
+msgid "Fish Applet Manual"
+msgstr "小魚面板程式手冊"
+
+#: database-content.py:378
+msgid "Getting Started"
+msgstr "開始"
+
+#: database-content.py:379
+msgid "Geyes Manual"
+msgstr "Geyes 手冊"
+
+#: database-content.py:380
+msgid "gimp"
+msgstr "gimp"
+
+#: database-content.py:381
+msgid "quick reference"
+msgstr "快速參考"
+
+#: database-content.py:382
+msgid "glossary"
+msgstr "術語"
+
+#: database-content.py:384
+msgid "Weather Report Manual"
+msgstr "氣象報告手冊"
+
+#: database-content.py:385 languages/views.py:31 languages/views.py:64
+#: templates/base.html:111 templates/branch_detail.html:22
+#: templates/languages/language_release_summary.html:17
+#: templates/release_detail.html:27 templates/release_detail.html:85
+msgid "Documentation"
+msgstr "文件"
+
+#: database-content.py:386
+msgid "Encryption Applet Manual"
+msgstr "加密面板程式手冊"
+
+#: database-content.py:387
+msgid "GNOME Library help"
+msgstr "GNOME 函式庫求助"
+
+#: database-content.py:388
+msgid "Release Notes"
+msgstr "發行公告"
+
+#: database-content.py:390
+msgid "Human Interface Guidelines"
+msgstr "人性介面方針"
+
+#: database-content.py:391
+msgid "introduction"
+msgstr "導覽"
+
+#: database-content.py:392
+msgid "Invest Applet Manual"
+msgstr "投資面板程式手冊"
+
+#: database-content.py:393
+msgid "menus"
+msgstr "選單"
+
+#: database-content.py:394
+msgid "colors menus"
+msgstr "顏色選單"
+
+#: database-content.py:395
+msgid "colors auto menu"
+msgstr "顏色自動選單"
+
+#: database-content.py:396
+msgid "colors component menu"
+msgstr "顏色組合選單"
+
+#: database-content.py:397
+msgid "colors desaturate menu"
+msgstr "色彩飽和度選單"
+
+#: database-content.py:398
+msgid "colors info menu"
+msgstr "顏色資訊選單"
+
+#: database-content.py:399
+msgid "colors map menu"
+msgstr "色票選單"
+
+#: database-content.py:400
+msgid "colors tone-mapping menu"
+msgstr "色彩色調映射選單"
+
+#: database-content.py:401
+msgid "edit menu"
+msgstr "編輯選單"
+
+#: database-content.py:402
+msgid "file menu"
+msgstr "檔案選單"
+
+#: database-content.py:403
+msgid "filters menu"
+msgstr "過濾條件選單"
+
+#: database-content.py:404
+msgid "help menu"
+msgstr "求助選單"
+
+#: database-content.py:405
+msgid "image menu"
+msgstr "圖片選單"
+
+#: database-content.py:406
+msgid "layer menu"
+msgstr "圖層選單"
+
+#: database-content.py:407
+msgid "select menu"
+msgstr "選擇選單"
+
+#: database-content.py:408
+msgid "view menu"
+msgstr "檢視選單"
+
+#: database-content.py:409
+msgid "Command Line Manual"
+msgstr "命令列手冊"
+
+#: database-content.py:410
+msgid "System Monitor Manual"
+msgstr "系統監控手冊"
+
+#: database-content.py:411
+msgid "Netspeed Applet Manual"
+msgstr "網速面板程式手冊"
+
+#: database-content.py:412
+msgid "Optimization Guide"
+msgstr "最佳化指南"
+
+#: database-content.py:413
+msgid "Tutorial demos"
+msgstr "教材展示"
+
+#: database-content.py:414
+msgid "Platform Overview"
+msgstr "平臺概覽"
+
+#: database-content.py:415
+msgid "preface"
+msgstr "序"
+
+#: database-content.py:416
+msgid "Programming Guidelines"
+msgstr "程式設計方針"
+
+#: database-content.py:417
+msgid "Website"
+msgstr "網站"
+
+#: database-content.py:418
+msgid "Sticky Notes Manual"
+msgstr "便利貼手冊"
+
+#: database-content.py:419
+msgid "System Administration Guide"
+msgstr "系統管理手冊"
+
+#: database-content.py:420
+msgid "toolbox"
+msgstr "工具箱"
+
+#: database-content.py:421
+msgid "toolbox (color)"
+msgstr "工具箱 (顏色)"
+
+#: database-content.py:422
+msgid "toolbox (paint)"
+msgstr "工具箱 (畫具)"
+
+#: database-content.py:423
+msgid "toolbox (selection)"
+msgstr "工具箱 (選擇區域)"
+
+#: database-content.py:424
+msgid "toolbox (transform)"
+msgstr "工具箱 (變形)"
+
+#: database-content.py:425
+msgid "Panel Trash Manual"
+msgstr "面板回收筒手冊"
+
+#: database-content.py:426
+msgid "tutorial"
+msgstr "教材"
+
+#: database-content.py:428
+msgid "using gimp"
+msgstr "使用 gimp"
+
+#: database-content.py:429
+msgid "preferences"
+msgstr "偏好設定"
+
+#: database-content.py:430 templates/admin/base_site.html:7
+#: templates/base.html:131
+msgid "Damned Lies"
+msgstr "Damned Lies"
+
+#: database-content.py:431
+msgid "Eye of GNOME"
+msgstr "GNOME 之眼"
+
+#: database-content.py:432
+msgid "GNOME Shell Extensions Repository"
+msgstr ""
+
+#: database-content.py:433
+msgid "GIMP User Manual"
+msgstr "GIMP 使用者手冊"
+
+#: database-content.py:434
+msgid "GNOME Development Documentation"
+msgstr "GNOME 開發文件"
+
+#: database-content.py:435
+msgid "Getting Started with GNOME"
+msgstr "開始使用 GNOME"
+
+#: database-content.py:436
+msgid "GNOME User Documentation"
+msgstr "GNOME 使用者文件"
+
+#: database-content.py:437
+msgid "GNOME Web site"
+msgstr "GNOME 網站"
+
+#: database-content.py:438
+msgid "King’s Cross"
+msgstr ""
+
+#: database-content.py:439
+msgid "GNOME Library Web site"
+msgstr "GNOME 函式庫網站"
+
+#: database-content.py:440
+msgid "GNOME Release Notes"
+msgstr "GNOME 發行公告"
+
+#: database-content.py:441
+msgid "Shared MIME Info"
+msgstr "共享的 MIME 資訊"
+
+#: database-content.py:442
+msgid "Video Subtitles for GNOME’s videos"
+msgstr "GNOME 影片的字幕翻譯"
+
+#: database-content.py:443
+#, fuzzy
+#| msgid "WebKitGTK+"
+msgid "WebKitGTK"
+msgstr "WebKitGTK+"
+
+#: database-content.py:444
+#, fuzzy
+#| msgid ""
+#| "Toolkit for defining and handling authorizations. To submit your "
+#| "translation, <a href=\"https://gitlab.freedesktop.org/polkit/polkit/"
+#| "merge_requests\">create a merge request</a>."
+msgid ""
+"D-Bus interface for user account query and manipulation. To submit your "
+"translation, <a href=\"https://gitlab.freedesktop.org/accountsservice/"
+"accountsservice/merge_requests\">create a merge request</a>."
+msgstr ""
+"定義與處理授權的工具箱。若要提交您的翻譯，請<a href=\"https://gitlab."
+"freedesktop.org/polkit/polkit/merge_requests\">建立個合併請求</a>。"
+
+#: database-content.py:445
+msgid ""
+"Utilities to generate, maintain and access the AppStream Xapian database and "
+"work with AppStream metadata."
+msgstr ""
+"用來產生、維護與存取 AppStream Xapian 資料庫並用於 AppStream 中介資料的公用程"
+"式。"
+
+#: database-content.py:446
+msgid ""
+"This library provides objects and helper methods to help reading and writing "
+"AppStream metadata."
+msgstr "這個程式庫提供物件與協助方法以用於讀取及寫入 AppStream 中介資料。"
+
+#: database-content.py:447
+msgid ""
+"Avahi is a system which facilitates service discovery on a local network via "
+"the mDNS/DNS-SD protocol suite. To submit your translation, <a href="
+"\"https://github.com/lathiat/avahi/pulls\">create a pull request</a>."
+msgstr ""
+"Avahi 是一個透過 mDNS/DNS-SD 通訊協定探索區域網路服務的功能套件。若要提交您的"
+"翻譯，請<a href=\"https://github.com/lathiat/avahi/pulls\">建立一個 pull 請求"
+"</a>。"
+
+#: database-content.py:448
+msgid ""
+"There is a limited number of supported locales. If you use an unsupported "
+"locale, the browser (at least Chromium-based) will ignore it. <b>Google "
+"Chrome/Chromium/Vivaldi support:</b>\n"
+"\n"
+"<i>ar, am, bg, bn, ca, cs, da, de, el, en, en_GB, en_US, es, es_419, et, fa, "
+"fi, fil, fr, gu, he, hi, hr, hu, id, it, ja, kn, ko, lt, lv, ml, mr, ms, nl, "
+"no, pl, pt_BR, pt_PT, ro, ru, sk, sl, sr, sv, sw, ta, te, th, tr, uk, vi, "
+"zh_CN, zh_TW</i>\n"
+"\n"
+"<b>Opera supports:</b>\n"
+"\n"
+"<i>af, az, be, bg, bn, ca, cs, da, de, el, en_GB, en_US, es_419, es, fi, "
+"fil, fr_CA, fr, fy, gd, he, hi, hr, hu, id, it, ja, kk, ko, lt, lv, me, mk, "
+"ms, nb, nl, nn, pa, pl, pt_BR, pt_PT, ro, ru, sk, sr, sr_ME, sv, sw, ta, te, "
+"th, tr, uk, uz, vi, zh_CN, zh_TW, zu</i>\n"
+"\n"
+"<b>Firefox supports:</b>\n"
+"\n"
+"<i>ach, af, an, ar, as, ast, az, bg, bn_BD, bn_IN, br, bs, ca, cak, cs, cy, "
+"da, de, dsb, el, en, en_GB, en_US, en_ZA, eo, es_AR, es_CL, es_ES, es_MX, "
+"et, eu, fa, ff, fi, fr, fy_NL, ga_IE, gd, gl, gn, gu_IN, he, hi_IN, hr, hsb, "
+"hu, hy_AM, id, is, it, ja, ka, kab, kk, km, kn, ko, lij, lt, lv, mai, mk, "
+"ml, mr, ms, nb_NO, nl, nn_NO, or, pa_IN, pl, pt_BR, pt_PT, rm, ro, ru, si, "
+"sk, sl, son, sq, sr, sv_SE, ta, te, th, tr, uk, uz, vi, xh, zh_CN, zh_TW</i>"
+msgstr ""
+"支援的地區設定有數量上的限制。如果您使用不支援的地區設定，瀏覽器（至少以 "
+"Chromium 為基礎的瀏覽器）會忽略它。 <b>Google Chrome/Chromium/Vivaldi 支援："
+"</b>\n"
+"\n"
+"<i>ar, am, bg, bn, ca, cs, da, de, el, en, en_GB, en_US, es, es_419, et, fa, "
+"fi, fil, fr, gu, he, hi, hr, hu, id, it, ja, kn, ko, lt, lv, ml, mr, ms, nl, "
+"no, pl, pt_BR, pt_PT, ro, ru, sk, sl, sr, sv, sw, ta, te, th, tr, uk, vi, "
+"zh_CN, zh_TW</i>\n"
+"\n"
+"<b>Opera 支援：</b>\n"
+"\n"
+"<i>af, az, be, bg, bn, ca, cs, da, de, el, en_GB, en_US, es_419, es, fi, "
+"fil, fr_CA, fr, fy, gd, he, hi, hr, hu, id, it, ja, kk, ko, lt, lv, me, mk, "
+"ms, nb, nl, nn, pa, pl, pt_BR, pt_PT, ro, ru, sk, sr, sr_ME, sv, sw, ta, te, "
+"th, tr, uk, uz, vi, zh_CN, zh_TW, zu</i>\n"
+"\n"
+"<b>Firefox 支援：</b>\n"
+"\n"
+"<i>ach, af, an, ar, as, ast, az, bg, bn_BD, bn_IN, br, bs, ca, cak, cs, cy, "
+"da, de, dsb, el, en, en_GB, en_US, en_ZA, eo, es_AR, es_CL, es_ES, es_MX, "
+"et, eu, fa, ff, fi, fr, fy_NL, ga_IE, gd, gl, gn, gu_IN, he, hi_IN, hr, hsb, "
+"hu, hy_AM, id, is, it, ja, ka, kab, kk, km, kn, ko, lij, lt, lv, mai, mk, "
+"ml, mr, ms, nb_NO, nl, nn_NO, or, pa_IN, pl, pt_BR, pt_PT, rm, ro, ru, si, "
+"sk, sl, son, sq, sr, sv_SE, ta, te, th, tr, uk, uz, vi, xh, zh_CN, zh_TW</i>"
+
+#: database-content.py:459
+msgid ""
+"There is a glossary that will help translators in Chronojump localization: "
+"<a href=\"https://gitlab.gnome.org/GNOME/chronojump/raw/master/glossary/"
+"chronojump_glossary_for_translators.html\">https://gitlab.gnome.org/GNOME/"
+"chronojump/raw/master/glossary/chronojump_glossary_for_translators.html</a>."
+msgstr ""
+"這裡有可以協助翻譯 Chronojump 本地化的術語：<a href=\"https://gitlab.gnome."
+"org/GNOME/chronojump/raw/master/glossary/chronojump_glossary_for_translators."
+"html\">https://gitlab.gnome.org/GNOME/chronojump/raw/master/glossary/"
+"chronojump_glossary_for_translators.html</a>."
+
+#: database-content.py:460
+msgid ""
+"colord is a system service that makes it easy to manage, install and "
+"generate color profiles to accurately color manage input and output devices."
+msgstr ""
+"colord 是一項系統服務，能讓管理、安裝與產生校準顏色輸入/輸出裝置用的顏色設定"
+"檔更加輕鬆。"
+
+#: database-content.py:461
+msgid "PolicyKit helper to configure CUPS with fine-grained privileges."
+msgstr "以校調完整權限設定 CUPS 之 PolicyKit 協助程式。"
+
+#: database-content.py:462
+msgid ""
+"Committed translations are updated manually on l10n.gnome.org from time to "
+"time. Be patient :-)"
+msgstr "上傳的翻譯會由 l10n.gnome.org 持續手動更新。要有耐心些 :-)"
+
+#: database-content.py:463
+msgid ""
+"Linux application sandboxing and distribution framework. To submit your "
+"translation, <a href=\"https://github.com/flatpak/flatpak/pulls\">create a "
+"pull request</a>."
+msgstr ""
+"Linux 應用程式沙箱與散佈架構。若要提交您的翻譯，請<a href=\"https://github."
+"com/flatpak/flatpak/pulls\">建立 pull 要求</a>。"
+
+#: database-content.py:464
+msgid "D-Bus service to access fingerprint readers."
+msgstr "存取指紋讀取器的 D-Bus 服務。"
+
+#: database-content.py:465
+msgid "A simple daemon to allow session software to update UEFI firmware."
+msgstr "允許工作階段軟體更新 UEFI 韌體的簡易伺服程式。"
+
+#: database-content.py:466
+msgid ""
+"See <a href=\"https://wiki.gnome.org/gbrainy/Localizing\">wiki</a> for "
+"recommendations when translating gbrainy."
+msgstr ""
+"翻譯 gbrainy 時，參閱 <a href=\"https://wiki.gnome.org/gbrainy/Localizing"
+"\">wiki</a> 取得建議。"
+
+#: database-content.py:467
+msgid ""
+"GCompris is now translated by the KDE translation teams. See http://gcompris."
+"net/wiki/Developer's_corner#Translation for more details."
+msgstr ""
+"GCompris 目前由 KDE 翻譯團隊維護。請參閱 http://gcompris.net/wiki/"
+"Developer's_corner#Translation 以取得進一步資訊。"
+
+#: database-content.py:468
+msgid ""
+"glom is a user-friendly database application.<br>\n"
+"Apart from the UI messages and the documentation, there are additional "
+"example files that can be translated."
+msgstr ""
+"glom 是友善的資料庫應用程式。<br>\n"
+"除了 UI 訊息和文件之外，還有額外的範例檔案可以被翻譯。"
+
+#: database-content.py:470
+msgid ""
+"Refer to the <a href=\"https://gitlab.gnome.org/GNOME/gnome-getting-started-"
+"docs/raw/master/README\">README</a> file for additional information on how "
+"to translate this package."
+msgstr ""
+"請參考 <a href=\"https://gitlab.gnome.org/GNOME/gnome-getting-started-docs/"
+"raw/master/README\">README</a> 檔案以了解如何翻譯這個套件的額外資訊。"
+
+#: database-content.py:471
+msgid ""
+"Note that some strings visible in the gnome-tweaks interface are coming from "
+"the <a href=\"/module/gsettings-desktop-schemas/\">gsettings-desktop-"
+"schemas</a> module."
+msgstr ""
+"請注意在 gnome-tweaks 介面中有些可見字串來自 <a href=\"/module/gsettings-"
+"desktop-schemas/\">gsettings-desktop-schemas</a> 模組。"
+
+#: database-content.py:472
+msgid ""
+"To ease localization, gallery of GNOME Video Effects has been set up here: "
+"<a href=\"https://wiki.gnome.org/Projects/GnomeVideoEffects/Effects"
+"\">https://wiki.gnome.org/Projects/GnomeVideoEffects/Effects</a>."
+msgstr ""
+"為了簡化本地化工作，GNOME 視訊效果的畫廊在這裡：<<a href=\"https://wiki."
+"gnome.org/Projects/GnomeVideoEffects/Effects\">https://wiki.gnome.org/"
+"Projects/GnomeVideoEffects/Effects</a>。"
+
+#: database-content.py:473
+msgid ""
+"Useful information on localization of the Gnumeric analysis tools can be "
+"found in the <a href =\"https://gitlab.gnome.org/GNOME/gnumeric/raw/master/"
+"po/README.analysis\">po/README.analysis</a> file, and <a href =\"https://"
+"gitlab.gnome.org/GNOME/gnumeric/raw/master/po-functions/README.translators"
+"\">po-functions/README.translators</a> has useful information on "
+"localization of Gnumeric functions."
+msgstr ""
+"Gnumeric 分析工具的本地化有用資訊可以在 <a href =\"https://gitlab.gnome.org/"
+"GNOME/gnumeric/raw/master/po/README.analysis\">po/README.analysis</a> 找到，"
+"且 <a href =\"https://gitlab.gnome.org/GNOME/gnumeric/raw/master/po-"
+"functions/README.translators\">po-functions/README.translators</a> 包含 "
+"Gnumeric 函式的本地化有用資訊。"
+
+#: database-content.py:474
+msgid ""
+"This a low-priority module to translate, as there are currently no user "
+"interface that show those strings."
+msgstr "這是翻譯優先權較低的模組，因為目前沒有使用者介面會顯示這些字串。"
+
+#: database-content.py:475
+msgid "“Bad” GStreamer plugins and helper libraries."
+msgstr "“Bad” GStreamer 外掛程式與協助程式庫。"
+
+#: database-content.py:476
+msgid "“Base” GStreamer plugins and helper libraries."
+msgstr "“Base” GStreamer 外掛程式與協助程式庫。"
+
+#: database-content.py:477
+msgid "“Good” GStreamer plugins."
+msgstr "“Good” GStreamer 外掛程式。"
+
+#: database-content.py:478
+msgid "“Ugly” GStreamer plugins."
+msgstr "“Ugly” GStreamer 外掛程式。"
+
+#: database-content.py:479
+msgid "GStreamer open-source multimedia framework core library."
+msgstr "GStreamer 開放原始碼多媒體架構核心程式庫。"
+
+#: database-content.py:480
+#, fuzzy
+#| msgid ""
+#| "Please note that gtk+ has both po and po-properties UI domains.  If you "
+#| "add a new language in either domain, you have to commit both files in Git "
+#| "even if one of them contains 0 translations, unless GTK+ build will break "
+#| "in /po-properties."
+msgid ""
+"Please note that GTK has both po and po-properties UI domains.  If you add a "
+"new language in either domain, you have to commit both files in Git even if "
+"one of them contains 0 translations, unless GTK build will break in /po-"
+"properties."
+msgstr ""
+"請注意 gtk+ 有 po 及 po-properties 兩個使用者介面域名。如果您要在其中一個域名"
+"中加入新的語言，您必須將兩個檔案都提交到 Git 中，即使其中一個沒有任何已翻譯的"
+"字詞。否則 GTK+ 在組建的過程中會在 /po-properties 的地方中斷。"
+
+#: database-content.py:481
+msgid ""
+"Unified high-level API for communicating with mobile broadband modems. To "
+"submit your translation, <a href=\"https://gitlab.freedesktop.org/mobile-"
+"broadband/ModemManager/merge_requests\">create a merge request</a>."
+msgstr ""
+"用來與行動寬頻數據機通訊的統一高層 API。若要提交您的翻譯，請<a href="
+"\"https://gitlab.freedesktop.org/mobile-broadband/ModemManager/merge_requests"
+"\">建立一個合併請求</a>。"
+
+#: database-content.py:482
+msgid ""
+"Network connection manager and user applications. To submit your "
+"translation, <a href=\"https://gitlab.freedesktop.org/NetworkManager/"
+"NetworkManager/merge_requests\">create a merge request</a>."
+msgstr ""
+"網路連線管理程式與使用者應用程式。若要提交您的翻譯， 請<a href=\"https://"
+"gitlab.freedesktop.org/NetworkManager/NetworkManager/merge_requests\">建立一"
+"個合併請求</a>。"
+
+#: database-content.py:483
+msgid "PKCS#11 cryptography framework for multiple consumers."
+msgstr "PKCS#11 密碼學框架，可供多位消費者使用。"
+
+#: database-content.py:484
+msgid ""
+"System designed to make installing and updating software on your computer "
+"easier."
+msgstr "一套讓安裝與更新您電腦上的軟體更加容易的系統。"
+
+#: database-content.py:485
+msgid ""
+"Plymouth provides the graphical boot-splash and offline-updates status "
+"splash on most distributions."
+msgstr ""
+
+#: database-content.py:486
+msgid ""
+"Toolkit for defining and handling authorizations. To submit your "
+"translation, <a href=\"https://gitlab.freedesktop.org/polkit/polkit/"
+"merge_requests\">create a merge request</a>."
+msgstr ""
+"定義與處理授權的工具箱。若要提交您的翻譯，請<a href=\"https://gitlab."
+"freedesktop.org/polkit/polkit/merge_requests\">建立個合併請求</a>。"
+
+#: database-content.py:487
+msgid ""
+"PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for "
+"your sound applications. To submit your translation, <a href=\"https://"
+"gitlab.freedesktop.org/pulseaudio/pulseaudio/merge_requests\">create a merge "
+"request</a>."
+msgstr ""
+"PulseAudio 是用於 POSIX OS 的音效系統，亦即您的音效應用程式的代理伺服器。若要"
+"提交您的翻譯，請<a href=\"https://gitlab.freedesktop.org/pulseaudio/"
+"pulseaudio/merge_requests\">建立一個合併請求</a>。"
+
+#: database-content.py:488
+msgid ""
+"D-Bus system service that manages discovery and enrollment in realms/domains "
+"like Active Directory or IPA."
+msgstr "管理發現與加入網域如 Active Directory 或 IPA 的 D-Bus 系統服務。"
+
+#: database-content.py:489
+msgid "Shared MIME information specification."
+msgstr "共享的 MIME 資訊規格。"
+
+#: database-content.py:490
+msgid "System and session manager."
+msgstr "系統與工作階段管理員"
+
+#: database-content.py:491
+msgid ""
+"Daemon, tools and libraries to access and manipulate disks and storage "
+"devices."
+msgstr "用來存取與操作磁碟及儲存裝置的伺服程式、工具和程式庫。"
+
+#: database-content.py:492
+#, fuzzy
+#| msgid ""
+#| "Translations should be submitted as <a href=\"https://bugs.webkit.org/"
+#| "enter_bug.cgi?product=WebKit&component=WebKit%20Gtk\">bug reports</a>. "
+#| "Please remember to select “WebKit Gtk” as the component, so that the "
+#| "report doesn’t get lost."
+msgid ""
+"Translations should be submitted as <a href=\"https://bugs.webkit.org/"
+"enter_bug.cgi?product=WebKit&component=WebKitGTK\">bug reports</a>. Please "
+"remember to select “WebKitGTK” as the component, so that the report doesn’t "
+"get lost."
+msgstr ""
+"翻譯應提交為 <a href=\"https://bugs.webkit.org/enter_bug.cgi?"
+"product=WebKit&component=WebKit%20Gtk\">臭蟲報告</a>。請記得選擇「WebKit "
+"Gtk」為元件，這樣一來報告就不會弄丟。"
+
+#: database-content.py:493
+msgid ""
+"Desktop integration portal. To submit your translation, <a href=\"https://"
+"github.com/flatpak/xdg-desktop-portal/pulls\">create a pull request</a>."
+msgstr ""
+"桌面整合入口。若要提交您的翻譯，請 <a href=\"https://github.com/flatpak/xdg-"
+"desktop-portal/pulls\">建立 pull 要求</a>。"
+
+#: database-content.py:494
+#, fuzzy
+#| msgid ""
+#| "GTK+ implementation of xdg-desktop-portal. To submit your translation, <a "
+#| "href=\"https://github.com/flatpak/xdg-desktop-portal-gtk/pulls\">create a "
+#| "pull request</a>."
+msgid ""
+"GTK implementation of xdg-desktop-portal. To submit your translation, <a "
+"href=\"https://github.com/flatpak/xdg-desktop-portal-gtk/pulls\">create a "
+"pull request</a>."
+msgstr ""
+"xdg-desktop-portal 的 GTK+ 實作。若若要提交您的翻譯，請<a href=\"https://"
+"github.com/flatpak/xdg-desktop-portal-gtk/pulls\">建立 pull 請求</a>。"
+
+#: database-content.py:495
+msgid ""
+"Tool to help manage “well known” user directories like the desktop folder "
+"and the music folder."
+msgstr "用來協助管理「知名」使用者目錄，如桌面資料夾與音樂資料夾的工具。"
+
+#: database-content.py:496
+msgid "Database of keyboard configuration data."
+msgstr "鍵盤設定資料的資料庫。"
+
+#: database-content.py:497
+#, fuzzy
+#| msgid "GNOME 3.30 (development)"
+msgid "GNOME 3.36 (development)"
+msgstr "GNOME 3.30（開發版）"
+
+#: database-content.py:498
+#, fuzzy
+#| msgid "GNOME 3.30 (stable)"
+msgid "GNOME 3.34 (stable)"
+msgstr "GNOME 3.30 (穩定版)"
+
+#: database-content.py:499
+#, fuzzy
+#| msgid "GNOME 3.22 (old stable)"
+msgid "GNOME 3.32 (old stable)"
+msgstr "GNOME 3.22 (舊穩定版)"
+
+#: database-content.py:500
+#, fuzzy
+#| msgid "GNOME 3.0 (old stable)"
+msgid "GNOME 3.30 (old stable)"
+msgstr "GNOME 3.0 (舊的穩定版)"
+
+#: database-content.py:501
+msgid "GNOME 3.28 (old stable)"
+msgstr "GNOME 3.28 (舊穩定版)"
+
+#: database-content.py:502
+msgid "GNOME 3.26 (old stable)"
+msgstr "GNOME 3.26（舊的穩定版）"
+
+#: database-content.py:503
+msgid "GNOME 3.24 (old stable)"
+msgstr "GNOME 3.24（舊的穩定版）"
+
+#: database-content.py:504
+msgid "GNOME 3.22 (old stable)"
+msgstr "GNOME 3.22 (舊穩定版)"
+
+#: database-content.py:505
+msgid "GNOME 3.20 (old stable)"
+msgstr "GNOME 3.20 (舊穩定版)"
+
+#: database-content.py:506
+msgid "GNOME 3.18 (old stable)"
+msgstr "GNOME 3.18 (舊穩定版)"
+
+#: database-content.py:507
+msgid "GNOME 3.16 (old stable)"
+msgstr "GNOME 3.16 (舊穩定版)"
+
+#: database-content.py:508
+msgid "Obsolete GNOME Applications"
+msgstr "廢棄的 GNOME 應用程式"
+
+#: database-content.py:509
+msgid "GNOME Infrastructure"
+msgstr "GNOME 基礎建設"
+
+#: database-content.py:510
+msgid "GIMP and Friends"
+msgstr "GIMP 和朋友們"
+
+#: database-content.py:511
+msgid "Extra GNOME Applications (stable)"
+msgstr "額外的 GNOME 應用程式 (穩定版)"
+
+#: database-content.py:512
+msgid "Extra GNOME Applications"
+msgstr "額外的 GNOME 應用程式"
+
+#: database-content.py:513
+msgid "freedesktop.org (non-GNOME)"
+msgstr "freedesktop.org (非 GNOME)"
+
+#: database-content.py:514
+msgid "Accessibility"
+msgstr "無障礙"
+
+#: database-content.py:515
+msgid "Administration Tools"
+msgstr "管理工具"
+
+#: database-content.py:516
+msgid "Apps"
+msgstr "程式"
+
+#: database-content.py:517
+msgid "Backends"
+msgstr "後端"
+
+#: database-content.py:518
+msgid "Core"
+msgstr "核心"
+
+#: database-content.py:519
+msgid "Core Libraries"
+msgstr "核心程式庫"
+
+#: database-content.py:520
+msgid "Default"
+msgstr "預設"
+
+#: database-content.py:521
+msgid "Development Branches"
+msgstr "開發分支"
+
+#: database-content.py:522
+msgid "Development Tools"
+msgstr "開發工具"
+
+#: database-content.py:523
+msgid "Extra Libraries"
+msgstr "額外程式庫"
+
+#: database-content.py:524
+msgid "Games"
+msgstr "遊戲"
+
+#: database-content.py:525
+msgid "GNOME Desktop"
+msgstr "GNOME 桌面"
+
+#: database-content.py:526
+msgid "GNOME Developer Platform"
+msgstr "GNOME 開發者平臺"
+
+#: database-content.py:527
+msgid "Legacy Desktop"
+msgstr "傳統桌面"
+
+#: database-content.py:528
+msgid "New Module Proposals"
+msgstr "提案的新模組"
+
+#: database-content.py:529
+msgid "Office Apps"
+msgstr "辦公程式"
+
+#: database-content.py:530
+msgid "Stable Branches"
+msgstr "穩定版分支"
+
+#: database-content.py:531
+msgid "Utils"
+msgstr "公用程式"
+
+#. Translators: this concerns an unknown plural form
+#: languages/models.py:59
+msgid "Unknown"
+msgstr "不明"
+
+#: languages/views.py:29 languages/views.py:62
+msgid "UI Translations"
+msgstr "使用者介面翻譯"
+
+#: languages/views.py:30 languages/views.py:63
+msgid "UI Translations (reduced)"
+msgstr "使用者介面翻譯（縮減後）"
+
+#: languages/views.py:59 templates/release_detail.html:83
+msgid "Original strings"
+msgstr "原始字串"
+
+#: people/forms.py:22
+msgid "Choose a username:"
+msgstr "選擇使用者名稱："
+
+#: people/forms.py:23
+msgid "May contain only letters, numbers, underscores or hyphens"
+msgstr "只能包英文字母、數字、底線或連接符"
+
+#: people/forms.py:25
+msgid "Email:"
+msgstr "電子郵件:"
+
+#: people/forms.py:27
+msgid "Password:"
+msgstr "密碼："
+
+#: people/forms.py:28
+msgid "At least 7 characters"
+msgstr "至少 7 個字元"
+
+#: people/forms.py:30 templates/people/person_password_change_form.html:22
+#: templates/registration/password_reset_confirm.html:20
+msgid "Confirm password:"
+msgstr "確認密碼："
+
+#: people/forms.py:38
+msgid "This username is already taken. Please choose another."
+msgstr "這個使用者名稱已經被使用了。請選擇別的名稱。"
+
+#: people/forms.py:45
+msgid "You must provide a password"
+msgstr "您必須提供密碼"
+
+#: people/forms.py:48
+msgid "The passwords do not match"
+msgstr "密碼不符"
+
+#: people/forms.py:66
+#, python-format
+msgid ""
+"This is a confirmation that your registration on %s succeeded. To activate "
+"your account, please click on the link below or copy and paste it in a "
+"browser."
+msgstr ""
+"這是用來確認您在 %s 的註冊已經成功。要啟用您的帳戶，請按下面的連結或是將它複"
+"製並在瀏覽器的位址列中貼上。"
+
+#: people/forms.py:71
+#, python-format
+msgid "Administrators of %s"
+msgstr "%s 的管理者"
+
+#: people/forms.py:73 people/tests.py:38
+msgid "Account activation"
+msgstr "帳號啟用程序"
+
+#: people/forms.py:100
+#, python-format
+msgid ""
+"Image too high or too wide (%(width)d×%(height)d, maximum is 100×100 pixels)"
+msgstr "圖片太高或太寬 (%(width)d×%(height)d，最大值為 100x100 像素)"
+
+#: people/forms.py:125
+msgid "The URL you provided is not valid"
+msgstr "您提供的 URL 是無效的"
+
+#: people/forms.py:142
+msgid "The URL you provided seems not to correspond to a valid image"
+msgstr "您提供的 URL 似乎沒有對應到有效的圖片"
+
+#: people/models.py:31
+msgid "Image"
+msgstr "圖片"
+
+#: people/models.py:32
+msgid ""
+"URL to an image file (.jpg, .png, …) of an hackergotchi (max. 100×100 pixels)"
+msgstr ""
+"用於 hackergotchi 的圖片檔案 (.jpg, .png, ...) 網址 (最大 100x100 像素)"
+
+#: people/models.py:34
+msgid "Avatar provider"
+msgstr "個人圖像提供者"
+
+#: people/models.py:37 teams/models.py:72
+msgid "Web page"
+msgstr "網頁"
+
+#: people/models.py:38
+msgid "IRC nickname"
+msgstr "IRC 暱稱"
+
+#: people/templatetags/people.py:21
+msgid ", "
+msgstr ", "
+
+#: people/templatetags/people.py:37
+msgid "avatar icon"
+msgstr "個人圖像"
+
+#: people/templatetags/people.py:46
+msgid "generic person icon"
+msgstr "通用個人圖示"
+
+#: people/views.py:66
+msgid "Sorry, the form is not valid."
+msgstr "抱歉，格式無效。"
+
+#: people/views.py:81
+#, python-format
+msgid "You have successfully joined the team “%s”."
+msgstr "您已經成功的加入「%s」團隊。"
+
+#: people/views.py:83
+msgid "A new person joined your team"
+msgstr "有新人加入您的團隊"
+
+#: people/views.py:84
+#, python-format
+msgid "%(name)s has just joined your translation team on %(site)s"
+msgstr "%(name)s 已經加入您在 %(site)s 的翻譯團隊"
+
+#: people/views.py:88
+msgid "You are already member of this team."
+msgstr "您已經是這個團隊的成員了。"
+
+#: people/views.py:108
+#, python-format
+msgid "You have been removed from the team “%s”."
+msgstr "您已經從「%s」團隊中移除。"
+
+#: people/views.py:111
+msgid "You are not a member of this team."
+msgstr "您已經不是這個團隊的成員了。"
+
+#: people/views.py:125
+msgid "Your password has been changed."
+msgstr "您的密碼已變更。"
+
+#: stats/forms.py:65
+msgid "You have to provide a category when a version is specified."
+msgstr "當指定版本時您必須提供一個分類。"
+
+#: stats/models.py:124
+#, python-format
+msgid ""
+"Translations for this module are externally hosted. Please go to the <a href="
+"\"%(link)s\">external platform</a> to see how you can submit your "
+"translation."
+msgstr ""
+"這個模組的翻譯是在外部網站進行。請到<a href=\"%(link)s\">外部平臺</a>了解您可"
+"以如何提交您的翻譯。"
+
+#: stats/models.py:292
+msgid "This branch is not linked from any release"
+msgstr "這個分支沒有從任何發行版本連結"
+
+#: stats/models.py:466
+msgid "Can’t generate POT file, using old one."
+msgstr "無法產生 POT 檔案，改用舊的。"
+
+#: stats/models.py:468
+msgid "Can’t generate POT file, statistics aborted."
+msgstr "無法產生 POT 檔案，統計中止。"
+
+#: stats/models.py:489
+msgid "Can’t copy new POT file to public location."
+msgstr "無法複製新 POT 檔至公開位置。"
+
+#: stats/models.py:743
+msgid "Error retrieving pot file from URL."
+msgstr "從 URL 取回 pot 檔時發生錯誤。"
+
+#: stats/models.py:772
+msgid "No subtitle files found."
+msgstr "找不到字幕檔案。"
+
+#: stats/models.py:781
+#, python-format
+msgid ""
+"Error regenerating POT file for %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+msgstr ""
+"重新產生 %(file)s 的 POT 檔案時發生錯誤：\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+
+#: stats/models.py:805
+msgid "Unable to generate POT file"
+msgstr "無法產生 POT 檔案"
+
+#: stats/models.py:861
+msgid "The repository is read only"
+msgstr "版本庫為唯讀狀態"
+
+#: stats/models.py:870
+msgid ""
+"Sorry, adding new translations when the LINGUAS file is not known is not "
+"supported."
+msgstr "抱歉，當 LINGUAS 檔案未知時不支援加入新翻譯。"
+
+#: stats/models.py:892
+#, python-format
+msgid ""
+"Entry for this language is not present in %(var)s variable in %(file)s file."
+msgstr "這個語言的項目並未出現在 %(file)s 檔案的 %(var)s 中。"
+
+#: stats/models.py:1394 stats/models.py:1774
+#, python-format
+msgid "%(lang_name)s (%(lang_locale)s)"
+msgstr "%(lang_name)s (%(lang_locale)s)"
+
+#: stats/models.py:1420
+msgid "POT file unavailable"
+msgstr "缷少 POT 檔案"
+
+#: stats/models.py:1425
+#, python-format
+msgid "%(count)s message"
+msgid_plural "%(count)s messages"
+msgstr[0] "%(count)s 個訊息"
+
+#: stats/models.py:1426
+#, python-format
+msgid "updated on %(date)s"
+msgstr "更新於 %(date)s"
+
+#: stats/models.py:1428 templates/vertimus/vertimus_detail.html:67
+#: templates/vertimus/vertimus_detail.html:214
+#: templates/vertimus/vertimus_detail.html:217
+msgid "Y-m-d g:i a O"
+msgstr "Y-m-d g:i a O"
+
+#: stats/models.py:1430
+#, python-format
+msgid "%(count)s word"
+msgid_plural "%(count)s words"
+msgstr[0] "%(count)s 個字"
+
+#: stats/models.py:1432
+#, python-format
+msgid "%(count)s figure"
+msgid_plural "%(count)s figures"
+msgstr[0] "%(count)s 張圖片"
+
+#: stats/models.py:1433
+#, python-format
+msgid "POT file (%(messages)s — %(words)s, %(figures)s) — %(updated)s"
+msgstr "POT 檔 (%(messages)s — %(words)s, %(figures)s) — %(updated)s"
+
+#: stats/models.py:1436
+#, python-format
+msgid "POT file (%(messages)s — %(words)s) — %(updated)s"
+msgstr "POT 檔 (%(messages)s — %(words)s) — %(updated)s"
+
+#: stats/models.py:1525
+msgid ""
+"The currently committed file has less translated strings. You should "
+"probably commit this file."
+msgstr "目前的已提交檔案只有極少的已翻譯字串。你可能需要提交這個檔案。"
+
+#: stats/utils.py:62
+#, python-format
+msgid "Unable to find a makefile for module %s"
+msgstr "找不到 %s 模組的 makefile"
+
+#: stats/utils.py:101
+#, python-format
+msgid "%s doesn’t point to a real file, probably a macro."
+msgstr "%s 並未指向真實的檔案，可能是個巨集。"
+
+#: stats/utils.py:410
+msgid "Errors while running “intltool-update -m” check."
+msgstr "當執行「intltool-update -m」檢查時發生錯誤。"
+
+#: stats/utils.py:417
+#, python-format
+msgid "There are some missing files from POTFILES.in: %s"
+msgstr "根據 POTFILES.in 有部分檔案遺失：%s"
+
+#: stats/utils.py:427
+#, python-format
+msgid ""
+"Following files are referenced in either POTFILES.in or POTFILES.skip, yet "
+"they don’t exist: %s"
+msgstr "下列檔案在 POTFILES.in 或 POTFILES.skip 有被參照，但它們是不存在的：%s"
+
+#: stats/utils.py:450
+#, python-format
+msgid ""
+"Error regenerating POT file for document %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+msgstr ""
+"重新產生文件 %(file)s 的 POT 檔案時發生錯誤：\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+
+#: stats/utils.py:493
+#, python-format
+msgid "PO file “%s” doesn’t pass msgfmt check."
+msgstr "PO 檔「%s」沒有通過 msgfmt 檢查。"
+
+#: stats/utils.py:497
+msgid "This PO file has an executable bit set."
+msgstr "這個 PO 檔中設定了可執行的位元屬性。"
+
+#: stats/utils.py:513
+#, python-format
+msgid "PO file “%s” is not UTF-8 encoded."
+msgstr "「%s」PO 檔不是以 UTF-8 編碼。"
+
+#: stats/utils.py:524
+#, python-format
+msgid "The file “%s” does not exist"
+msgstr "「%s」檔案不存在。"
+
+#: stats/utils.py:533
+#, python-format
+msgid "Error running pofilter: %s"
+msgstr "執行 pofilter 時發生錯誤：%s"
+
+#: stats/utils.py:551
+#, python-format
+msgid "PO file “%s” does not exist or cannot be read."
+msgstr "PO 檔 「%s」 不存在或不能讀取。"
+
+#: stats/utils.py:559
+#, python-format
+msgid "Can’t get statistics for POT file “%s”."
+msgstr "無法取得 POT 檔「%s」的統計數據。"
+
+#: stats/utils.py:579
+msgid "Entry for this language is not present in LINGUAS file."
+msgstr "這個語言的項目並未出現在 LINGUAS 檔案中。"
+
+#: stats/utils.py:610
+msgid "No need to edit LINGUAS file or variable for this module"
+msgstr "這個模組不需要編輯 LINGUAS 檔案或變數"
+
+#: stats/utils.py:618
+msgid ""
+"Entry for this language is not present in ALL_LINGUAS in configure file."
+msgstr "這個語言的項目並未出現在 configure 檔案的 ALL_LINGUAS 中。"
+
+#: stats/utils.py:620
+msgid ""
+"Don’t know where to look for the LINGUAS variable, ask the module maintainer."
+msgstr "不知道 LINGUAS 變數在哪裡，請詢問模組維護者。"
+
+#: stats/utils.py:637
+msgid ""
+"Don’t know where to look for the DOC_LINGUAS variable, ask the module "
+"maintainer."
+msgstr "不知道 DOC_LINGUAS 變數在哪裡，請詢問模組維護者。"
+
+#: stats/utils.py:639
+msgid "DOC_LINGUAS list doesn’t include this language."
+msgstr "DOC_LINGUAS 列表中沒有包含這個語言。"
+
+#: teams/forms.py:32 teams/models.py:220 templates/teams/team_base.html:46
+msgid "Coordinator"
+msgstr "協調人"
+
+#: teams/forms.py:61
+msgid "Mark as Inactive"
+msgstr "標記為不活躍"
+
+#: teams/forms.py:62
+msgid "Remove From Team"
+msgstr "從團隊中移除"
+
+#: teams/forms.py:86
+#, python-format
+msgid "You have been removed from the %(team)s team on %(site)s"
+msgstr "您已經從 %(site)s 的 %(team)s 團隊中移除"
+
+#: teams/forms.py:90 teams/forms.py:103
+#, python-format
+msgid "This is an automatic message sent from %(site)s. Please do not answer."
+msgstr "這封郵件是由 %(site)s 自動寄出的。請不要回信。"
+
+#: teams/forms.py:91
+msgid "Removed from team"
+msgstr "從團隊中移除"
+
+#: teams/forms.py:98
+#, python-format
+msgid "Your role in the %(team)s team on %(site)s has been set to “%(role)s”"
+msgstr "您在 %(site)s 的 %(team)s 團隊中的角色已被設定為「%(role)s」"
+
+#: teams/forms.py:104
+msgid "Role changed"
+msgstr "角色已變更"
+
+#: teams/models.py:70
+msgid "Presentation"
+msgstr "展示"
+
+#: teams/models.py:73
+msgid "Mailing list"
+msgstr "郵件論壇"
+
+#: teams/models.py:74
+msgid "URL to subscribe"
+msgstr "訂閱的 URL"
+
+#: teams/models.py:182 vertimus/models.py:568
+#, python-format
+msgid "This is an automated message sent from %s."
+msgstr "這則訊息是由 %s 自動寄出。"
+
+#: teams/models.py:198
+#, python-format
+msgid "No team for locale %s"
+msgstr "區域設置 %s 沒有任何團隊"
+
+#: teams/models.py:217
+msgid "Translator"
+msgstr "翻譯者"
+
+#: teams/models.py:218
+msgid "Reviewer"
+msgstr "校閱者"
+
+#: teams/models.py:219
+msgid "Committer"
+msgstr "提交者"
+
+#: teams/tests.py:211 templates/about.html:8
+msgid "About Damned Lies"
+msgstr "關於 Damned Lies"
+
+#: teams/views.py:30
+msgid "Committers"
+msgstr "提交者"
+
+#: teams/views.py:33
+msgid "No committers"
+msgstr "沒有提交者"
+
+#: teams/views.py:36
+msgid "Reviewers"
+msgstr "校閱者"
+
+#: teams/views.py:39
+msgid "No reviewers"
+msgstr "沒有校閱者"
+
+#: teams/views.py:42
+msgid "Translators"
+msgstr "翻譯者"
+
+#: teams/views.py:45
+msgid "No translators"
+msgstr "沒有翻譯者"
+
+#: teams/views.py:48
+msgid "Inactive members"
+msgstr "不活躍的使用者"
+
+#: teams/views.py:51
+msgid "No inactive members"
+msgstr "沒有不活躍的成員"
+
+#: templates/404.html:4 templates/404.html:9
+msgid "Error: page not found"
+msgstr "錯誤：找不到頁面"
+
+#: templates/404.html:11
+msgid "The page you requested has not been found on this server."
+msgstr "您所要求的網頁在這個伺服器中找不到。"
+
+#: templates/500.html:4
+msgid "Error: server error (500)"
+msgstr "錯誤：伺服器錯誤 (500)"
+
+#: templates/500.html:9
+msgid "Server Error"
+msgstr "伺服器錯誤"
+
+#: templates/500.html:11
+msgid "We’re sorry but a server error has occurred."
+msgstr "我們很抱歉，伺服器發生了錯誤。"
+
+#: templates/about.html:4
+msgid "About"
+msgstr "關於"
+
+#: templates/about.html:10 templates/index.html:11
+msgid ""
+"Damned Lies is the Web application used to manage the localisation (l10n) of "
+"the GNOME project."
+msgstr "Damned Lies 是用來管理 GNOME 計畫的本地化 (l10n) 的網頁應用程式。"
+
+#: templates/about.html:11
+#, python-format
+msgid ""
+"It allows you to browse live statistics. Damned Lies also manages the "
+"translation <a href=\"%(link)s\">workflow</a>."
+msgstr ""
+"它讓您可以瀏覽即時的統計數字。Damned Lies 也管理翻譯的 <a href=\"%(link)s\">"
+"工作流程</a>。"
+
+#: templates/about.html:13
+#, python-format
+msgid ""
+"Damned Lies is Free Software, its source code is available under the <a href="
+"\"%(gpl)s\">GNU GPL license</a>. You are welcome to participate to its "
+"improvement, especially by <a href=\"%(bug)s\">reporting bugs and "
+"enhancement proposals</a>."
+msgstr ""
+"Damned Lies 是自由軟體，它的原始碼可以在 <a href=\"%(gpl)s\">GNU GPL 授權</a>"
+"下取得。我們也歡迎您參與它的改進，特別是<a href=\"%(bug)s\">回報臭蟲和改進的"
+"提議</a>。"
+
+#: templates/about.html:15
+#, python-format
+msgid ""
+"If you wonder about the name of this application, see <a href=\"%(link)s"
+"\">this article on Wikipedia</a>."
+msgstr ""
+"如果您想知道這個程式的名字是怎麼來的，請參閱<a href=\"%(link)s\">維基百科的這"
+"篇文章</a>。"
+
+#: templates/about.html:17
+#, python-format
+msgid ""
+"Many thanks to <a href=\"%(link)s\">GetSentry.com</a> for freely providing "
+"us an account on their online logging platform."
+msgstr ""
+"十分感謝 <a href=\"%(link)s\">GetSentry.com</a> 免費在他們的線上記錄平臺提供"
+"我們帳號。"
+
+#: templates/about.html:19
+#, python-format
+msgid "Quality check icon by <a href=\"%(link)s\">Gregor Cresnar</a>."
+msgstr "<a href=\"%(link)s\">Gregor Cresnar</a> 製作的品質檢查圖示。"
+
+#: templates/about.html:23
+msgid "This Web site has been translated in your language by:"
+msgstr "將這個網站翻譯為您的語言的是："
+
+#: templates/about.html:28
+msgid "Quick links"
+msgstr "快速連結"
+
+#: templates/about.html:30
+msgid "Project wiki"
+msgstr "專案 wiki"
+
+#: templates/about.html:32
+msgid "Bug tracking page"
+msgstr "臭蟲追蹤頁面"
+
+#: templates/about.html:34
+msgid "Source code"
+msgstr "原始碼"
+
+#: templates/about.html:36
+msgid "Workflow"
+msgstr "工作流程"
+
+#: templates/admin/base_site.html:4
+msgid "Damned Lies site admin"
+msgstr "Damned Lies 網址管理"
+
+#: templates/admin/delete_release_confirmation.html:6
+msgid "Home"
+msgstr "主頁"
+
+#: templates/base.html:43
+msgid "Back to Damned Lies home page"
+msgstr "回到 Damned Lies 主頁面"
+
+#: templates/base.html:59 templates/login.html:28
+#: templates/login/login_popup_form.html:15
+#: templates/registration/password_reset_complete.html:12
+msgid "Log in"
+msgstr "登入"
+
+#: templates/base.html:70 templates/index.html:20
+msgid "Teams"
+msgstr "團隊"
+
+#: templates/base.html:71 templates/index.html:35
+#: templates/release_compare.html:26
+msgid "Languages"
+msgstr "語言"
+
+#: templates/base.html:72
+msgid "Release sets"
+msgstr "發行套組"
+
+#: templates/base.html:73 templates/index.html:54
+msgid "Modules"
+msgstr "模組"
+
+#: templates/base.html:97 templates/base.html:130
+msgid "The GNOME Project"
+msgstr "GNOME 專案"
+
+#: templates/base.html:99
+msgid "About Us"
+msgstr "關於我們"
+
+#: templates/base.html:100
+msgid "Get Involved"
+msgstr "親身參與"
+
+#: templates/base.html:101
+msgid "Support GNOME"
+msgstr "支持 GNOME"
+
+#: templates/base.html:102
+msgid "Merchandise"
+msgstr "商品"
+
+#: templates/base.html:103
+msgid "Contact Us"
+msgstr "聯絡我們"
+
+#: templates/base.html:104
+msgid "The GNOME Foundation"
+msgstr "GNOME 基金會"
+
+#: templates/base.html:108
+msgid "Resources"
+msgstr "資源"
+
+#: templates/base.html:110
+msgid "Developer Center"
+msgstr "開發者中心"
+
+#: templates/base.html:112
+msgid "Wiki"
+msgstr "Wiki"
+
+#: templates/base.html:113
+msgid "Mailing Lists"
+msgstr "通信論壇"
+
+#: templates/base.html:114
+msgid "IRC Channels"
+msgstr "IRC 頻道"
+
+#: templates/base.html:115
+msgid "Bug Tracker"
+msgstr "臭蟲追蹤器"
+
+#: templates/base.html:116
+msgid "Development Code"
+msgstr "開發程式碼"
+
+#: templates/base.html:120
+msgid "News"
+msgstr "新聞"
+
+#: templates/base.html:122
+msgid "Press Releases"
+msgstr "發布的新聞稿"
+
+#: templates/base.html:123
+msgid "Latest Release"
+msgstr "最新發行版本"
+
+#: templates/base.html:124
+msgid "Planet GNOME"
+msgstr "GNOME 星球"
+
+#: templates/base.html:131
+#, python-format
+msgid "Hosted by %(link)s."
+msgstr "主機提供：%(link)s。"
+
+#: templates/base.html:132
+#, python-format
+msgid "Powered by %(link)s."
+msgstr "由 %(link)s 建立。"
+
+#: templates/base_modal.html:12
+msgid "Close"
+msgstr "關閉"
+
+#: templates/branch_detail.html:4
+msgid "This branch is currently string-frozen."
+msgstr "這個分支目前已經為凍結字串狀態(string-frozen)。"
+
+#: templates/branch_detail.html:12
+msgid "Translation"
+msgstr "翻譯"
+
+#: templates/error.html:4 templates/index.html:4 templates/login.html:4
+#: templates/registration/register.html:4
+#: templates/registration/register_success.html:4
+msgid "Damned Lies about GNOME"
+msgstr "GNOME 的翻譯網站(Damned Lies)"
+
+#: templates/error.html:9
+msgid "Error:"
+msgstr "錯誤："
+
+#: templates/feeds/actions_description.html:6
+msgid "No comment"
+msgstr "沒有註解"
+
+#: templates/help/reduced_po.html:4 templates/help/vertimus_workflow.html:4
+msgid "Help"
+msgstr "求助"
+
+#: templates/help/reduced_po.html:6
+msgid "Reduced po files"
+msgstr "縮減後 po 檔"
+
+#: templates/help/reduced_po.html:9
+msgid ""
+"Damned Lies is able to filter strings which are seldom visible in user "
+"interfaces, so as translation teams can concentrate on most visible strings."
+msgstr ""
+"Damned Lies 可以過濾在使用者介面中較少被看見的字串，因此可以讓翻譯團隊專注在"
+"多數可見的字串上。"
+
+#: templates/help/reduced_po.html:11
+#, python-format
+msgid ""
+"The most typical case is the strings from schema files, hence the default "
+"filter is filtering out strings which come from files having “gschema.xml."
+"in” in their name. Technically speaking, the filter is using the <a href="
+"\"%(pogrep_url)s\">pogrep command from the Translate Toolkit</a>."
+msgstr ""
+"大部分典型的情況是 schema 檔案，因此預設的過濾器會濾掉名稱中有 \"gschema.xml."
+"in\" 的檔案。技術上來說，過濾器使用的是 <a href=\"%(pogrep_url)s\">Translate "
+"Toolkit 的 pogrep 指令</a>。"
+
+#: templates/help/reduced_po.html:13
+msgid ""
+"When you see a po file or a table header containing “(red.)” or “(reduced)”, "
+"it means that the target files have been filtered as stated above."
+msgstr ""
+"當您看到 po 檔或表格標題包含「(減)」或「(縮減後)」，它表示目標檔案已經過上述"
+"過濾。"
+
+#: templates/help/reduced_po.html:15
+#, python-format
+msgid ""
+"If you think you found a better filter for a specific module, please <a href="
+"\"%(bug_url)s\">submit a bug report</a> with your proposal."
+msgstr ""
+"如果您覺得發現了某個模組有更好的過濾方式，請<a href=\"%(bug_url)s\">提交臭蟲"
+"報告</a>說明您的提議。"
+
+#: templates/help/vertimus_workflow.html:6
+msgid "Vertimus Workflow"
+msgstr "Vertimus 工作流程"
+
+#: templates/help/vertimus_workflow.html:9
+msgid ""
+"The figure below describes the various states and actions available during "
+"the translation process of a module."
+msgstr "下列圖表描述了模組在翻譯程序中各種狀態與可用的動作。"
+
+#: templates/index.html:12
+msgid "More…"
+msgstr "更多…"
+
+#: templates/index.html:21
+msgid ""
+"List of all GNOME Translation Teams, with full information such as primary "
+"contact (coordinator), web pages and mailing list information."
+msgstr ""
+"所有 GNOME 翻譯團隊的清單，包含完整的資訊如主要連絡人(協調人)、網頁和通信論壇"
+"資訊。"
+
+#: templates/index.html:22
+msgid ""
+"If there is no team for your language, you can easily <a href='https://wiki."
+"gnome.org/TranslationProject/StartingATeam/'>start your own team</a>."
+msgstr ""
+"如果這裡沒有您的語言的團隊，也可以很容易的 <a href='https://wiki.gnome.org/"
+"TranslationProject/StartingATeam/'>發起您自己的團隊</a>。"
+
+#: templates/index.html:27
+#, python-format
+msgid ""
+"Go to the <a href='%(team_url)s'>%(language_name)s team page</a> and help us "
+"to translate GNOME!"
+msgstr ""
+"請至<a href='%(team_url)s'>%(language_name)s團隊頁面</a>並協助我們翻譯 "
+"GNOME！"
+
+#: templates/index.html:37
+#, python-format
+msgid ""
+"List of all languages there are <a href='%(teams_url)s'>Translation Teams</"
+"a> for."
+msgstr "列出<a href='%(teams_url)s'>翻譯團隊</a>中的所有語言。"
+
+#: templates/index.html:38
+msgid ""
+"Some teams manage more than one language (usually just simple variants), and "
+"here you can see all the languages GNOME is being translated to."
+msgstr ""
+"有些團隊會有一種以上的語言(通常是簡單的變體語言)，在這裡您可以看到所有 GNOME "
+"要翻譯的語言。"
+
+#: templates/index.html:44
+msgid "Release Sets"
+msgstr "發行套組"
+
+#: templates/index.html:45
+msgid "List of all GNOME release sets and releases we gather stats for."
+msgstr "所有 GNOME 發行套組和我們準備發行的清單。"
+
+#: templates/index.html:47
+msgid "Examples of release sets are “GNOME Infrastructure” or “GNOME 2.26”."
+msgstr "發行套組的範例如：「GNOME 基礎建設」或「GNOME 2.26」。"
+
+#: templates/index.html:48
+msgid ""
+"Official GNOME release sets are further divided into categories such as "
+"“Desktop Applications” and “Developer Platform”."
+msgstr ""
+"官方的 GNOME 發行套組會進一步細分為數個類別，像是「桌面應用程式」和「開發者平"
+"臺」。"
+
+#: templates/index.html:50
+msgid ""
+"Look here if you want to compare language support in any of these release "
+"sets."
+msgstr "如果您想要比較這些發行套組間的語言支援度請看這裡。"
+
+#: templates/index.html:55
+msgid "List of all modules with statistics in here."
+msgstr "在這裡的所有模組清單與統計資料。"
+
+#: templates/index.html:57
+msgid ""
+"Modules are separate libraries or applications, with one or more branches of "
+"development included."
+msgstr "模組會分為程式庫或應用程式，包含一或更多個開發分支。"
+
+#: templates/index.html:58
+#, fuzzy
+#| msgid ""
+#| "They are usually taken from the Git repository, and we keep all relevant "
+#| "information on them (Bugzilla details, web page, maintainer information…)."
+msgid ""
+"They are usually taken from the Git repository, and we keep all relevant "
+"information on them (Gitlab details, web page, maintainer information…)."
+msgstr ""
+"它們通常可以從 Git 取得，而我們保留了所有相關的資訊(Bugzilla 詳細資料、網頁、"
+"維護者資訊、…)。"
+
+#: templates/languages/language_all_modules.html:4
+#: templates/languages/language_all_modules.html:23
+#: templates/languages/language_release_summary.html:53
+#: templates/languages/language_release_summary.html:54
+#: templates/languages/language_release_summary.html:55
+msgid "All modules"
+msgstr "所有的模組"
+
+#: templates/languages/language_list.html:4
+#: templates/languages/language_list.html:9
+msgid "GNOME Languages"
+msgstr "GNOME 語言"
+
+#: templates/languages/language_list.html:11
+#, python-format
+msgid "GNOME is being translated to following %(numb)s language.\n"
+msgid_plural "GNOME is being translated to following %(numb)s languages.\n"
+msgstr[0] "GNOME 已被翻譯至下列 %(numb)s 個語言。\n"
+
+#: templates/languages/language_list.html:26
+#, python-format
+msgid "RSS feed for %(lang.get_name)s"
+msgstr "%(lang.get_name)s 的 RSS feed"
+
+#: templates/languages/language_list.html:37 templates/module_list.html:28
+#: templates/release_list.html:42 templates/teams/team_list.html:38
+#, python-format
+msgid ""
+"If anything should be changed on this page, please <a href=\"%(bug_url)s"
+"\">submit a bug report</a>."
+msgstr ""
+"如果這個頁面有任何該修改的地方，請<a href=\"%(bug_url)s\">提交臭蟲報告</a>。"
+
+#: templates/languages/language_release.html:25
+#: templates/release_detail.html:13
+msgid ""
+"The modules of this release are not part of the GNOME Git repository. Please "
+"check each module’s web page to see where to send translations."
+msgstr ""
+"這個發行版本的模組不屬於 GNOME Git 倉儲。請查閱各模組的網頁以了解要將翻譯送至"
+"何處。"
+
+#: templates/languages/language_release.html:35
+msgid "Download all po files"
+msgstr "下載所有 po 檔"
+
+#: templates/languages/language_release_stats.html:6
+#: templates/people/person_detail.html:55
+msgid "Hide completed modules"
+msgstr "隱藏已完成的模組"
+
+#: templates/languages/language_release_stats.html:7
+#: templates/people/person_detail.html:56
+msgid "Show completed modules"
+msgstr "顯示已完成的模組"
+
+#: templates/languages/language_release_stats.html:12
+#: templates/languages/language_release_stats.html:71
+#: templates/languages/language_release_summary.html:28
+#: templates/languages/language_release_summary.html:34
+#: templates/languages/language_release_summary.html:39
+#: templates/vertimus/vertimus_detail.html:96
+#: templates/vertimus/vertimus_detail.html:128
+msgid "Translated/Fuzzy/Untranslated"
+msgstr "已翻譯/模糊/未翻譯"
+
+#: templates/languages/language_release_stats.html:27
+#: templates/people/person_detail.html:64
+#: templates/vertimus/activity_summary.html:31
+msgid "Module"
+msgstr "模組"
+
+#: templates/languages/language_release_stats.html:27
+#: templates/module_edit_branches.html:18
+#: templates/vertimus/activity_summary.html:31
+msgid "Branch"
+msgstr "分支"
+
+#: templates/languages/language_release_stats.html:29
+#: templates/people/person_detail.html:64
+msgid "Statistics"
+msgstr "統計"
+
+#: templates/languages/language_release_stats.html:29
+#: templates/languages/language_release_summary.html:13
+#: templates/languages/language_release_summary.html:18
+#: templates/people/person_detail.html:64 templates/release_detail.html:23
+#: templates/release_detail.html:28 templates/stats_show.html:60
+msgid "Graph"
+msgstr "圖表"
+
+#: templates/languages/language_release_stats.html:30
+msgid "Status"
+msgstr "狀態"
+
+#: templates/languages/language_release_stats.html:30
+#: templates/people/person_detail.html:64
+#: templates/vertimus/activity_summary.html:31
+msgid "Date"
+msgstr "日期"
+
+#: templates/languages/language_release_stats.html:40
+#, python-format
+msgid "%(categname)s (%(percentage)s%% translated)"
+msgstr "%(categname)s (已翻譯 %(percentage)s%% )"
+
+#: templates/languages/language_release_stats.html:67
+#: templates/stats_show.html:11
+msgid "This document is written in Mallard documentation format"
+msgstr "這份文件是以 Mallard 文件格式編寫"
+
+#: templates/languages/language_release_stats.html:102
+msgid "Error summary"
+msgstr "錯誤摘要"
+
+#: templates/languages/language_release_summary.html:11
+#: templates/module_edit_branches.html:18
+msgid "Release"
+msgstr "發行"
+
+#: templates/languages/language_release_summary.html:12
+#: templates/release_detail.html:22 templates/release_detail.html:84
+msgid "User Interface"
+msgstr "使用者介面"
+
+#: templates/languages/language_release_summary.html:14
+#: templates/release_detail.html:24
+msgid "User Interface (red.)"
+msgstr "使用者介面 (減)"
+
+#: templates/login.html:8
+msgid "User Login"
+msgstr "使用者登入"
+
+#: templates/login.html:11 templates/registration/register.html:10
+#, python-format
+msgid "You are already logged in as %(username)s."
+msgstr "您已經登入為 %(username)s。"
+
+#: templates/login.html:13
+msgid "Log in with your username (or email) and password:"
+msgstr "請使用您的使用者名稱（或電子信箱）和密碼登入："
+
+#: templates/login.html:22 templates/login/login_popup_form.html:18
+msgid "Forgot your password?"
+msgstr "忘記您的密碼？"
+
+#: templates/login.html:34
+#, python-format
+msgid "Or <a href=\"%(link)s\">login with your GNOME account</a>"
+msgstr ""
+
+#: templates/login.html:40 templates/login/login_popup_form.html:23
+msgid "Register"
+msgstr "註冊"
+
+#: templates/login/login_popup_form.html:8
+msgid "Username"
+msgstr "使用者名稱"
+
+#: templates/login/login_popup_form.html:11
+msgid "Password"
+msgstr "密碼"
+
+#: templates/login/login_popup_form.html:21
+msgid "Don’t have an account?"
+msgstr "沒有帳號？"
+
+#: templates/login/login_usermenu.html:6 templates/people/person_base.html:11
+msgid "User Settings"
+msgstr "使用者設定"
+
+#: templates/login/login_usermenu.html:12
+msgid "Log out"
+msgstr "登出"
+
+#: templates/module_detail.html:5
+#, python-format
+msgid "Module Statistics: %(name)s"
+msgstr "模組統計資料: %(name)s"
+
+#: templates/module_detail.html:46 templates/vertimus/vertimus_detail.html:271
+msgid ""
+"This module has been archived. It is only kept for statistical purposes. "
+"Please don’t translate it any more."
+msgstr "這個模組已經封存了。保留它只為了統計之用。請勿再翻譯它。"
+
+#: templates/module_detail.html:63
+msgid "Maintainers"
+msgstr "維護人"
+
+#: templates/module_detail.html:71
+msgid "Bug reporting"
+msgstr "臭蟲回報"
+
+#: templates/module_detail.html:74
+msgid "Sorry, no known locations to report bugs for this module."
+msgstr "抱歉，沒有已知位置可回報此模組的臭蟲。"
+
+#: templates/module_detail.html:77
+msgid "Show existing i18n and l10n bugs"
+msgstr "顯示已存在的 i18n 與 l10n 瑕疵"
+
+#: templates/module_detail.html:79
+msgid "Report a bug"
+msgstr "回報程式的臭蟲"
+
+#: templates/module_detail.html:89
+msgid "Branches:"
+msgstr "分支："
+
+#: templates/module_detail.html:113
+msgid "Browse Repository"
+msgstr "瀏覽倉儲"
+
+#: templates/module_detail.html:116
+msgid "Refresh branch statistics"
+msgstr "重新整理分支統計"
+
+#: templates/module_edit_branches.html:18
+msgid "Category"
+msgstr "分類"
+
+#: templates/module_edit_branches.html:28
+#: templates/people/person_detail_change_form.html:14
+#: templates/teams/team_edit.html:37
+msgid "Save"
+msgstr "儲存"
+
+#: templates/module_images.html:4
+#, python-format
+msgid "Module Doc Figure Status: %(name)s"
+msgstr "模組文件圖片狀態：%(name)s"
+
+#: templates/module_images.html:11
+msgid "Figures translation status"
+msgstr "圖片翻譯狀態"
+
+#: templates/module_images.html:16
+msgid "Original"
+msgstr "原始圖片"
+
+#: templates/module_images.html:32
+msgid ""
+"Translated, but uses original one (maybe the figure doesn’t contain any "
+"string to translate)"
+msgstr "已翻譯，但使用原始圖片(可能是該圖片沒有任何需要翻譯的字串)"
+
+#: templates/module_images.html:36
+msgid "Fuzzy"
+msgstr "模糊翻譯"
+
+#: templates/module_images.html:43
+msgid "No existing file (“Technical” fuzzy)"
+msgstr "沒有現有的檔案 (「技術上」的模糊)"
+
+#: templates/module_images.html:46
+msgid "Not translated"
+msgstr "未翻譯"
+
+#: templates/module_list.html:4 templates/module_list.html:9
+msgid "GNOME Modules"
+msgstr "GNOME 模組"
+
+#: templates/module_list.html:11
+msgid "Select a module below to see some of the damned lies about it:"
+msgstr "在下面選擇一個模組好看看關於它的翻譯資訊："
+
+#: templates/people/person_base.html:4
+msgid "GNOME Contributor"
+msgstr "GNOME 貢獻者"
+
+#: templates/people/person_base.html:14
+#: templates/people/person_detail_change_form.html:7
+msgid "Change your details"
+msgstr "改變您的詳細資料"
+
+#: templates/people/person_base.html:15
+msgid "Change your password"
+msgstr "改變您的密碼"
+
+#: templates/people/person_base.html:16
+msgid "Join a team"
+msgstr "加入一個團隊"
+
+#: templates/people/person_detail.html:28
+msgid "Site Language"
+msgstr "網站語言"
+
+#: templates/people/person_detail.html:34
+msgid "Choose"
+msgstr "選擇"
+
+#: templates/people/person_detail.html:41
+msgid "Module maintenance"
+msgstr "模組維護"
+
+#: templates/people/person_detail.html:59
+msgid "Current activity"
+msgstr "目前的活動"
+
+#: templates/people/person_detail.html:64
+#: templates/vertimus/activity_summary.html:32
+msgid "State"
+msgstr "狀態"
+
+#: templates/people/person_list.html:4 templates/people/person_list.html:8
+msgid "GNOME Contributors"
+msgstr "GNOME 貢獻者"
+
+#: templates/people/person_list.html:10
+msgid "GNOME is being developed by following people:"
+msgstr "GNOME 是由下列人士所開發："
+
+#: templates/people/person_overview.html:14
+msgid "Web:"
+msgstr "網頁："
+
+#: templates/people/person_overview.html:20
+msgid "Email address:"
+msgstr "電子郵件位址："
+
+#: templates/people/person_overview.html:26
+msgid "IRC account:"
+msgstr "IRC 帳號："
+
+#: templates/people/person_password_change_form.html:6
+msgid "Password change"
+msgstr "密碼變更"
+
+#: templates/people/person_password_change_form.html:8
+msgid ""
+"Please enter your old password, for security’s sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+"為了安全性的考量，請輸入您的舊密碼，接著輸入您的新密碼兩次，這樣我們才能檢驗"
+"您沒打錯字。"
+
+#: templates/people/person_password_change_form.html:14
+msgid "Old password:"
+msgstr "舊密碼："
+
+#: templates/people/person_password_change_form.html:18
+#: templates/registration/password_reset_confirm.html:18
+msgid "New password:"
+msgstr "新密碼："
+
+#: templates/people/person_password_change_form.html:26
+#: templates/registration/password_reset_confirm.html:22
+msgid "Change my password"
+msgstr "改變我的密碼"
+
+#: templates/people/person_team_join_form.html:8
+msgid "Join a new team"
+msgstr "加入新的團隊"
+
+#: templates/people/person_team_join_form.html:12
+msgid "I would like to join the following team as “translator”:"
+msgstr "我想要以「翻譯者」的身分加入下列團隊："
+
+#: templates/people/person_team_join_form.html:14
+msgid "Join"
+msgstr "加入"
+
+#: templates/people/person_team_membership.html:6
+#: templates/teams/team_detail.html:82
+msgid "Team membership"
+msgstr "團隊成員"
+
+#: templates/people/person_team_membership.html:10
+#, python-format
+msgid "Member of %(team_name)s team (%(role_name)s)"
+msgstr "%(team_name)s團隊成員 (%(role_name)s)"
+
+#: templates/people/person_team_membership.html:14
+msgid "Leave"
+msgstr "離開"
+
+#: templates/people/person_team_membership.html:15
+msgid "Are you sure you want to leave the team?"
+msgstr "您確定要離開這個團隊？"
+
+#: templates/registration/password_reset_complete.html:4
+#: templates/registration/password_reset_complete.html:8
+msgid "Password reset complete"
+msgstr "密碼重設成功"
+
+#: templates/registration/password_reset_complete.html:10
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr "您的密碼已設定。您現在可以繼續並登入。"
+
+#: templates/registration/password_reset_confirm.html:4
+#: templates/registration/password_reset_form.html:4
+#: templates/registration/password_reset_form.html:9
+msgid "Password reset"
+msgstr "密碼重設"
+
+#: templates/registration/password_reset_confirm.html:11
+msgid "Enter new password"
+msgstr "輸入新密碼"
+
+#: templates/registration/password_reset_confirm.html:13
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr "請輸入您的新密碼兩次，這樣我們才能檢驗您沒打錯字。"
+
+#: templates/registration/password_reset_confirm.html:28
+msgid "Password reset unsuccessful"
+msgstr "密碼重設不成功"
+
+#: templates/registration/password_reset_confirm.html:30
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+"此密碼重設連結已失效，可能是因為它已經被使用過了。請提出新的密碼重設要求。"
+
+#: templates/registration/password_reset_done.html:4
+#: templates/registration/password_reset_done.html:9
+msgid "Password reset successful"
+msgstr "密碼重設成功"
+
+#: templates/registration/password_reset_done.html:11
+msgid ""
+"We’ve e-mailed you instructions for setting your password to the e-mail "
+"address you submitted. You should be receiving it shortly."
+msgstr ""
+"我們已經把設定密碼的程序寄到您提供的電子郵件位址。您應該很快就會收到它。"
+
+#: templates/registration/password_reset_form.html:11
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we’ll e-mail "
+"instructions for setting a new one."
+msgstr ""
+"忘記您的密碼了嗎？在下面輸入您的電子郵件位址，我們會寄電子郵件給您以完成設定"
+"新密碼的動作。"
+
+#: templates/registration/password_reset_form.html:15
+msgid "E-mail address:"
+msgstr "電子郵件位址："
+
+#: templates/registration/password_reset_form.html:19
+msgid "Reset my password"
+msgstr "重設我的密碼"
+
+#: templates/registration/register.html:8
+msgid "Account Registration"
+msgstr "帳號註冊"
+
+#: templates/registration/register.html:12
+msgid ""
+"You can register here for an account on this site. This is only useful if "
+"you plan to contribute to GNOME translations."
+msgstr ""
+"您可以在這裡註冊這個網站的帳號。只有當您準備貢獻 GNOME 翻譯時才需要這個帳號。"
+
+#: templates/registration/register.html:13
+msgid ""
+"After registration and connection, you will be able to join an existing team "
+"from your profile page."
+msgstr "在註冊並連線到網站後，您將可以在自己的設定頁面加入現有的翻譯團隊。"
+
+#: templates/registration/register.html:38
+msgid "Register with password"
+msgstr "以密碼註冊"
+
+#: templates/registration/register_success.html:8
+msgid "Registration Success"
+msgstr "註冊成功"
+
+#: templates/registration/register_success.html:10
+msgid ""
+"The registration succeeded. You will now receive an email containing a link "
+"to activate your account."
+msgstr "註冊成功。您將會收到一封電子郵件，裡面有用來啟用您帳號的連結。"
+
+#: templates/release_compare.html:5 templates/release_compare.html:20
+msgid "Releases Comparison"
+msgstr "發行版本比較"
+
+#: templates/release_compare.html:30
+msgid "Progress"
+msgstr "進度"
+
+#: templates/release_detail.html:10
+#, python-format
+msgid "%(name)s Release"
+msgstr "%(name)s 發行版本"
+
+#: templates/release_detail.html:21 templates/stats_show.html:56
+msgid "Language"
+msgstr "語言"
+
+#: templates/release_list.html:4 templates/release_list.html:9
+msgid "GNOME Releases"
+msgstr "GNOME 發行版本"
+
+#: templates/release_list.html:11
+msgid "Select a release or a release set below to see more details about it:"
+msgstr "在下面選擇發行版本或發行套組以查看更多相關詳細資料："
+
+#: templates/release_list.html:27
+msgid "Older Releases"
+msgstr "較早的發行版"
+
+#: templates/stats_show.html:15 templates/vertimus/vertimus_detail.html:80
+#: templates/vertimus/vertimus_detail.html:81
+msgid "Download POT file"
+msgstr "下載所有 POT 檔"
+
+#: templates/stats_show.html:30 templates/vertimus/vertimus_detail.html:145
+msgid "Notices"
+msgstr "注意事項"
+
+#: templates/stats_show.html:39
+msgid "Search for similar bugs before reporting it"
+msgstr "在回報前先搜尋類似的臭蟲"
+
+#: templates/stats_show.html:42
+msgid "Report this bug"
+msgstr "回報此臭蟲"
+
+#: templates/stats_show.html:56 vertimus/models.py:169
+msgid "Translated"
+msgstr "已翻譯"
+
+#: templates/stats_show.html:83
+msgid "Display document figures"
+msgstr "顯示文件圖片"
+
+#: templates/teams/team_base.html:8
+msgid "Details"
+msgstr "細節"
+
+#: templates/teams/team_base.html:18
+#, python-format
+msgid "%(lang)s Translation Team Page:"
+msgstr "%(lang)s翻譯團隊網頁："
+
+#: templates/teams/team_base.html:22
+#, fuzzy
+#| msgid "Bug reporting"
+msgid "Bug reporting:"
+msgstr "臭蟲回報"
+
+#: templates/teams/team_base.html:25
+msgid "Report Bug in Translation"
+msgstr "回報翻譯中的瑕疵"
+
+#: templates/teams/team_base.html:26
+msgid "Show Existing Bugs"
+msgstr "顯示已存在的臭蟲"
+
+#: templates/teams/team_base.html:31
+msgid "Mailing List:"
+msgstr "郵件論壇："
+
+#: templates/teams/team_base.html:34
+msgid "Send e-mail to the list"
+msgstr "送出 E-mail 至論壇"
+
+#: templates/teams/team_base.html:36
+msgid "Subscribe"
+msgstr "訂閱"
+
+#: templates/teams/team_base.html:50
+msgid "This team has currently no coordinator."
+msgstr "這個團隊目前沒有協調人。"
+
+#: templates/teams/team_base.html:51
+#, python-format
+msgid ""
+"See <a href=\"%(link)s\">the GTP Wiki</a> for more information about "
+"coordinatorship."
+msgstr ""
+"請查閱 <a href=\"%(link)s\">the GTP Wiki</a> 以了解更多關於協調工作的資訊。"
+
+#: templates/teams/team_detail.html:6
+#, python-format
+msgid "Last actions made by the %(lang)s team of the GNOME Translation Project"
+msgstr "GNOME 翻譯專案%(lang)s團隊所做的最後動作"
+
+#: templates/teams/team_detail.html:42 templates/teams/team_edit.html:16
+#, python-format
+msgid "%(lang)s Translation Team"
+msgstr "%(lang)s翻譯團隊"
+
+#: templates/teams/team_detail.html:55
+msgid ""
+"There is currently no established team for this language. See <a href="
+"\"https://wiki.gnome.org/TranslationProject/StartingATeam\">the GTP Wiki</a> "
+"to get more information about the process of building a new translation team."
+msgstr ""
+"這個語言目前尚未建立團隊。請查閱 <a href=\"https://wiki.gnome.org/"
+"TranslationProject/StartingATeam\">GTP Wiki</a> 以了解關於建立新的翻譯團隊的"
+"程序之相關資訊。"
+
+#: templates/teams/team_detail.html:70
+msgid "Current activities"
+msgstr "目前的活動"
+
+#: templates/teams/team_detail.html:73
+msgid "Plural forms:"
+msgstr "複數形式："
+
+#: templates/teams/team_detail.html:75
+msgid "Show/hide archived translations"
+msgstr "顯示/隱藏封存的翻譯"
+
+#: templates/teams/team_detail.html:75
+msgid "Archives"
+msgstr "封存的檔案"
+
+#: templates/teams/team_detail.html:85
+msgid "Show/hide inactive translations"
+msgstr "顯示/隱藏不使用的翻譯"
+
+#: templates/teams/team_detail.html:97
+msgid "Apply modifications"
+msgstr "套用修改"
+
+#: templates/teams/team_detail.html:107
+#, python-format
+msgid "Last login on %(last_login)s"
+msgstr "上次登入於 %(last_login)s"
+
+#: templates/teams/team_edit.html:32
+msgid "This team is using the translation workflow"
+msgstr "這個團隊使用翻譯工作流程"
+
+#: templates/teams/team_edit.html:35
+msgid ""
+"This content may use <a href='https://en.wikipedia.org/wiki/"
+"Markdown'>Markdown</a> syntax"
+msgstr ""
+"這個內容可以使用 <a href='http://en.wikipedia.org/wiki/Markdown'>Markdown</"
+"a> 語法"
+
+#: templates/teams/team_list.html:4 templates/teams/team_list.html:9
+msgid "GNOME Translation Teams"
+msgstr "GNOME 翻譯團隊"
+
+#: templates/teams/team_list.html:12
+msgid "Select a team below to see more information about it:"
+msgstr "選擇下列之一的團隊以了解進一步相關資訊："
+
+#: templates/teams/team_list.html:26
+#, python-format
+msgid "Coordinated by %(plist)s"
+msgstr "協調人為 %(plist)s"
+
+#: templates/teams/team_list.html:28
+msgid "No coordinator"
+msgstr "沒有協調人"
+
+#: templates/teams/team_list.html:41
+msgid "There are currently no translation teams in GNOME. :("
+msgstr "目前在 GNOME 中沒有翻譯團隊。 :("
+
+#: templates/vertimus/activity_summary.html:21
+#, python-format
+msgid "Activity summary for “%(lang)s”"
+msgstr "「%(lang)s」活動摘要"
+
+#: templates/vertimus/activity_summary.html:27
+#, python-format
+msgid "Activity summary for <a href=\"%(url)s\">%(lang)s</a>"
+msgstr "<a href=\"%(url)s\">%(lang)s</a> 的活動摘要"
+
+#: templates/vertimus/activity_summary.html:32
+msgid "Description"
+msgstr "描述"
+
+#: templates/vertimus/quality-check.html:4
+#: templates/vertimus/quality-check.html:6
+msgid "Quality check results"
+msgstr "品質檢查結果"
+
+#: templates/vertimus/quality-check.html:13
+#, python-format
+msgid ""
+"Checks (%(checks)s) by <a href=\"%(url)s\" target=\"_blank\">pofilter</a>"
+msgstr ""
+"檢查 (%(checks)s) 由 <a href=\"%(url)s\" target=\"_blank\">pofilter</a>"
+
+#: templates/vertimus/vertimus_detail.html:5
+#, python-format
+msgid "Module Translation: %(name)s"
+msgstr "模組翻譯： %(name)s"
+
+#: templates/vertimus/vertimus_detail.html:47
+msgid "Used in release(s):"
+msgstr "用於發行版："
+
+#: templates/vertimus/vertimus_detail.html:65
+msgid "State:"
+msgstr "狀態："
+
+#: templates/vertimus/vertimus_detail.html:85
+#: templates/vertimus/vertimus_detail.html:119
+msgid "Download PO file"
+msgstr "下載 PO 檔"
+
+#: templates/vertimus/vertimus_detail.html:87
+msgid "PO file with inline diffs for fuzzy strings"
+msgstr ""
+
+#: templates/vertimus/vertimus_detail.html:91
+#: templates/vertimus/vertimus_detail.html:206
+msgid "Quality checks"
+msgstr "品質檢查"
+
+#: templates/vertimus/vertimus_detail.html:94
+msgid "PO file statistics:"
+msgstr "PO 檔統計："
+
+#: templates/vertimus/vertimus_detail.html:97
+#: templates/vertimus/vertimus_detail.html:129
+msgid "Strings:"
+msgstr "字串數："
+
+#: templates/vertimus/vertimus_detail.html:101
+#: templates/vertimus/vertimus_detail.html:133
+msgid "Words:"
+msgstr "字數："
+
+#: templates/vertimus/vertimus_detail.html:108
+#, python-format
+msgid " including <a href=\"%(img_url)s\">%(stats)s image</a>"
+msgid_plural " including <a href=\"%(img_url)s\">%(stats)s images</a>"
+msgstr[0] " 包含 <a href=\"%(img_url)s\">%(stats)s 張圖片</a>"
+
+#: templates/vertimus/vertimus_detail.html:120
+msgid "PO file statistics (reduced):"
+msgstr "PO 檔統計(已縮減)："
+
+#: templates/vertimus/vertimus_detail.html:160
+msgid "On-going activities in same module:"
+msgstr "同一模組中正在進行的活動："
+
+#: templates/vertimus/vertimus_detail.html:171
+msgid "Actions"
+msgstr "動作"
+
+#. Translators: human_level is an ordinal expression ('1st',' 2nd',...)
+#. which should be localized in Django itself
+#.
+#: templates/vertimus/vertimus_detail.html:176
+#, python-format
+msgid "Archived Actions (%(human_level)s archived series)"
+msgstr "已封存的動作（%(human_level)s 個封存系列）"
+
+#: templates/vertimus/vertimus_detail.html:178
+msgid "(Return to current actions)"
+msgstr "（回到目前的動作）"
+
+#: templates/vertimus/vertimus_detail.html:183
+msgid "(Previous action history)"
+msgstr "（先前動作歷史紀錄）"
+
+#: templates/vertimus/vertimus_detail.html:197
+msgid "Link to this comment"
+msgstr "這個註解的連結"
+
+#: templates/vertimus/vertimus_detail.html:211
+msgid "This message was sent to the mailing list"
+msgstr "這個郵件會寄到團隊通信論壇"
+
+#: templates/vertimus/vertimus_detail.html:237
+msgid "Help index"
+msgstr "說明索引"
+
+#: templates/vertimus/vertimus_detail.html:238
+msgid "Build help"
+msgstr "編譯說明"
+
+#: templates/vertimus/vertimus_detail.html:241
+msgid "diff with:"
+msgstr "比對差異："
+
+#: templates/vertimus/vertimus_detail.html:259
+msgid "No current actions."
+msgstr "沒有目前的動作。"
+
+#: templates/vertimus/vertimus_detail.html:263
+msgid "New Action"
+msgstr "新增動作"
+
+#: templates/vertimus/vertimus_detail.html:267
+#, python-format
+msgid ""
+"You need <a href=\"%(login_url)s\">to be authenticated</a> and member of the "
+"%(team_name)s team."
+msgstr ""
+"您需要<a href=\"%(login_url)s\">被驗證</a>同時必須是%(team_name)s團隊的成員。"
+
+#: templates/vertimus/vertimus_detail.html:299
+msgid "Submit"
+msgstr "送出"
+
+#: templates/vertimus/vertimus_detail.html:306
+msgid "This team is not using the translation workflow."
+msgstr "這個團隊沒有使用翻譯工作流程。"
+
+#: templates/vertimus/vertimus_diff.html:5
+msgid "Diff between po files"
+msgstr "po 檔間的 Diff"
+
+#: templates/vertimus/vertimus_diff.html:16
+msgid "← Back to actions"
+msgstr "← 返回動作"
+
+#: templates/vertimus/vertimus_diff.html:20
+msgid "Note: both files are merged with latest POT file."
+msgstr "注意：兩個檔案都會與最新的 POT 檔案合併。"
+
+#: vertimus/feeds.py:19
+#, python-format
+msgid "%(site)s — Workflow actions for the %(lang)s language"
+msgstr "%(site)s — %(lang)s 語言的工作流程動作"
+
+#: vertimus/feeds.py:28
+#, python-format
+msgid "Latest actions of the GNOME Translation Project for the %s language"
+msgstr "GNOME 翻譯專案對%s語言所做的最後動作"
+
+#: vertimus/feeds.py:61
+#, python-format
+msgid "%(site)s — Workflow actions of the %(lang)s team"
+msgstr "%(site)s — %(lang)s 團隊的工作流程動作"
+
+#: vertimus/feeds.py:70
+#, python-format
+msgid "Latest actions made by the %s team of the GNOME Translation Project"
+msgstr "GNOME 翻譯專案的%s團隊所做的最後動作"
+
+#: vertimus/forms.py:34
+#, python-format
+msgid "%(name)s (full name missing)"
+msgstr "%(name)s (缺少完整名稱)"
+
+#: vertimus/forms.py:36
+#, python-format
+msgid "%(name)s (email missing)"
+msgstr "%(name)s (缺少電子郵件)"
+
+#: vertimus/forms.py:42
+msgid "Action"
+msgstr "動作"
+
+#: vertimus/forms.py:47
+msgid "Comment"
+msgstr "評註"
+
+#: vertimus/forms.py:52
+msgid "Commit author"
+msgstr "提交的作者"
+
+#: vertimus/forms.py:54
+msgid "Sync with master"
+msgstr "與 master 同步"
+
+#: vertimus/forms.py:55
+msgid "Try to cherry-pick the commit to the master branch"
+msgstr "嘗試將提交 cherry-pick 到 master 分支中"
+
+#: vertimus/forms.py:58
+msgid "File"
+msgstr "檔案"
+
+#: vertimus/forms.py:59
+msgid "Upload a .po, .gz, .bz2, .xz or .png file"
+msgstr "上傳 .po、.gz、.bz2、.xz 或 .png 檔案"
+
+#: vertimus/forms.py:60
+msgid "Send message to the team mailing list"
+msgstr "傳送訊息到團隊郵件論壇"
+
+#: vertimus/forms.py:84
+msgid "Only files with extension .po, .gz, .bz2, .xz or .png are admitted."
+msgstr "只允許使用副檔名為 .po、.gz、.bz2、.xz 或 .png 的檔案。"
+
+#: vertimus/forms.py:88
+msgid ""
+".po file does not pass “msgfmt -vc”. Please correct the file and try again."
+msgstr ".po 檔無法通過「msgfmt -vc」。請修正此檔案後再試一次。"
+
+#: vertimus/forms.py:95
+msgid "Invalid action. Someone probably posted another action just before you."
+msgstr "無效的動作。可能有其他人在您之前發布了別的動作。"
+
+#: vertimus/forms.py:97
+msgid "Committing a file requires a commit author."
+msgstr "提交檔案需要提交者名稱。"
+
+#: vertimus/forms.py:103
+msgid "A comment is needed for this action."
+msgstr "這個動作需要寫下評註。"
+
+#: vertimus/forms.py:106
+msgid "A comment or a file is needed for this action."
+msgstr "這個動作需要寫下評註或提供檔案。"
+
+#: vertimus/forms.py:109
+msgid "A file is needed for this action."
+msgstr "這個動作需要提供檔案。"
+
+#: vertimus/forms.py:112
+msgid "Please, don’t send a file with a “Reserve” action."
+msgstr "請勿在有「保留」字樣的動作中上傳檔案。"
+
+#: vertimus/models.py:136
+msgid "Inactive"
+msgstr "未有動作"
+
+#: vertimus/models.py:153
+msgid "Translating"
+msgstr "正在翻譯"
+
+#: vertimus/models.py:192
+msgid "Proofreading"
+msgstr "正在校對"
+
+#. Translators: This is a status, not a verb
+#: vertimus/models.py:210
+msgid "Proofread"
+msgstr "已校對"
+
+#: vertimus/models.py:230
+msgid "To Review"
+msgstr "等待校閱"
+
+#: vertimus/models.py:245
+msgid "To Commit"
+msgstr "等待提交"
+
+#: vertimus/models.py:263
+msgid "Committing"
+msgstr "正在提交"
+
+#: vertimus/models.py:282
+msgid "Committed"
+msgstr "已提交"
+
+#: vertimus/models.py:301
+msgid "Write a comment"
+msgstr "撰寫備註"
+
+#: vertimus/models.py:302
+msgid "Reserve for translation"
+msgstr "欲翻譯請保留不動"
+
+#: vertimus/models.py:303
+msgid "Upload the new translation"
+msgstr "上傳新翻譯"
+
+#: vertimus/models.py:304
+msgid "Reserve for proofreading"
+msgstr "欲校對請保留不動"
+
+#: vertimus/models.py:305
+msgid "Upload the proofread translation"
+msgstr "上傳已校對的翻譯"
+
+#. Translators: this means the file is ready to be committed in repository
+#: vertimus/models.py:307
+msgid "Ready for submission"
+msgstr "準備就緒可以提交"
+
+#: vertimus/models.py:308
+msgid "Submit to repository"
+msgstr "提交至倉儲"
+
+#. Translators: this indicates a committer is going to commit the file in the repository
+#: vertimus/models.py:310
+msgid "Reserve to submit"
+msgstr "欲提交請保留不動"
+
+#. Translators: this is used to indicate the file has been committed in the repository
+#: vertimus/models.py:312
+msgid "Inform of submission"
+msgstr "通知已提交"
+
+#. Translators: regardless of the translation completion, this file need to be reviewed
+#: vertimus/models.py:314
+msgid "Rework needed"
+msgstr "還要再處理過"
+
+#: vertimus/models.py:315
+msgid "Archive the actions"
+msgstr "封存以上動作"
+
+#: vertimus/models.py:316
+msgid "Undo the last state change"
+msgstr "還原上次的狀態變更"
+
+#: vertimus/models.py:421
+msgid "File in repository"
+msgstr "倉儲中的檔案"
+
+#: vertimus/models.py:432
+#, python-format
+msgid "Uploaded file by %(name)s on %(date)s"
+msgstr "檔案由 %(name)s 於 %(date)s 上傳"
+
+#: vertimus/models.py:441
+#, python-format
+msgid ""
+"The new state of %(module)s — %(branch)s — %(domain)s (%(language)s) is now "
+"“%(new_state)s”."
+msgstr ""
+"%(module)s — %(branch)s — %(domain)s (%(language)s) 的新狀態已改變為"
+"「%(new_state)s」。"
+
+#: vertimus/models.py:557
+msgid "Hello,"
+msgstr "敬啟者，"
+
+#: vertimus/models.py:566
+msgid "Without comment"
+msgstr "沒有備註"
+
+#: vertimus/models.py:605
+#, python-format
+msgid ""
+"A new comment has been posted on %(module)s — %(branch)s — %(domain)s "
+"(%(language)s)."
+msgstr "%(module)s — %(branch)s — %(domain)s (%(language)s) 增加了新的備註。"
+
+#: vertimus/models.py:682
+#, python-format
+msgid "The commit failed. The error was: “%s”"
+msgstr "提交失敗。錯誤為：「%s」"
+
+#: vertimus/models.py:684
+msgid "The file has been successfully committed to the repository."
+msgstr "這個檔案已成功提交至倉儲。"
+
+#: vertimus/models.py:689
+msgid " Additionally, the synchronization with the master branch succeeded."
+msgstr " 此外，與 master 分支的同步也已成功。"
+
+#: vertimus/models.py:691
+msgid " However, the synchronization with the master branch failed."
+msgstr " 然而，與 master 分支的同步失敗了。"
+
+#: vertimus/views.py:108
+msgid "A problem occurred while sending mail, no mail have been sent"
+msgstr "傳送郵件時發生問題，沒有郵件送出"
+
+#: vertimus/views.py:111
+#, python-format
+msgid "An error occurred during applying your action: %s"
+msgstr "套用您的動作時發生錯誤：%s"
+
+#: vertimus/views.py:178 vertimus/views.py:188 vertimus/views.py:201
+#, python-format
+msgid "<a href=\"%(url)s\">Uploaded file</a> by %(name)s on %(date)s"
+msgstr "<a href=\"%(url)s\">檔案</a>由 %(name)s 於 %(date)s 上傳"
+
+#: vertimus/views.py:210
+#, python-format
+msgid "<a href=\"%(url)s\">Latest committed file</a> for %(lang)s"
+msgstr "%(lang)s最新提交的<a href=\"%(url)s\">檔案</a>"
+
+#: vertimus/views.py:218
+msgid "Latest POT file"
+msgstr "最新的 POT 檔案"
+
+#: vertimus/views.py:289
+msgid "No po file to check"
+msgstr "沒有 po 檔案需要檢查"
+
+#: vertimus/views.py:298
+msgid "The po file looks good!"
+msgstr "這 po 檔案看起來很好！"
+
+#: vertimus/views.py:322
+msgid ""
+"WARNING: This file is <b>NOT</b> suitable as a base for completing this "
+"translation. It contains HTML markup to highlight differential parts of "
+"changed strings."
+msgstr ""
+
+#: vertimus/views.py:428
+#, python-format
+msgid "Build failed (%(program)s): %(err)s"
+msgstr "編譯失敗 (%(program)s)：%(err)s"
+
+#~ msgid "GTK+"
+#~ msgstr "GTK+"
+
+#~ msgid "Pan Newsreader"
+#~ msgstr "Pan 新聞閱讀器"
+
+#~ msgid "D-Bus interface for user account query and manipulation."
+#~ msgstr "用於使用者帳號查詢與操作的 D-Bus 介面。"
+
+#~ msgid "GNOME 3.14 (old stable)"
+#~ msgstr "GNOME 3.14 (舊穩定版)"
+
+#~ msgid "GNOME 3.12 (old stable)"
+#~ msgstr "GNOME 3.12 (舊穩定版)"
+
+#~ msgid "GNOME 3.10 (old stable)"
+#~ msgstr "GNOME 3.10 (舊穩定版)"
+
+#~ msgid "Log in with your username and password:"
+#~ msgstr "請使用您的使用者名稱和密碼登入："
+
+#~ msgid "Username:"
+#~ msgstr "使用者名稱："
+
+#~ msgid "Or use your OpenID:"
+#~ msgstr "或者使用您的 OpenID："
+
+#~ msgid "OpenID:"
+#~ msgstr "OpenID："
+
+#~ msgid "Log in with OpenID"
+#~ msgstr "以 OpenID 登入"
+
+#~ msgid "Copyright &copy; 2006"
+#~ msgstr "著作權所有 &copy; 2006"
+
+#~ msgid "Optimized for standards."
+#~ msgstr "已為各種標準最佳化。"
+
+#~ msgid ""
+#~ "If you do not own an account on this site, you can <a "
+#~ "href='%(link)s'>register</a> for a new account."
+#~ msgstr ""
+#~ "如果您還沒有這個網站的帳號，可以 <a href='%(link)s'>註冊</a> 一個新帳號。"
+
+#~ msgid "Have you forgotten your password?"
+#~ msgstr "您是否忘記自己的密碼？"
+
+#~ msgid "Bugzilla:"
+#~ msgstr "Bugzilla："
+
+#~ msgid ""
+#~ "Unified high-level API for communicating with mobile broadband modems. To "
+#~ "submit your translation, <a href=\"https://bugs.freedesktop.org/enter_bug."
+#~ "cgi?product=ModemManager&component=general\">create a bug report for "
+#~ "ModemManager on the freedesktop.org Bugzilla</a>. Then, attach your "
+#~ "translation file."
+#~ msgstr ""
+#~ "與手機寬頻數據機溝通的統一高階 API。若要提交您的翻譯，<a href=\"https://"
+#~ "bugs.freedesktop.org/enter_bug.cgi?product=ModemManager&component=general"
+#~ "\">請在 freedesktop.org Bugzilla 建立 ModemManager 的臭蟲回報</a>。接著，"
+#~ "附上您的翻譯檔。"
+
+#~ msgid ""
+#~ "Toolkit for defining and handling authorizations. To submit your "
+#~ "translation, <a href=\"https://bugs.freedesktop.org/enter_bug.cgi?"
+#~ "product=PolicyKit&component=libpolkit\">create a bug report for polkit on "
+#~ "the freedesktop.org Bugzilla</a>. Then, attach your translation as a git-"
+#~ "formatted patch."
+#~ msgstr ""
+#~ "定義與處理授權的工具箱。若要提交您的翻譯，<a href=\"https://bugs."
+#~ "freedesktop.org/enter_bug.cgi?product=PolicyKit&component=libpolkit\">請"
+#~ "在 freedesktop.org Bugzilla 建立 systemd 的臭蟲回報</a>。接著，將您的翻譯"
+#~ "做為 git 格式補釘檔案。"
+
+#~ msgid "Bugzilla account"
+#~ msgstr "Bugzilla 帳號"
+
+#~ msgid ""
+#~ "This should be an email address, useful if not equal to “E-mail address” "
+#~ "field"
+#~ msgstr "這裡應該是電子郵件位址，用在如果它不等於「E-mail address」欄位時"
+
+#~ msgid "Bugzilla account:"
+#~ msgstr "Bugzilla 帳號："
+
+#~ msgid "Disk Usage Analyzer Manual"
+#~ msgstr "磁碟用量分析器 手冊"
+
+#~ msgid "Dictionary Manual"
+#~ msgstr "字典 手冊"
+
+#~ msgid "Search Tool Manual"
+#~ msgstr "搜尋工具手冊"
+
+#~ msgid "Log Viewer Manual"
+#~ msgstr "紀錄檔檢視器手冊"
+
+#~ msgid ""
+#~ "gnome-utils has been split into new modules after GNOME 3.2: baobab, "
+#~ "gnome-font-viewer, gnome-dictionary, gnome-screenshot, gnome-search-tool "
+#~ "and gnome-system-log"
+#~ msgstr ""
+#~ "gnome-utils 在 GNOME 3.2 後已經分離為新的模組：baobab、gnome-font-viewer、"
+#~ "gnome-dictionary、gnome-screenshot、gnome-search-tool 和 gnome-system-log"
+
+#~ msgid "This OpenID URL is already taken by a registered user"
+#~ msgstr "這個 OpenID URL 已被一位註冊的使用者使用過"
+
+#~ msgid "Authenticate via OpenID <strong>or</strong> password:"
+#~ msgstr "透過 OpenID <strong>或</strong> 密碼驗證："
+
+#~ msgid "Register with OpenID"
+#~ msgstr "以 OpenID 註冊"
+
+#~ msgid "You have been logged out."
+#~ msgstr "您已經登出。"
+
+#~ msgid "You have been successfully logged in."
+#~ msgstr "您已經成功的登入。"
+
+#~ msgid "We’re sorry, but your account has been disabled."
+#~ msgstr "我們感到很抱歉，但是您的帳號已經被停用了。"
+
+#~ msgid "AisleRiot Manual"
+#~ msgstr "AisleRiot 手冊"
+
+#~ msgid "Blackjack Manual"
+#~ msgstr "Blackjack 手冊"
+
+#~ msgid "glChess Manual"
+#~ msgstr "glChess 手冊"
+
+#~ msgid "Five or More Manual"
+#~ msgstr "五子連色棋手冊"
+
+#~ msgid "Four-in-a-row Manual"
+#~ msgstr "四子連環棋手冊"
+
+#~ msgid "Nibbles Manual"
+#~ msgstr "貪食蛇手冊"
+
+#~ msgid "GNOME Robots Manual"
+#~ msgstr "GNOME 機器人手冊"
+
+#~ msgid "GNOME Mahjongg Manual"
+#~ msgstr "GNOME 麻將手冊"
+
+#~ msgid "GNOME Sudoku Manual"
+#~ msgstr "GNOME 數獨手冊"
+
+#~ msgid "Mines Manual"
+#~ msgstr "拆地雷手冊"
+
+#~ msgid "GNOME Tetravex Manual"
+#~ msgstr "GNOME 數字拼圖手冊"
+
+#~ msgid "GNOME Klotski Manual"
+#~ msgstr "GNOME 華容道手冊"
+
+#~ msgid "GNOME Tali Manual"
+#~ msgstr "GNOME Tali 手冊"
+
+#~ msgid "Iagno Manual"
+#~ msgstr "Iagno 手冊"
+
+#~ msgid "Lights Off Manual"
+#~ msgstr "Lights Off 手冊"
+
+#~ msgid "Quadrapassel Manual"
+#~ msgstr "俄羅斯方塊手冊"
+
+#~ msgid "Same GNOME Manual"
+#~ msgstr "Same GNOME 手冊"
+
+#~ msgid "Swell-Foop Manual"
+#~ msgstr "Swell-Foop 手冊"
+
+#~ msgid ""
+#~ "System and session manager. To submit your translation, <a href=\"https://"
+#~ "github.com/systemd/systemd/pulls\">create a pull request</a>."
+#~ msgstr ""
+#~ "系統與工作階段管理程式。若要提交您的翻譯，請<a href=\"https://github.com/"
+#~ "systemd/systemd/pulls\">建立 pull 要求</a>。"
+
+#~ msgid "Accessibility Guide"
+#~ msgstr "無障礙功能指南"
+
+#~ msgid "Audio Profiles Manual"
+#~ msgstr "音效設定組合手冊"
+
+#~ msgid "CD Player Manual"
+#~ msgstr "CD 播放器 手冊"
+
+#~ msgid "Gnometris Manual"
+#~ msgstr "Gnometris 手冊"
+
+#~ msgid "Sound Recorder Manual"
+#~ msgstr "錄音程式手冊"
+
+#~ msgid "GNOME Volume Control Manual"
+#~ msgstr "GNOME 音量控制程式 手冊"
+
+#~ msgid "GST Network Setup Manual"
+#~ msgstr "GST 網路設定 手冊"
+
+#~ msgid "GST Service Management Manual"
+#~ msgstr "GST 服務管理 手冊"
+
+#~ msgid "GST Shared Folders Manual"
+#~ msgstr "GST 共享資料夾 手冊"
+
+#~ msgid "GST Time Setup Manual"
+#~ msgstr "GST 時間設定 手冊"
+
+#~ msgid "GST User Management Manual"
+#~ msgstr "GST 使用者管理 手冊"
+
+#~ msgid "GStreamer Properties Manual"
+#~ msgstr "GStreamer 屬性手冊"
+
+#~ msgid "Keyboard Indicator Manual"
+#~ msgstr "鍵盤指示器手冊"
+
+#~ msgid "Integration Guide"
+#~ msgstr "整合指南"
+
+#~ msgid "Mallard Documentation Guide"
+#~ msgstr "Mallard 文件指南"
+
+#~ msgid "Volume Control Manual"
+#~ msgstr "音量控制程式 手冊"
+
+#~ msgid ""
+#~ "As a part of the GNOME 3.22 release activities, Bastian Hougaard "
+#~ "<bastianilso@gnome.org> created a release video with subtitles. The video "
+#~ "has been uploaded here: <a href=\"https://youtu.be/LhY7rpWXm1Y\">https://"
+#~ "youtu.be/LhY7rpWXm1Y</a>"
+#~ msgstr ""
+#~ "做為 GNOME 3.22 釋出活動的一部分，Bastian Hougaard <bastianilso@gnome."
+#~ "org> 建立了有字幕的釋出影片。影片已上傳到這裡：<a href=\"https://youtu.be/"
+#~ "LhY7rpWXm1Y\">https://youtu.be/LhY7rpWXm1Y</a>"
+
+#~ msgid "GNOME 2.32 (old stable)"
+#~ msgstr "GNOME 2.32 (舊的穩定版)"
+
+#~ msgid "Use gravatar"
+#~ msgstr "使用 Gravatar"
+
+#~ msgid "Display the image of your gravatar.com account"
+#~ msgstr "顯示您的 gravatar.com 帳號"
+
+#~ msgid "Module %s doesn’t look like gnome-doc-utils module."
+#~ msgstr "模組 %s 看起來不像是 gnome-doc-utils 模組。"
+
+#~ msgid "GNOME 3.16 Release Video"
+#~ msgstr "GNOME 3.16 發行影片"
+
+#~ msgid "GNOME 3.18 Release Video"
+#~ msgstr "GNOME 3.18 發行影片"
+
+#~ msgid "UI translation"
+#~ msgstr "使用者介面翻譯"
+
+#~ msgid "Anjuta Manual"
+#~ msgstr "Anjuta 手冊"
+
+#~ msgid "Dasher Manual"
+#~ msgstr "Dasher 手冊"
+
+#~ msgid "Eye of GNOME Manual"
+#~ msgstr "Eye of GNOME 手冊"
+
+#~ msgid "GConf Editor Manual"
+#~ msgstr "GConf 編輯器 手冊"
+
+#~ msgid "GDM Manual"
+#~ msgstr "GDM 手冊"
+
+#~ msgid "Gnome Chess Manual"
+#~ msgstr "Gnome Chess 使用者手冊"
+
+#~ msgid "Sound Juicer Manual"
+#~ msgstr "Sound Juicer 手冊"
+
+#~ msgid "Beagle Desktop Search"
+#~ msgstr "Beagle 桌面搜尋"
+
+#~ msgid "GNOME Web Photo"
+#~ msgstr "GNOME 網頁相片"
+
+#~ msgid "Evince is a document viewer for multiple document formats."
+#~ msgstr "Evince 是適用於多種文件格式的文件檢視器。"
+
+#~ msgid ""
+#~ "For other localisation needs of GCompris, see  <a href=\"http://gcompris."
+#~ "net/wiki/Translation_addons\">http://gcompris.net/wiki/"
+#~ "Translation_addons</a>."
+#~ msgstr ""
+#~ "有其他關於 GCompris 的本地化需求，請查閱  <a href=\"http://gcompris.net/"
+#~ "wiki/Translation_addons\">http://gcompris.net/wiki/Translation_addons</"
+#~ "a>。"
+
+#~ msgid "Graphical frontend for the git directory tracker"
+#~ msgstr "git 目錄追蹤程式的圖形化前端程式"
+
+#~ msgid "A multimedia converter for the GNOME Desktop"
+#~ msgstr "GNOME 桌面的多媒體轉檔程式"
+
+#~ msgid "Builder - Develop software for GNOME"
+#~ msgstr "Builder - GNOME 軟體開發"
+
+#~ msgid "Clocks applications for GNOME"
+#~ msgstr "GNOME 的時鐘程式"
+
+#~ msgid ""
+#~ "gnome-disk-utility provides libraries and applications for dealing with "
+#~ "storage devices."
+#~ msgstr "gnome-disk-utility 提供處理儲存裝置用的程式庫和應用程式。"
+
+#~ msgid ""
+#~ "GNOME Video Arcade is a MAME (Multiple Arcade Machine Emulator) front-end "
+#~ "for GNOME."
+#~ msgstr ""
+#~ "GNOME Video Arcade 是 MAME (多種大型電玩機臺模擬器) 的 GNOME 前端程式。"
+
+#~ msgid "A note taking application"
+#~ msgstr "用來做筆記的應用程式"
+
+#~ msgid "A plugin manager library for other GNOME modules"
+#~ msgstr "用於其他 GNOME 模組的外掛程式管理員程式庫"
+
+#~ msgid "Desktop entries for MESS ROMs"
+#~ msgstr "MESS ROM 桌面項目"
+
+#~ msgid ""
+#~ "moserial is a clean, friendly gtk-based serial terminal for the GNOME "
+#~ "desktop. It is written in Vala for extra goodness."
+#~ msgstr ""
+#~ "moserial 是一個簡潔、友善且基於 gtk 的 GNOME 桌面序列埠終端機。它是以具有"
+#~ "許多優點的 Vala 語言寫成的。"
+
+#~ msgid "A photo manager for GNOME"
+#~ msgstr "GNOME 相片管理程式"
+
+#~ msgid "GNOME Teletext viewer"
+#~ msgstr "GNOME 電文檢視器"
+
+#~ msgid "A VNC client for GNOME"
+#~ msgstr "GNOME 的 VNC 客戶端程式"
+
+#~ msgid "Translations should be submitted as bug reports (see link below)."
+#~ msgstr "翻譯應該以如同程式錯誤回報的方式提交(請看下列連結)。"
+
+#~ msgid ""
+#~ "This POT file has not been generated through the standard intltool method."
+#~ msgstr "這個 POT 檔案不是透過標準 intltool 方式產生的。"
+
+#~ msgid ""
+#~ "This POT file has not been generated through the standard gnome-doc-utils "
+#~ "method."
+#~ msgstr "這個 POT 檔案不是透過標準 gnome-doc-utils 方式產生的。"
+
+#~ msgid "GNOME Journal"
+#~ msgstr "GNOME 雜誌"
+
+#~ msgid "Development News"
+#~ msgstr "開發新聞"
+
+#~ msgid "Identi.ca"
+#~ msgstr "Identi.ca"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "GNOME 2.30 (old stable)"
+#~ msgstr "GNOME 2.30 (舊的穩定版)"
+
+#~ msgid "External Dependencies (GNOME)"
+#~ msgstr "額外的相依性 (GNOME)"
+
+#~ msgid "OLPC"
+#~ msgstr "OLPC"
+
+#~ msgid "GNOME-Office Productivity Applications"
+#~ msgstr "GNOME-辦公室生產力應用程式"
+
+#~ msgid "Error: The file %s contains invalid characters."
+#~ msgstr "錯誤：檔案 %s 含有無效的字元"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee 音樂播放器"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany 網頁瀏覽器"
+
+#~ msgid "Evince Document Viewer"
+#~ msgstr "Evince 文件檢視器"
+
+#~ msgid "GNOME Applets"
+#~ msgstr "GNOME 面板程式"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox 音樂播放器"
+
+#~ msgid "Nelly Kroes on Open Source"
+#~ msgstr "開放原始碼的 Nelly Kroes"
+
+#~ msgid "Gnome Specimen"
+#~ msgstr "Gnome Specimen"
+
+#~ msgid "Gtk+ Property nicks translations"
+#~ msgstr "Gtk+ Property nicks 翻譯"
+
+#~ msgid "Gtk+ UI translations"
+#~ msgstr "Gtk+ UI 翻譯"
+
+#~ msgid ""
+#~ "From GNOME 2.23, GAIL is integrated into GTK+. Don't commit in trunk any "
+#~ "more."
+#~ msgstr "從 GNOME 2.23 起，GAIL 已整合至 GTK+。請勿再提交任何檔案到 trunk。"
+
+#~ msgid ""
+#~ "Please note that gtk+ has both po and po-properties UI domains.  If you "
+#~ "add a new language in either domain, you have to commit both files in Git "
+#~ "even if one of them contains 0 translations, unless GTK+ build will break "
+#~ "in /po-properties. This Damned Lies module contains only the properties "
+#~ "files stats, see http://l10n.gnome.org/module/Gtk-UI/ for the stats of "
+#~ "the UI."
+#~ msgstr ""
+#~ "請注意 gtk+ 有 po 及 po-properties 兩個使用者介面域名。如果您要在其中一個"
+#~ "域名中加入新的語言，您必須將兩個檔案都提交到 Git 中，即使其中一個沒有任何"
+#~ "已翻譯的字詞。否則 GTK+ 在組建的過程中會在 /po-properties 的地方中斷。這"
+#~ "個 Damned Lies 模組只包含 properties 檔案的狀態，請查閱 http://l10n.gnome."
+#~ "org/module/Gtk-UI/ 以了解 UI 的狀態。"
+
+#~ msgid ""
+#~ "Please note that gtk+ has both po and po-properties UI domains.  If you "
+#~ "add a new language in either domain, you have to commit both files in Git "
+#~ "even if one of them contains 0 translations, unless GTK+ build will break "
+#~ "in /po-properties. This Damned Lies module contains only the UI stats, "
+#~ "see http://l10n.gnome.org/module/Gtk-properties/ for the stats of the "
+#~ "properties file."
+#~ msgstr ""
+#~ "請注意 gtk+ 有 po 及 po-properties 兩個使用者介面域名。如果您要在其中一個"
+#~ "域名中加入新的語言，您必須將兩個檔案都提交到 Git 中，即使其中一個沒有任何"
+#~ "已翻譯的字詞。否則 GTK+ 在組建的過程中會在 /po-properties 的地方中斷。這"
+#~ "個 Damned Lies 模組只包含 UI 的狀態，請查閱 http://l10n.gnome.org/module/"
+#~ "Gtk-UI/ 以了解 properties 檔案的狀態 。"
+
+#~ msgid "Gnome Parental Control"
+#~ msgstr "Gnome 家長監控"
+
+#~ msgid "Passepartout is a DTP application for X."
+#~ msgstr "Passepartout 是一個適用於 X 的 DTP 應用程式。"
+
+#~ msgid ""
+#~ "PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy "
+#~ "for your sound applications."
+#~ msgstr ""
+#~ "PulseAudio 是 POSIX 作業系統的音效系統，亦即它是您的聲音應用程式的代理程"
+#~ "式。"
+
+#~ msgid ""
+#~ "Here we translate the subtitles of selected GNOME videos.\n"
+#~ "See <a href=\"http://live.gnome.org/VideoSubtitles\">Video Subtitles</a> "
+#~ "for more."
+#~ msgstr ""
+#~ "我們在這裡翻譯了挑選的 GNOME 影片的字幕。\n"
+#~ "請查閱<a href=\"http://live.gnome.org/VideoSubtitles\">影片字幕</a>以獲得"
+#~ "更多資訊。"
+
+#~ msgid "GNOME 2.28 (old stable)"
+#~ msgstr "GNOME 2.28 (舊的穩定版)"
+
+#~ msgid ""
+#~ "This is a clone of the official system-tools-backends version from the "
+#~ "freedesktop.org repository."
+#~ msgstr ""
+#~ "這是從 freedesktop.org 檔案庫抓回來官方版 system-tools-backends 的複本。"
+
+#~ msgid "GNOME 2.26 (old stable)"
+#~ msgstr "GNOME 2.26 (舊的穩定版)"
+
+#~ msgid "GNOME 2.24 (old stable)"
+#~ msgstr "GNOME 2.24 (舊的穩定版)"
+
+#~ msgid "GNOME Keyring Manager Manual"
+#~ msgstr "GNOME 鑰匙圈管理員 手冊"
+
+#~ msgid ""
+#~ "<b>Warning:</b> The gnome sudoku manual is in the process of being "
+#~ "rewritten using Mallard. Mahjongg might be the next one. Don't lose time "
+#~ "on translating them."
+#~ msgstr ""
+#~ "<b>警告：</b>gnome 數獨手冊已在使用 Mallard 重寫的程序。麻將會是下一個。請"
+#~ "勿浪費時間翻譯它們。"
+
+#~ msgid "GNOME 2.22 (old stable)"
+#~ msgstr "GNOME 2.22 (舊的穩定版)"
+
+#~ msgid "Coordinated by <a href=\"%(url)s\">%(name)s</a>"
+#~ msgstr "協調者： <a href=\"%(url)s\">%(name)s</a>"
+
+#~ msgid "GNOME 3 Website"
+#~ msgstr "GNOME 3 網站"

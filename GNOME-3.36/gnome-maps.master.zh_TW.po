@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: gnome-maps master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-maps/issues\n"
 "POT-Creation-Date: 2019-12-15 18:16+0000\n"
-"PO-Revision-Date: 2019-02-17 23:15+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-22 14:37+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Poedit 2.2.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: data/org.gnome.Maps.appdata.xml.in:6
@@ -56,7 +56,7 @@ msgstr ""
 
 #: data/org.gnome.Maps.appdata.xml.in:92
 msgid "The GNOME Project"
-msgstr ""
+msgstr "GNOME 專案"
 
 #. Translators: This is the program name.
 #. for some reason, setting the title of the window through the .ui
@@ -94,21 +94,19 @@ msgstr "最後檢視位置的坐標。"
 
 #: data/org.gnome.Maps.gschema.xml:16
 msgid "zoom"
-msgstr ""
+msgstr "縮放"
 
 #: data/org.gnome.Maps.gschema.xml:17
 msgid "Zoom level"
-msgstr ""
+msgstr "縮放等級"
 
 #: data/org.gnome.Maps.gschema.xml:21
-#, fuzzy
-#| msgid "Map View"
 msgid "Map type"
-msgstr "地圖檢視"
+msgstr "地圖類型"
 
 #: data/org.gnome.Maps.gschema.xml:22
 msgid "The type of map to display (street, aerial, etc.)"
-msgstr ""
+msgstr "要顯示的地圖類型（街道、航空圖等）"
 
 #: data/org.gnome.Maps.gschema.xml:26
 msgid "Window size"
@@ -370,7 +368,7 @@ msgstr "開啟形狀圖層"
 #. Translators: This string uses ellipsis character
 #: data/ui/layers-popover.ui:69
 msgid "Open Shape Layer…"
-msgstr "開啟形狀圖層..."
+msgstr "開啟形狀圖層…"
 
 #: data/ui/location-service-dialog.ui:16
 msgid "Turn on location services to find your location"
@@ -453,10 +451,8 @@ msgstr "加入新的路線"
 
 #. Translators: This is a tooltip
 #: data/ui/map-bubble.ui:62
-#, fuzzy
-#| msgid "Open location"
 msgid "Share location"
-msgstr "開啟位置"
+msgstr "分享位置"
 
 #. Translators: This is a tooltip
 #: data/ui/map-bubble.ui:79
@@ -609,18 +605,16 @@ msgid "Drag to change order of the route"
 msgstr "拖曳以修改路徑順序"
 
 #: data/ui/send-to-dialog.ui:10
-#, fuzzy
-#| msgid "Open location"
 msgid "Open Location"
 msgstr "開啟位置"
 
 #: data/ui/send-to-dialog.ui:70
 msgid "Copy"
-msgstr ""
+msgstr "複製"
 
 #: data/ui/send-to-dialog.ui:76
 msgid "Send To…"
-msgstr ""
+msgstr "傳送至…"
 
 #: data/ui/shape-layer-file-chooser.ui:4 src/mainWindow.js:62
 msgid "Open Shape Layer"
@@ -724,7 +718,7 @@ msgstr "渡輪"
 
 #: data/ui/transit-options-panel.ui:152
 msgid "Airplanes"
-msgstr ""
+msgstr "飛機"
 
 #: data/ui/user-location-bubble.ui:13 src/geoclue.js:118
 msgid "Current location"
@@ -770,7 +764,7 @@ msgstr "顯示程式版本"
 
 #: src/application.js:104
 msgid "Ignore network availability"
-msgstr ""
+msgstr "忽略網路可用性"
 
 #: src/checkInDialog.js:167
 msgid "Select an account"
@@ -916,7 +910,9 @@ msgstr "無法連接位置服務"
 
 #: src/mainWindow.js:511
 msgid "translator-credits"
-msgstr "Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2013"
+msgstr ""
+"Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2013\n"
+"Yi-Jyun Pan <pan93412@gmail.com>, 2020"
 
 #: src/mainWindow.js:514
 msgid "A map application for GNOME"
@@ -953,7 +949,7 @@ msgstr "由 %s 提供的地圖圖塊"
 #: src/mainWindow.js:590
 #, javascript-format
 msgid "Search provided by %s using %s"
-msgstr ""
+msgstr "搜尋使用 %2$s 並由 %1$s 提供"
 
 #: src/mapView.js:375
 msgid "File type is not supported"
@@ -1229,7 +1225,7 @@ msgstr "完成"
 
 #: src/photonParser.js:103
 msgid "Unnamed place"
-msgstr ""
+msgstr "未命名位置"
 
 #: src/placeBubble.js:143
 msgid "Population:"
@@ -1245,7 +1241,7 @@ msgstr "開放時間："
 
 #: src/placeBubble.js:159
 msgid "Internet access:"
-msgstr "網際網路存取"
+msgstr "網際網路存取："
 
 #: src/placeBubble.js:164
 msgid "Religion:"
@@ -1308,26 +1304,20 @@ msgid "designated"
 msgstr "特定"
 
 #: src/place.js:475
-#, fuzzy
-#| msgid "Edit on OpenStreetMap"
 msgid "Place not found in OpenStreetMap"
-msgstr "在 OpenStreetMap 編輯"
+msgstr "在 OpenStreetMap 找不到位置"
 
 #: src/place.js:495
-#, fuzzy
-#| msgid "OpenStreetMap Account"
 msgid "OpenStreetMap URL is not valid"
-msgstr "OpenStreetMap 帳號"
+msgstr "OpenStreetMap 網址無效"
 
 #: src/place.js:500
 msgid "Coordinates in URL are not valid"
-msgstr ""
+msgstr "網址中的座標無效"
 
 #: src/place.js:521
-#, fuzzy
-#| msgid "File type is not supported"
 msgid "URL is not supported"
-msgstr "檔案類型不支援"
+msgstr "網址不支援"
 
 #: src/printLayout.js:312
 #, javascript-format
@@ -1364,20 +1354,18 @@ msgstr "反向路線"
 #. Translators: The first string is the name of the city, the
 #. second string is the name of the app to add it to
 #: src/sendToDialog.js:103
-#, fuzzy, javascript-format
-#| msgid "From %s to %s"
+#, javascript-format
 msgid "Add %s to %s"
-msgstr "從 %s 到 %s"
+msgstr "加入 %s 至 %s"
 
 #: src/sendToDialog.js:201
 msgid "Failed to open URI"
 msgstr "無法開啟 URI"
 
 #: src/sendToDialog.js:258
-#, fuzzy, javascript-format
-#| msgid "Opening hours: %s"
+#, javascript-format
 msgid "Open with %s"
-msgstr "開放時間：%s"
+msgstr "使用 %s 開啟"
 
 #: src/shapeLayer.js:91
 msgid "failed to load file"
@@ -1390,10 +1378,9 @@ msgid "Estimated time: %s"
 msgstr "預估時間：%s"
 
 #: src/sidebar.js:352
-#, fuzzy, javascript-format
-#| msgid "Map tiles provided by %s"
+#, javascript-format
 msgid "Itineraries provided by %s"
-msgstr "由 %s 提供的地圖圖塊"
+msgstr "行程表由 %s 提供"
 
 #. Translators: this is a format string indicating instructions
 #. * starting a journey at the address given as the parameter
@@ -1469,10 +1456,8 @@ msgid "No timetable data found for this route."
 msgstr "找不到這條路線的時刻表資料。"
 
 #: src/transitPlan.js:196
-#, fuzzy
-#| msgid "No timetable data found for this route."
 msgid "No provider found for this route."
-msgstr "找不到這條路線的時刻表資料。"
+msgstr "找不到這個路線的提供者。"
 
 #. Translators: this is a format string for showing a departure and
 #. * arrival time, like:
@@ -1725,65 +1710,65 @@ msgstr "%s 英呎"
 #: src/transitplugins/openTripPlanner.js:1174
 #, javascript-format
 msgid "Continue on %s"
-msgstr ""
+msgstr "在 %s 繼續走"
 
 #: src/transitplugins/openTripPlanner.js:1176
 msgid "Continue"
-msgstr ""
+msgstr "繼續走"
 
 #: src/transitplugins/openTripPlanner.js:1179
 #, javascript-format
 msgid "Turn left on %s"
-msgstr ""
+msgstr "在 %s 左轉"
 
 #: src/transitplugins/openTripPlanner.js:1181
 msgid "Turn left"
-msgstr ""
+msgstr "左轉"
 
 #: src/transitplugins/openTripPlanner.js:1184
 #, javascript-format
 msgid "Turn slightly left on %s"
-msgstr ""
+msgstr "在 %s 稍微左轉"
 
 #: src/transitplugins/openTripPlanner.js:1186
 msgid "Turn slightly left"
-msgstr ""
+msgstr "稍微左轉"
 
 #: src/transitplugins/openTripPlanner.js:1189
 #, javascript-format
 msgid "Turn sharp left on %s"
-msgstr ""
+msgstr "在 %s 急左轉"
 
 #: src/transitplugins/openTripPlanner.js:1191
 msgid "Turn sharp left"
-msgstr ""
+msgstr "急左轉"
 
 #: src/transitplugins/openTripPlanner.js:1194
 #, javascript-format
 msgid "Turn right on %s"
-msgstr ""
+msgstr "在 %s 右轉"
 
 #: src/transitplugins/openTripPlanner.js:1196
 msgid "Turn right"
-msgstr ""
+msgstr "右轉"
 
 #: src/transitplugins/openTripPlanner.js:1199
 #, javascript-format
 msgid "Turn slightly right on %s"
-msgstr ""
+msgstr "在 %s 稍微右轉"
 
 #: src/transitplugins/openTripPlanner.js:1201
 msgid "Turn slightly right"
-msgstr ""
+msgstr "稍微右轉"
 
 #: src/transitplugins/openTripPlanner.js:1204
 #, javascript-format
 msgid "Turn sharp right on %s"
-msgstr ""
+msgstr "在 %s 急右轉"
 
 #: src/transitplugins/openTripPlanner.js:1206
 msgid "Turn sharp right"
-msgstr ""
+msgstr "急右轉"
 
 #: src/transitplugins/openTripPlanner.js:1212
 #, javascript-format
@@ -1802,11 +1787,11 @@ msgstr ""
 #: src/transitplugins/openTripPlanner.js:1220
 #, javascript-format
 msgid "Take the elevator and get off at %s"
-msgstr ""
+msgstr "搭乘電梯到 %s"
 
 #: src/transitplugins/openTripPlanner.js:1222
 msgid "Take the elevator"
-msgstr ""
+msgstr "搭乘電梯"
 
 #: src/transitplugins/openTripPlanner.js:1226
 #, javascript-format

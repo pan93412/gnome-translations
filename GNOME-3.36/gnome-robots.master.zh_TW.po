@@ -12,15 +12,15 @@ msgstr ""
 "Project-Id-Version: gnome-games 3.3.91\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-robots/issues\n"
 "POT-Creation-Date: 2020-01-04 15:09+0000\n"
-"PO-Revision-Date: 2019-02-17 23:19+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-22 02:15+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: data/app-menu.ui:7 src/gnome-robots.c:256
 msgid "_New Game"
@@ -51,15 +51,12 @@ msgid "Avoid the robots and make them crash into each other"
 msgstr "避開機器人，並引導它們互相碰撞"
 
 #: data/org.gnome.Robots.appdata.xml.in:10
-#, fuzzy
-#| msgid ""
-#| "It is the distant future – the year 2000. Evil robots are trying to kill "
-#| "you. Avoid the robots or face certain death."
 msgid ""
 "It is the distant future: the year 2000. Evil robots are trying to kill you. "
 "Avoid the robots or face certain death."
 msgstr ""
-"那是遙遠的未來─西元 2000 年。邪惡的機器人正嘗試殺了您。避開機器人或面對死亡。"
+"那是遙遠的未來：西元 2000 年。邪惡的機器人正嘗試殺了您。避開機器人，否則就面"
+"對死亡。"
 
 #: data/org.gnome.Robots.appdata.xml.in:14
 msgid ""

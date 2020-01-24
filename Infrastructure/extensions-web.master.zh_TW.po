@@ -11,82 +11,84 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-11-25 19:56+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-01-22 15:22+0800\n"
 "Language-Team: Chinese (Taiwan) <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: sweettooth/auth/forms.py:26 extensions-web-domain-django:1
 msgid "Username or email"
-msgstr ""
+msgstr "使用者名稱或電子信箱"
 
 #: sweettooth/auth/forms.py:46 extensions-web-domain-django:1
 msgid "Username"
-msgstr ""
+msgstr "使用者名稱"
 
 #: sweettooth/auth/forms.py:47 extensions-web-domain-django:1
 msgid "Required. 30 characters or fewer. Letters, digits and @/./+/-/_ only."
-msgstr ""
+msgstr "必填。少於或等於 30 個字元。只允許字母、數字及 @/./+/-/_。"
 
 #: sweettooth/auth/forms.py:48 extensions-web-domain-django:1
 msgid "This value may contain only letters, numbers and @/./+/-/_ characters."
-msgstr ""
+msgstr "這個值只能包含字母、數字及 @/./+/-/_ 字元。"
 
 #: sweettooth/auth/forms.py:50 extensions-web-domain-django:1
 msgid "Email"
-msgstr ""
+msgstr "電子信箱"
 
 #: sweettooth/auth/forms.py:56 extensions-web-domain-django:1
 msgid "You should not use email as username"
-msgstr ""
+msgstr "您不應將電子信箱用作使用者名稱"
 
 #: sweettooth/auth/templates/registration/login.html:23
 #: sweettooth/auth/templates/registration/login_popup_form.html:14
 #: extensions-web-domain-django:1
 msgid "Forgot your password?"
-msgstr ""
+msgstr "忘記密碼？"
 
 #: sweettooth/auth/templates/registration/login.html:32
 #: sweettooth/auth/templates/registration/login_popup_form.html:11
 #: sweettooth/templates/base.html:72 extensions-web-domain-django:1
 msgid "Log in"
-msgstr ""
+msgstr "登入"
 
 #: sweettooth/auth/templates/registration/login.html:36
 #: sweettooth/auth/templates/registration/login_popup_form.html:17
 #: extensions-web-domain-django:1
 msgid "Don't have an account?"
-msgstr ""
+msgstr "沒有帳戶？"
 
 #: sweettooth/auth/templates/registration/login.html:37
 #: sweettooth/auth/templates/registration/login_popup_form.html:19
 #: extensions-web-domain-django:1
 msgid "Register"
-msgstr ""
+msgstr "註冊"
 
 #: sweettooth/auth/templates/registration/login.html:6
 #: extensions-web-domain-django:1
 msgid "User Login"
-msgstr ""
+msgstr "使用者登入"
 
 #: sweettooth/auth/templates/registration/password_reset_confirm.html:12
 #: sweettooth/auth/templates/registration/password_reset_form.html:12
 #: extensions-web-domain-django:1
 msgid "Reset your password"
-msgstr ""
+msgstr "重設密碼"
 
 #: sweettooth/auth/templates/registration/password_reset_confirm.html:15
 #: extensions-web-domain-django:1
 msgid ""
 "The token for the password reset is incorrect. Please check your link and "
 "try again."
-msgstr ""
+msgstr "密碼重設憑證錯誤。請檢查連結後重試。"
 
 #: sweettooth/auth/templates/registration/password_reset_confirm.html:8
 #: sweettooth/auth/templates/registration/password_reset_form.html:7
 #: extensions-web-domain-django:1
 msgid "Password reset"
-msgstr ""
+msgstr "密碼重設"
 
 #: sweettooth/auth/templates/registration/password_reset_form.html:8
 #: extensions-web-domain-django:1
@@ -94,22 +96,23 @@ msgid ""
 "Forgot your password? Enter your e-mail address below, and we’ll e-mail "
 "instructions for setting a new one."
 msgstr ""
+"忘記密碼？請在下方輸入電子信箱位址，而我們會寄封設定新密碼的指引信件。"
 
 #: sweettooth/context_processors.py:13 extensions-web-domain-django:1
 msgid "Add yours"
-msgstr ""
+msgstr "加入你的"
 
 #: sweettooth/context_processors.py:17 extensions-web-domain-django:1
 msgid "Installed extensions"
-msgstr ""
+msgstr "安裝的擴充套件"
 
 #: sweettooth/context_processors.py:21 extensions-web-domain-django:1
 msgid "About"
-msgstr ""
+msgstr "關於"
 
 #: sweettooth/context_processors.py:9 extensions-web-domain-django:1
 msgid "Extensions"
-msgstr ""
+msgstr "擴充套件"
 
 #: sweettooth/extensions/templates/extensions/comments.html:18
 #: extensions-web-domain-django:1
@@ -244,7 +247,6 @@ msgstr ""
 msgid "Please correct the error below"
 msgid_plural "Please correct the errors below"
 msgstr[0] ""
-msgstr[1] ""
 
 #: sweettooth/ratings/templates/comments/preview.html:4
 #: sweettooth/ratings/templates/comments/preview.html:15

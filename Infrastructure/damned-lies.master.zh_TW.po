@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: damned-lies\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-13 15:00+0000\n"
-"PO-Revision-Date: 2018-10-07 20:23+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-22 15:17+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: common/views.py:33
 msgid "translator-credits"
@@ -316,7 +316,7 @@ msgstr "坎拿達語"
 
 #: database-content.py:66 database-content.py:214
 msgid "Karbi"
-msgstr ""
+msgstr "卡爾比語"
 
 #: database-content.py:67 database-content.py:215
 msgid "Kashmiri"
@@ -615,10 +615,8 @@ msgid "Zulu"
 msgstr "祖魯語"
 
 #: database-content.py:156
-#, fuzzy
-#| msgid "Belarusian Latin"
 msgid "Belarusian (Latin)"
-msgstr "白俄羅斯語拉丁字"
+msgstr "白俄羅斯語 (拉丁字)"
 
 #: database-content.py:168
 msgid "Canadian French"
@@ -685,10 +683,8 @@ msgid "Quechua (Cuzco-Collao)"
 msgstr "奇楚瓦語（Cuzco-Collao）"
 
 #: database-content.py:265
-#, fuzzy
-#| msgid "Serbian Latin"
 msgid "Serbian (Latin)"
-msgstr "賽爾維亞語拉丁字"
+msgstr "賽爾維亞語 (拉丁字)"
 
 #: database-content.py:266
 msgid "Serbian Jekavian"
@@ -1218,7 +1214,7 @@ msgstr "GNOME 之眼"
 
 #: database-content.py:432
 msgid "GNOME Shell Extensions Repository"
-msgstr ""
+msgstr "GNOME Shell 擴充套件儲存庫"
 
 #: database-content.py:433
 msgid "GIMP User Manual"
@@ -1242,7 +1238,7 @@ msgstr "GNOME 網站"
 
 #: database-content.py:438
 msgid "King’s Cross"
-msgstr ""
+msgstr "國王十字"
 
 #: database-content.py:439
 msgid "GNOME Library Web site"
@@ -1261,24 +1257,19 @@ msgid "Video Subtitles for GNOME’s videos"
 msgstr "GNOME 影片的字幕翻譯"
 
 #: database-content.py:443
-#, fuzzy
 #| msgid "WebKitGTK+"
 msgid "WebKitGTK"
-msgstr "WebKitGTK+"
+msgstr "WebKitGTK"
 
 #: database-content.py:444
-#, fuzzy
-#| msgid ""
-#| "Toolkit for defining and handling authorizations. To submit your "
-#| "translation, <a href=\"https://gitlab.freedesktop.org/polkit/polkit/"
-#| "merge_requests\">create a merge request</a>."
 msgid ""
 "D-Bus interface for user account query and manipulation. To submit your "
 "translation, <a href=\"https://gitlab.freedesktop.org/accountsservice/"
 "accountsservice/merge_requests\">create a merge request</a>."
 msgstr ""
-"定義與處理授權的工具箱。若要提交您的翻譯，請<a href=\"https://gitlab."
-"freedesktop.org/polkit/polkit/merge_requests\">建立個合併請求</a>。"
+"用於查詢及控制使用者帳戶的 D-Bus 介面。如要提交翻譯，請<a href=\"https://"
+"gitlab.freedesktop.org/accountsservice/accountsservice/merge_requests\">建立"
+"合併請求</a>。"
 
 #: database-content.py:445
 msgid ""
@@ -1498,21 +1489,15 @@ msgid "GStreamer open-source multimedia framework core library."
 msgstr "GStreamer 開放原始碼多媒體架構核心程式庫。"
 
 #: database-content.py:480
-#, fuzzy
-#| msgid ""
-#| "Please note that gtk+ has both po and po-properties UI domains.  If you "
-#| "add a new language in either domain, you have to commit both files in Git "
-#| "even if one of them contains 0 translations, unless GTK+ build will break "
-#| "in /po-properties."
 msgid ""
 "Please note that GTK has both po and po-properties UI domains.  If you add a "
 "new language in either domain, you have to commit both files in Git even if "
 "one of them contains 0 translations, unless GTK build will break in /po-"
 "properties."
 msgstr ""
-"請注意 gtk+ 有 po 及 po-properties 兩個使用者介面域名。如果您要在其中一個域名"
+"請注意 GTK 有 po 及 po-properties 兩個使用者介面領域。如果您要在其中一個領域"
 "中加入新的語言，您必須將兩個檔案都提交到 Git 中，即使其中一個沒有任何已翻譯的"
-"字詞。否則 GTK+ 在組建的過程中會在 /po-properties 的地方中斷。"
+"字詞。否則 GTK 在編譯的過程中會在 /po-properties 的地方中斷。"
 
 #: database-content.py:481
 msgid ""
@@ -1549,6 +1534,7 @@ msgid ""
 "Plymouth provides the graphical boot-splash and offline-updates status "
 "splash on most distributions."
 msgstr ""
+"Plymouth 提供了圖形化的開機畫面，及在大部分發行版上的離線更新狀態畫面。"
 
 #: database-content.py:486
 msgid ""
@@ -1591,21 +1577,15 @@ msgid ""
 msgstr "用來存取與操作磁碟及儲存裝置的伺服程式、工具和程式庫。"
 
 #: database-content.py:492
-#, fuzzy
-#| msgid ""
-#| "Translations should be submitted as <a href=\"https://bugs.webkit.org/"
-#| "enter_bug.cgi?product=WebKit&component=WebKit%20Gtk\">bug reports</a>. "
-#| "Please remember to select “WebKit Gtk” as the component, so that the "
-#| "report doesn’t get lost."
 msgid ""
 "Translations should be submitted as <a href=\"https://bugs.webkit.org/"
 "enter_bug.cgi?product=WebKit&component=WebKitGTK\">bug reports</a>. Please "
 "remember to select “WebKitGTK” as the component, so that the report doesn’t "
 "get lost."
 msgstr ""
-"翻譯應提交為 <a href=\"https://bugs.webkit.org/enter_bug.cgi?"
-"product=WebKit&component=WebKit%20Gtk\">臭蟲報告</a>。請記得選擇「WebKit "
-"Gtk」為元件，這樣一來報告就不會弄丟。"
+"翻譯應提交為<a href=\"https://bugs.webkit.org/enter_bug.cgi?"
+"product=WebKit&component=WebKitGTK\">臭蟲回報</a>。請記得選擇「WebKitGtk」為"
+"元件，這樣一來回報就不會弄丟。"
 
 #: database-content.py:493
 msgid ""
@@ -1616,18 +1596,13 @@ msgstr ""
 "desktop-portal/pulls\">建立 pull 要求</a>。"
 
 #: database-content.py:494
-#, fuzzy
-#| msgid ""
-#| "GTK+ implementation of xdg-desktop-portal. To submit your translation, <a "
-#| "href=\"https://github.com/flatpak/xdg-desktop-portal-gtk/pulls\">create a "
-#| "pull request</a>."
 msgid ""
 "GTK implementation of xdg-desktop-portal. To submit your translation, <a "
 "href=\"https://github.com/flatpak/xdg-desktop-portal-gtk/pulls\">create a "
 "pull request</a>."
 msgstr ""
-"xdg-desktop-portal 的 GTK+ 實作。若若要提交您的翻譯，請<a href=\"https://"
-"github.com/flatpak/xdg-desktop-portal-gtk/pulls\">建立 pull 請求</a>。"
+"xdg-desktop-portal 的 GTK 實作。若要提交您的翻譯，請<a href=\"https://github."
+"com/flatpak/xdg-desktop-portal-gtk/pulls\">建立 pull 請求</a>。"
 
 #: database-content.py:495
 msgid ""
@@ -1640,28 +1615,21 @@ msgid "Database of keyboard configuration data."
 msgstr "鍵盤設定資料的資料庫。"
 
 #: database-content.py:497
-#, fuzzy
 #| msgid "GNOME 3.30 (development)"
 msgid "GNOME 3.36 (development)"
-msgstr "GNOME 3.30（開發版）"
+msgstr "GNOME 3.36 (開發版)"
 
 #: database-content.py:498
-#, fuzzy
-#| msgid "GNOME 3.30 (stable)"
 msgid "GNOME 3.34 (stable)"
-msgstr "GNOME 3.30 (穩定版)"
+msgstr "GNOME 3.34 (穩定版)"
 
 #: database-content.py:499
-#, fuzzy
-#| msgid "GNOME 3.22 (old stable)"
 msgid "GNOME 3.32 (old stable)"
-msgstr "GNOME 3.22 (舊穩定版)"
+msgstr "GNOME 3.32 (舊穩定版)"
 
 #: database-content.py:500
-#, fuzzy
-#| msgid "GNOME 3.0 (old stable)"
 msgid "GNOME 3.30 (old stable)"
-msgstr "GNOME 3.0 (舊的穩定版)"
+msgstr "GNOME 3.30 (舊穩定版)"
 
 #: database-content.py:501
 msgid "GNOME 3.28 (old stable)"
@@ -2647,16 +2615,12 @@ msgid ""
 msgstr "模組會分為程式庫或應用程式，包含一或更多個開發分支。"
 
 #: templates/index.html:58
-#, fuzzy
-#| msgid ""
-#| "They are usually taken from the Git repository, and we keep all relevant "
-#| "information on them (Bugzilla details, web page, maintainer information…)."
 msgid ""
 "They are usually taken from the Git repository, and we keep all relevant "
 "information on them (Gitlab details, web page, maintainer information…)."
 msgstr ""
-"它們通常可以從 Git 取得，而我們保留了所有相關的資訊(Bugzilla 詳細資料、網頁、"
-"維護者資訊、…)。"
+"它們通常會從 Git 取得，而我們保留了所有相關的資訊（GitLab 詳細資訊、網頁、維"
+"護者資訊…）。"
 
 #: templates/languages/language_all_modules.html:4
 #: templates/languages/language_all_modules.html:23
@@ -2808,7 +2772,7 @@ msgstr "忘記您的密碼？"
 #: templates/login.html:34
 #, python-format
 msgid "Or <a href=\"%(link)s\">login with your GNOME account</a>"
-msgstr ""
+msgstr "或<a href=\"%(link)s\">使用你的 GNOME 帳戶登入</a>"
 
 #: templates/login.html:40 templates/login/login_popup_form.html:23
 msgid "Register"
@@ -3199,10 +3163,8 @@ msgid "%(lang)s Translation Team Page:"
 msgstr "%(lang)s翻譯團隊網頁："
 
 #: templates/teams/team_base.html:22
-#, fuzzy
-#| msgid "Bug reporting"
 msgid "Bug reporting:"
-msgstr "臭蟲回報"
+msgstr "臭蟲回報："
 
 #: templates/teams/team_base.html:25
 msgid "Report Bug in Translation"
@@ -3364,7 +3326,7 @@ msgstr "下載 PO 檔"
 
 #: templates/vertimus/vertimus_detail.html:87
 msgid "PO file with inline diffs for fuzzy strings"
-msgstr ""
+msgstr "有內嵌待校閱字串的差異的 PO 檔案"
 
 #: templates/vertimus/vertimus_detail.html:91
 #: templates/vertimus/vertimus_detail.html:206
@@ -3465,7 +3427,7 @@ msgstr "這個團隊沒有使用翻譯工作流程。"
 
 #: templates/vertimus/vertimus_diff.html:5
 msgid "Diff between po files"
-msgstr "po 檔間的 Diff"
+msgstr "po 檔間的差異"
 
 #: templates/vertimus/vertimus_diff.html:16
 msgid "← Back to actions"
@@ -3742,6 +3704,8 @@ msgid ""
 "translation. It contains HTML markup to highlight differential parts of "
 "changed strings."
 msgstr ""
+"警告：這個檔案<b>不適合</b>當作完成這翻譯的基礎檔。這檔案包含 HTML 標記以突顯"
+"變更字串的不同部份。"
 
 #: vertimus/views.py:428
 #, python-format

@@ -94,11 +94,11 @@ msgstr "最後檢視位置的坐標。"
 
 #: data/org.gnome.Maps.gschema.xml:16
 msgid "zoom"
-msgstr "縮放"
+msgstr "遠近調整"
 
 #: data/org.gnome.Maps.gschema.xml:17
 msgid "Zoom level"
-msgstr "縮放等級"
+msgstr "遠近調整等級"
 
 #: data/org.gnome.Maps.gschema.xml:21
 msgid "Map type"
@@ -1356,7 +1356,7 @@ msgstr "反向路線"
 #: src/sendToDialog.js:103
 #, javascript-format
 msgid "Add %s to %s"
-msgstr "加入 %s 至 %s"
+msgstr "將 %s 加入 %s"
 
 #: src/sendToDialog.js:201
 msgid "Failed to open URI"

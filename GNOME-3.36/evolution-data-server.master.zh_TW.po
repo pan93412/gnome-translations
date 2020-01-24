@@ -3183,7 +3183,7 @@ msgstr "查詢主機「%s」失敗：%s"
 #: ../src/camel/camel-network-service.c:1128
 #, c-format
 msgid "Checking reachability of account “%s”"
-msgstr "正在檢查「%s」帳戶的連線能力"
+msgstr "正在檢查「%s」帳號的連線能力"
 
 #. Translators: The first “%s” is replaced with an account name and the second “%s”
 #. is replaced with a full path name. The spaces around “:” are intentional, as
@@ -4149,7 +4149,7 @@ msgid ""
 "Plaintext authentication disallowed on insecure connections. Change "
 "encryption to STARTTLS or TLS for account “%s”."
 msgstr ""
-"不允許在不安全連線上進行純文字身份驗證。請變更「%s」帳戶的加密方式至 "
+"不允許在不安全連線上進行純文字身份驗證。請變更「%s」帳號的加密方式至 "
 "STARTTLS 或 TLS。"
 
 #: ../src/camel/providers/imapx/camel-imapx-server.c:3223

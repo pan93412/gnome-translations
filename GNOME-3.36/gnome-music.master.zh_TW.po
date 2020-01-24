@@ -206,7 +206,7 @@ msgstr "作曲家"
 
 #: data/ui/AppMenu.ui:20
 msgid "Last.fm Account"
-msgstr "Last.fm 帳戶"
+msgstr "Last.fm 帳號"
 
 #: data/ui/AppMenu.ui:39
 msgid "Report Music Listening"

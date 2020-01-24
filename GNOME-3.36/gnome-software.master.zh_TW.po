@@ -182,7 +182,7 @@ msgstr "最近更新時間戳記"
 
 #: data/org.gnome.software.gschema.xml:68
 msgid "The last timestamp when the system was online and got any updates"
-msgstr "上次系統連線及取得更新的時間戳"
+msgstr "上次系統上線並取得任何更新的時間戳記"
 
 #: data/org.gnome.software.gschema.xml:72
 msgid "The age in seconds to verify the upstream screenshot is still valid"
@@ -3554,7 +3554,7 @@ msgstr "立刻重新啟動"
 
 #: src/gs-upgrade-banner.c:66
 msgid "Updates will be applied when the computer is restarted."
-msgstr "更新會在電腦重新啟動時套用。"
+msgstr "更新會在電腦重新啟動後套用。"
 
 #: src/gs-upgrade-banner.c:72
 msgid ""

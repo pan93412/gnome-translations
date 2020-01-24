@@ -450,7 +450,7 @@ msgstr "找不到擴充套件"
 
 #: src/gtd-task-list-panel.c:199
 msgid "Unarchive"
-msgstr "未封存"
+msgstr "取消封存"
 
 #: src/gtd-task-list-panel.c:199 src/gtd-task-list-panel.ui:41
 msgid "Archive"

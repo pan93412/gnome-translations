@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gnome-games 3.3.91\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-chess/issues\n"
 "POT-Creation-Date: 2019-09-25 19:14+0000\n"
-"PO-Revision-Date: 2020-01-21 23:22+0800\n"
+"PO-Revision-Date: 2020-01-24 14:45+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -150,17 +150,17 @@ msgstr "回捲到遊戲剛開始的時候"
 #: data/help-overlay.ui:99
 msgctxt "shortcut window"
 msgid "Show the previous move"
-msgstr "顯示上一步移動"
+msgstr "顯示上一步"
 
 #: data/help-overlay.ui:106
 msgctxt "shortcut window"
 msgid "Show the next move"
-msgstr "顯示下一步移動"
+msgstr "顯示下一步"
 
 #: data/help-overlay.ui:113
 msgctxt "shortcut window"
 msgid "Show the current move"
-msgstr "顯示這一步移動"
+msgstr "顯示這一步"
 
 #: data/org.gnome.Chess.appdata.xml.in:7
 msgid "GNOME Chess"

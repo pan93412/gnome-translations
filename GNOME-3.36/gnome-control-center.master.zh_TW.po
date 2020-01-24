@@ -180,7 +180,7 @@ msgstr "權限及存取"
 msgid ""
 "Data and services that this app has asked for access to and permissions that "
 "it requires."
-msgstr "此應用程式要求存取的資料及服務，及應用程式請求的權限。"
+msgstr "此應用程式要求存取的資料及服務，以及它所需要的權限設定。"
 
 #: panels/applications/cc-applications-panel.ui:126
 #: panels/applications/cc-applications-panel.ui:132
@@ -328,7 +328,7 @@ msgstr "清除快取…"
 
 #: panels/applications/cc-snap-row.c:55
 msgid "Add user accounts and change passwords"
-msgstr "加入使用者帳戶並變更密碼"
+msgstr "加入使用者帳號並變更密碼"
 
 #: panels/applications/cc-snap-row.c:57 panels/applications/cc-snap-row.c:133
 msgid "Play and record sound"
@@ -356,7 +356,7 @@ msgstr "列印文件"
 
 #: panels/applications/cc-snap-row.c:69
 msgid "Use any connected joystick"
-msgstr "使用連結的搖桿"
+msgstr "使用任何連接的搖桿"
 
 #: panels/applications/cc-snap-row.c:71
 msgid "Allow connecting to the Docker service"
@@ -396,7 +396,7 @@ msgstr "存取 libvirt 服務"
 
 #: panels/applications/cc-snap-row.c:91
 msgid "Change system language and region settings"
-msgstr "變更系統語言及地區設定"
+msgstr "變更系統的語言及地區設定"
 
 #: panels/applications/cc-snap-row.c:93
 msgid "Change location settings and providers"
@@ -404,7 +404,7 @@ msgstr "變更位置設定及提供者"
 
 #: panels/applications/cc-snap-row.c:95
 msgid "Access your location"
-msgstr "存取您的位置"
+msgstr "存取您的所在位置"
 
 #: panels/applications/cc-snap-row.c:97
 msgid "Read system and application logs"
@@ -484,11 +484,11 @@ msgstr "直接存取 USB 硬體"
 
 #: panels/applications/cc-snap-row.c:137
 msgid "Read/write files on removable storage devices"
-msgstr "讀取╱寫入可移除式儲存裝置"
+msgstr "讀取或寫入可移除式儲存裝置"
 
 #: panels/applications/cc-snap-row.c:139
 msgid "Prevent screen sleep/lock"
-msgstr "防止螢幕睡眠／鎖定"
+msgstr "防止螢幕睡眠或鎖定"
 
 #: panels/applications/cc-snap-row.c:141
 msgid "Access serial port hardware"
@@ -512,7 +512,7 @@ msgstr "讀取處理程序及系統資訊"
 
 #: panels/applications/cc-snap-row.c:151
 msgid "Monitor and control any running program"
-msgstr "監控及控制執行程式"
+msgstr "監控及控制執行中的程式"
 
 #: panels/applications/cc-snap-row.c:153
 msgid "Change the date and time"
@@ -540,11 +540,11 @@ msgstr "讀取或變更 Ubuntu Unity 8 的共享聯絡人"
 
 #: panels/applications/cc-snap-row.c:165
 msgid "Access energy usage data"
-msgstr "存取能量使用情況資料"
+msgstr "存取電量使用情況資料"
 
 #: panels/applications/cc-snap-row.c:167
 msgid "Read/write access to U2F devices exposed"
-msgstr "有權讀取／寫入至公開的 U2F 裝置"
+msgstr "有權讀取或寫入至公開的 U2F 裝置"
 
 #: panels/applications/gnome-applications-panel.desktop.in.in:4
 msgid "Control various application permissions and settings"
@@ -708,7 +708,7 @@ msgstr "相機已關閉"
 
 #: panels/camera/cc-camera-panel.ui:43
 msgid "No applications can capture photos or video."
-msgstr "沒有應用程式能擷取圖片或影片。"
+msgstr "沒有應用程式能擷取相片或影片。"
 
 #: panels/camera/cc-camera-panel.ui:77
 msgid ""
@@ -723,13 +723,12 @@ msgstr "允許下列應用程式使用相機。"
 
 #: panels/camera/cc-camera-panel.ui:107
 msgid "No Applications Have Asked for Camera Access"
-msgstr "沒有應用程式請求相機存取權"
+msgstr "沒有應用程式請求存取相機"
 
 #: panels/camera/gnome-camera-panel.desktop.in.in:4
 msgid "Protect your pictures"
 msgstr "保護您的照片"
 
-#. FIXME
 #. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/camera/gnome-camera-panel.desktop.in.in:20
 #: panels/diagnostics/gnome-diagnostics-panel.desktop.in.in:20
@@ -2015,7 +2014,7 @@ msgstr "GNOME 版本"
 
 #: panels/info-overview/cc-info-overview-panel.ui:154
 msgid "Windowing System"
-msgstr "視窗系統"
+msgstr "視窗管理系統"
 
 #: panels/info-overview/cc-info-overview-panel.ui:162
 msgid "Virtualization"
@@ -2236,7 +2235,7 @@ msgstr "高對比開或關"
 #: panels/keyboard/cc-alt-chars-key-dialog.ui:8
 #: panels/keyboard/cc-keyboard-panel.ui:72
 msgid "Alternate Characters Key"
-msgstr "替代字元鍵"
+msgstr "替代字元按鍵"
 
 #: panels/keyboard/cc-alt-chars-key-dialog.ui:28
 msgid ""
@@ -2488,12 +2487,11 @@ msgstr "沒有應用程式請求位置存取權限"
 msgid "Protect your location information"
 msgstr "保護您的位置資訊"
 
-#. FIXME
 #: panels/lock/cc-lock-panel.ui:29
 msgid ""
 "Automatically locking the screen prevents others from access the computer "
 "while you're away."
-msgstr "自動鎖定螢幕能防止其他人在你離開時使用您的電腦"
+msgstr "自動鎖定螢幕能防止其他人在你離開時使用您的電腦。"
 
 #: panels/lock/cc-lock-panel.ui:46
 msgid "Blank Screen Delay"
@@ -2838,7 +2836,7 @@ msgstr "選項…"
 msgid ""
 "Turning on the hotspot will disconnect from %s, and it will not be possible "
 "to access the internet through Wi-Fi."
-msgstr "開啟熱點會斷開 %s 的連線，且會不能透過 Wi-Fi 連線網路。"
+msgstr "開啟熱點會斷開 %s 的連線，且無法透過 Wi-Fi 連線網路。"
 
 #: panels/network/cc-wifi-hotspot-dialog.c:248
 msgid "Must have a minimum of 8 characters"
@@ -3191,7 +3189,7 @@ msgstr "允許其他使用者使用(_O)"
 
 #: panels/network/connection-editor/details-page.ui:428
 msgid "_Metered connection: has data limits or can incur charges"
-msgstr "計量連線(_M)：有資料限制或可能會收取費用"
+msgstr "計價連線(_M)：有數據傳輸限制或可能收取費用"
 
 #: panels/network/connection-editor/details-page.ui:439
 msgid ""
@@ -5740,7 +5738,7 @@ msgid ""
 msgstr ""
 "device;system;default;application;preferred;cd;dvd;usb;audio;video;disc;"
 "removable;media;autorun;裝置;系統;預設;應用程式;偏好;首選;音訊;視訊;光碟;碟"
-"片;可移除;可移除式;媒體;自動執行;"
+"片;可移除;可移除式;卸除式;媒體;自動執行;"
 
 #: panels/search/cc-search-locations-dialog.c:635
 msgid "Select Location"
@@ -6858,7 +6856,7 @@ msgstr "垃圾及暫存檔"
 msgid ""
 "Trash and temporary files can sometimes include personal or sensitive "
 "information. Automatically deleting them can help to protect privacy."
-msgstr "垃圾及暫存檔有時候可能會有個人或敏感資料。自動刪除會協助保障隱私權。"
+msgstr "垃圾及暫存檔有時候可能會有個人或敏感資料。自動刪除可以協助保障隱私權。"
 
 #: panels/usage/cc-usage-panel.ui:161
 msgid "Automatically Delete _Trash Content"
